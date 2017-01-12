@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserCenter.master.cs" Inherits="MOD.UI.UserCenter" %>
+<%@ Register Src="UserControls/UC_Footer.ascx" TagName="Footer" TagPrefix="UC" %>
+<%@ Register Src="UserControls/UC_Toper.ascx" TagName="Toper" TagPrefix="UC" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="zh-CN" />
+    <link rel="stylesheet" href="Style/public.css" type="text/css"/>    
+    <link rel="stylesheet" href="Style/master.css" type="text/css"/> 
+    <link rel="stylesheet" href="Style/makeup.css" type="text/css"/>
+    <link rel="stylesheet" href="Style/UserCenter.css" type="text/css"/>
+    <script type="text/javascript" src="Scripts/prototype.js"></script> 
+    <script type="text/javascript" src="Scripts/mod.js"></script> 
+    <title></title>   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">            
+            <UC:Toper ID="Toper1" runat="server" />
+            <dl id="naver"><dd class="w1"></dd>
+                <dd class="w2">
+                <ul id="UserCenter">
+                    <li><a href="default.aspx"><%=this.GetRes("INFO_DEFAULT")%></a></li>
+                    <asp:Literal ID="ltrUserCenterNav" runat="server"></asp:Literal>
+                    <li><a href="GuestBook.aspx"><%=this.GetRes("Info_GuestBook") %></a></li>
+                    <li><a href="Softdown.aspx" target="_blank"><%=this.GetRes("INFO_SOFTDOWN") %></a></li>
+                </ul>
+                </dd>
+            <dd class="w3"></dd>                
+            </dl>            
+            <div id="primary">     
+           
+            <div id="firster">
+             <div class="top"></div>
+ 
+            <div id="UserDetail">
+                <h3><img src="Images/depend/UserDetail.gif" alt="" /></h3>
+                
+                <asp:Literal ID="ltrUserDetail" runat="server"></asp:Literal>         
+             </div>
+            </div>
+            <div id="seconder">
+                <div id="top"></div>
+                <div id="UserOper">
+                <asp:ContentPlaceHolder ID="cplUser" runat="server">
+                </asp:ContentPlaceHolder>
+                </div> 
+            </div>                          
+            </div>   
+            <div id="pribtm"></div>        
+            <UC:Footer id="Footer1" runat="server"/></div> 
+    </form>
+</body>
+</html>
+<script type="text/javascript">
+    window.onload=function(){    
+         ContentResize();
+    }
+    UpdateUserState();
+</script>
+

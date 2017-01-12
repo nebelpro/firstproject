@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Recorder.aspx.cs" Inherits="MOD.UI.SkinFactory.Recorder" %>

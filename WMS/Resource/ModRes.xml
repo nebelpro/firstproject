@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+  <language>zh-cn</language>
+  <company>
+    <name>南京优网科技有限公司</name>
+    <website>http://www.topdomain.com.cn</website>
+  </company>
+  <product>
+    <name>极域视频点播系统</name>
+    <version>2007</version>
+  </product>
+  
+  <Server>    
+    <key name="Info_CopyRight">版权所有 优网科技 Copyright 2005-{0} All Rights Reserved </key>
+    <key name="Info_WMS">极域网络电视台</key>
+    <key name="INFO_POP_PLAY">播放</key>
+    <key name="ERR_PARAMS">参数错误</key>
+
+    <key name="Volume_Active">声音</key>
+    <key name="Info_Full">全屏</key>
+  </Server>
+  
+  <Client>    
+    <key name="State_NoActive">未活动</key>
+    <key name="State_Stop">停止</key>
+    <key name="State_Play">播放</key>
+    <key name="State_Pause">暂停</key>
+    <key name="State_Buffering">缓冲...</key>
+    <key name="State_Transitioning"></key>
+
+    <key name="Volume_Active">声音</key>
+    <key name="Volume_Mute">静音</key>
+    
+    <key name="Warn_SetFull">全屏仅在播放状态下有效!</key>
+
+    <key name="Warn_Player">您没有安装Windows Media Player 9以上版本,请先安装!</key>
+    <key name="Warn_Player2">点击"确定"将从服务器下载安装,否则请"取消"</key>
+  </Client>
+  
+</Resources>

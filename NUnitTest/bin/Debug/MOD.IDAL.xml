@@ -1,0 +1,771 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MOD.IDAL</name>
+    </assembly>
+    <members>
+        <member name="M:MOD.IDAL.ICourse.GetList(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            分页显示课程列表
+            </summary>
+            <param name="nUserId"></param>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.ICourse.GetCount(System.Int32)">
+            <summary>
+            课程总数
+            </summary>
+            <param name="nUserId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.ICourse.GetDetail(System.Int32)">
+            <summary>
+            取某个用户的某个课程详细信息
+            </summary>
+            <param name="nCourseId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.Search(System.String,System.DateTime,System.DateTime,System.Int32,System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            搜索卡列表,当字段为空不参与搜索
+            </summary>
+            <param name="strCardNo"></param>
+            <param name="strBeginDate"></param>
+            <param name="strEndDate"></param>
+            <param name="nState"></param>
+            <param name="nType"></param>
+            <param name="strMaker"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.SearchCount(System.String,System.DateTime,System.DateTime,System.Int32,System.Int32,System.String)">
+            <summary>
+            搜索结果总数
+            </summary>
+            <param name="strCardNo"></param>
+            <param name="strBeginDate"></param>
+            <param name="strEndDate"></param>
+            <param name="nState"></param>
+            <param name="nType"></param>
+            <param name="strMaker"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.InsertCard(MOD.Model.PointCardData)">
+            <summary>
+            生成卡号
+            </summary>
+            <param name="pcData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.IsRepeat(System.String,System.String)">
+            <summary>
+            判断输入卡号前四位、起始数字和结束数字是否己经使用过
+            返回 -1 己经存在，1表示不存在
+            </summary>
+            <param name="strBegin"></param>
+            <param name="strEnd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.Delete(System.Int32)">
+            <summary>
+            删除卡号
+            </summary>
+            <param name="nCardId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.GetPointCardByNo(System.String)">
+            <summary>
+            根据卡号获取该卡所有信息
+            </summary>
+            <param name="strCardNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.UpdateState(System.String,System.Int32)">
+            <summary>
+            更新卡的状态
+            </summary>
+            <param name="strCardNo"></param>
+            <param name="nState"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.InsertCardUseRecord(System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            添加点卡充值使用信息
+            </summary>
+            <param name="pcid">卡号ID</param>
+            <param name="userid">用户ID</param>
+            <param name="dtnow">充值使用时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.InsertCardPlayRecord(System.Int32,System.Int32,System.DateTime,System.Int32)">
+            <summary>
+            添加消费卡点播记录
+            </summary>
+            <param name="pid"></param>
+            <param name="userid"></param>
+            <param name="dtnow"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.GetUseList(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询用户个人的充值记录
+            </summary>
+            <param name="nUserId"></param>
+            <param name="dtBeginTime"></param>
+            <param name="dtEndTime"></param>
+            <param name="nType">操作类型:非0表示根据时间范围查询，0，查询全部</param>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.GetUseCount(System.Int32,System.DateTime,System.DateTime,System.Int32)">
+            <summary>
+            查询使用结果总数
+            </summary>
+            <param name="nUserId"></param>
+            <param name="dtBeginTime"></param>
+            <param name="dtEndTime"></param>
+            <param name="nType">操作类型:非0表示根据时间范围查询，0，查询全部</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.GetPlayList(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询用户个人的点播使用卡的记录
+            </summary>
+            <param name="nUserId"></param>
+            <param name="dtBeginTime"></param>
+            <param name="dtEndTime"></param>
+            <param name="nType">操作类型:非0表示根据时间范围查询，0，查询全部</param>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.GetPlayCount(System.Int32,System.DateTime,System.DateTime,System.Int32)">
+            <summary>
+            查询点播结果总数
+            </summary>
+            <param name="nUserId"></param>
+            <param name="dtBeginTime"></param>
+            <param name="dtEndTime"></param>
+            <param name="nType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IPointCard.GetFirstPlayTimeByProgramId(System.Int32,System.Int32)">
+            <summary>
+            提取某个节目第一次播放的时间
+            </summary>
+            <param name="nPid"></param>
+            <param name="nUserId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.ISetting.GetValueByKey(System.String)">
+            <summary>
+            根据key取值，返回一条数据
+            </summary>
+            <param name="Skey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.ISetting.Update(MOD.Model.SettingData)">
+            <summary>
+            更新
+            </summary>
+            <param name="settingdata"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MOD.IDAL.IUser">
+            <summary>
+            IUser 用户操作类接口
+            </summary>
+        </member>
+        <member name="M:MOD.IDAL.IUser.Login(System.String,System.String,System.Int32@)">
+            <summary>
+            用户登陆
+            </summary>
+            <param name="strMask">帐号</param>
+            <param name="strPassword">密码</param>
+            <param name="nRet">输出参数,返回登陆状态 1成功,0 密码错误,-1 帐号不存</param>
+            <returns>成功登陆后的用户数据对象,登陆失败则为NULL</returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.GetUserById(System.Int32)">
+            <summary>
+            根据用户ID 获取用户信息
+            </summary>
+            <param name="nUserId">用户ID</param>
+            <returns>用户数据对象</returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.GetUserByMask(System.String)">
+            <summary>
+            根据用户MASK获取用户信息
+            </summary>
+            <param name="strUserMask">用户帐号</param>
+            <returns>用户数据对象</returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.UpdateUserPwdById(System.Int32,System.String,System.String)">
+            <summary>
+            修改用户密码
+            </summary>
+            <param name="nUserId">用户id</param>
+            <param name="strNewPassword">用户新的密码</param>
+            <returns>返回Int32值,1  成功,0失败</returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.InsertUser(MOD.Model.UserData)">
+            <summary>
+            插入新用户信息
+            </summary>
+            <param name="userda">用户实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.GetUserNameById(System.Int32)">
+            <summary>
+            根据ID取用户名UserName
+            </summary>
+            <param name="nUserId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.GetUserPointById(System.Int32)">
+            <summary>
+            取得用户所拥有的剩余点数
+            </summary>
+            <param name="nUserId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.UpdateUserPointById(System.Int32,System.Int32)">
+            <summary>
+            更新用户的点卡数值(此函数概括加点和减点：利用传递的正负值来实现)
+            </summary>
+            <param name="nUserId">用户ID</param>
+            <param name="nPoint">点卡值</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.GetUserMonthCardValid(System.Int32)">
+            <summary>
+            取得用户包月卡/消费卡的有效期
+            </summary>
+            <param name="nUserId"></param>
+            <returns>返回日期的字符形式</returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.UpdateUserMonthCard(System.Int32,System.DateTime)">
+            <summary>
+            更新用户包月卡/消费卡的有效期
+            </summary>
+            <param name="nUserId"></param>
+            <param name="dtValid">有效日期</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.DelUserById(System.Int32)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="nUserId">用户id</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.UpdateUserById(MOD.Model.UserData)">
+            <summary>
+            更新用户信息
+            </summary>
+            <param name="userda"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.SearchUserByMask(System.String,System.Int32,System.Int32)">
+            <summary>
+            通过用户帐号搜索
+            </summary>
+            <param name="strSearchKey"></param>
+            <param name="nPage">当前页数</param>
+            <param name="nPageSize">每页显示数量</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.SearchUserByMaskCount(System.String)">
+            <summary>
+            取得搜索记录总数
+            </summary>
+            <param name="strSearchKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.GetList(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            根据组分页读取用户列表
+            </summary>
+            <param name="nGroupMask">组别掩码,0表示全部</param>
+            <param name="nPage">当前页数</param>
+            <param name="nPageSize">每页显示数量</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IUser.GetCount(System.Int32)">
+            <summary>
+            取得该组下用户总数
+            </summary>
+            <param name="nGroupMask">组别掩码,0表示全部</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.ILogRateex.GetList(System.Int32,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            查询点播记录
+            </summary>
+            <param name="nUserId"></param>
+            <param name="strBeginTime"></param>
+            <param name="strEndTime"></param>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.ILogRateex.GetCount(System.Int32,System.String,System.String)">
+            <summary>
+            获取查询总数
+            </summary>
+            <param name="nUserId"></param>
+            <param name="strBeginTime"></param>
+            <param name="strEndTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.ICatalog.Delete(System.Int32)">
+            <summary>
+            删除分类。删除分类及其子分类，通过Serial匹配
+            并更改相关节目分类属性 p_iskind --
+            </summary>
+            <param name="nCatalogId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.ICatalog.GetCatalogByParentId(System.Int32,System.Int32)">
+            <summary>
+            根据父分类ID,查询所有子类
+            </summary>
+            <param name="parentid"></param>
+            <param name="topcount">0 表示查询全部</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.ICatalog.GetParentByCId(System.Int32)">
+            <summary>
+            取子类的父类
+            </summary>
+            <param name="nCatalogId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.ICatalog.GetDetail(System.Int32)">
+            <summary>
+            获取分类信息
+            </summary>
+            <param name="nCatalogId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.ICatalog.InsertCatalog(MOD.Model.CatalogData)">
+            <summary>
+            插入目录
+            </summary>
+            <param name="catadata"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.ICatalog.UpdateCatalog(MOD.Model.CatalogData)">
+            <summary>
+            更新分类信息 
+            </summary>
+            <param name="catadata"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IBulletin.GetList(System.Int32,System.Int32)">
+            <summary>
+            分页读取公告信息，默认按时间排序
+            </summary>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IBulletin.GetCount">
+            <summary>
+            取得公告总数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IBulletin.Delete(System.Int32)">
+            <summary>
+            根据ID删除一条公告
+            </summary>
+            <param name="bid"></param>
+        </member>
+        <member name="M:MOD.IDAL.IBulletin.GetBulletinByBid(System.Int32)">
+            <summary>
+            根据ID取公告数据
+            </summary>
+            <param name="bid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IBulletin.Update(MOD.Model.BulletinData)">
+            <summary>
+            根据ID更新公告信息
+            </summary>
+            <param name="bda">更新的数据实体</param>
+        </member>
+        <member name="M:MOD.IDAL.IBulletin.Insert(MOD.Model.BulletinData)">
+            <summary>
+            插入一条公告
+            </summary>
+            <param name="bda"></param>
+        </member>
+        <member name="M:MOD.IDAL.IGroup.Insert(MOD.Model.GroupData)">
+            <summary>
+            插入组
+            </summary>
+            <param name="groupdata"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IGroup.Update(MOD.Model.GroupData)">
+            <summary>
+            更新组信息
+            </summary>
+            <param name="groupdata"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IGroup.Delete(System.Int32)">
+            <summary>
+            删除组,并更新该组用户的组掩码(在存储过程处理)
+            </summary>
+            <param name="nGroupId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IGroup.GetGroupByUserGroupMask(System.Int32)">
+            <summary>
+            根据用户权限值，提取用户所属的众多组别
+            </summary>
+            <param name="nGroupMask"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IGroup.GetList(System.Int32,System.Int32)">
+            <summary>
+            分页读取组列表
+            </summary>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IGroup.GetCount">
+            <summary>
+            组总数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetList(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            按分类分页读取节目列表
+            </summary>
+            <param name="nCatalogId">为0时获取未分类节目列表</param>
+            <param name="nCheck">节目状态</param>
+            <param name="nClass">当前用户级别</param>
+            <param name="nGroupMask">当前用户组权限</param>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <param name="nOrder">排序方式0 加入时间 1节目名称 2点播次数 。。。</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetCount(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            读取分类节目总数
+            </summary>
+            <param name="nCatalogId"></param>
+            <param name="nCheck"></param>
+            <param name="nClass"></param>
+            <param name="nGroupMask"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetListByCourse(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取课程节目列表
+            </summary>
+            <param name="nCourseId"></param>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetCountByCourse(System.Int32)">
+            <summary>
+            取得课程节目总数
+            </summary>
+            <param name="nCourseId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetDetail(System.Int32)">
+            <summary>
+            取得节目详情
+            </summary>
+            <param name="nProgramId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetFavList(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            取得个人收藏节目，并分页显示
+            </summary>
+            <param name="nUserId"></param>
+            <param name="nClass"></param>
+            <param name="nGroupMask"></param>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetFavCount(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            取得个人收藏节目总数
+            </summary>
+            <param name="nUserId"></param>
+            <param name="nClass"></param>
+            <param name="nGroupMask"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.DelFav(System.Int32)">
+            <summary>
+            删除收藏
+            </summary>
+            <param name="nMarkId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetRecommendList(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            读取推荐节目
+            </summary>
+            <param name="nClass"></param>
+            <param name="nGroupMask"></param>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetRecommendCount(System.Int32,System.Int32)">
+            <summary>
+            读取推荐节目总数
+            </summary>
+            <param name="nClass"></param>
+            <param name="nGroupMask"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.DelRecommend(System.Int32)">
+            <summary>
+            删除推荐
+            </summary>
+            <param name="nRecommendId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.Search(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            搜索节目
+            </summary>
+            <param name="strKey">搜索内容</param>
+            <param name="nType">搜索类型 0 标题 1 简介 2 主演 3 导演 4 出版单位 5 发布者 6 All</param>
+            <param name="nClass">当前用户级别</param>
+            <param name="nGroupMask">当前用户组掩码</param>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.SearchCount(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            搜索结果总数
+            </summary>
+            <param name="strKey">搜索内容</param>
+            <param name="nType">搜索类型 0 标题 1 简介 2 主演 3 导演 4 出版单位 5 发布者 6 All</param>
+            <param name="nClass">当前用户级别</param>
+            <param name="nGroupMask">当前用户组掩码</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.UpdateReadCount(System.Int32)">
+            <summary>
+            更新节目的点播次数 
+            </summary>
+            <param name="nPid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetChapterByProgramId(System.Int32)">
+            <summary>
+            根据节目id读取节目片断
+            </summary>
+            <param name="pid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetList(System.Int32)">
+            <summary>
+            返回媒体服务器信息
+            </summary>
+            <param name="nProgramId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetImage(System.Int32)">
+            <summary>
+            取图像数据
+            </summary>
+            <param name="nImgId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IProgram.GetCatalogList(System.Int32)">
+            <summary>
+            获取节目所属分类列表
+            </summary>
+            <param name="nProgramId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IRemark.Insert(MOD.Model.RemarkData)">
+            <summary>
+            插入评论
+            </summary>
+            <param name="remarkdata"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IRemark.UpdateState(System.Int32,System.Int32)">
+            <summary>
+            更新评论状态
+            </summary>
+            <param name="nRemarkId"></param>
+            <param name="nState">0 未通过，1通过审核</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IRemark.Delete(System.Int32)">
+            <summary>
+            删除单条评论
+            </summary>
+            <param name="nRemarkId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IRemark.DeleteByProgram(System.Int32)">
+            <summary>
+            删除节目下所有评论,此方法在删除节目时调用
+            </summary>
+            <param name="nProgramId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IRemark.GetListByProgram(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取指定节目评论 分页列表
+            </summary>
+            <param name="nProgramId"></param>
+            <param name="nState">0 未审核，1己审核</param>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IRemark.GetCountByProgram(System.Int32,System.Int32)">
+            <summary>
+            获取指定节目评论总数
+            </summary>
+            <param name="nProgramId"></param>
+            <param name="nState">0 未审核，1己审核</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IRemark.GetList(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取所有评论
+            </summary>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <param name="nState">0 未审核，1己审核</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IRemark.GetCount(System.Int32)">
+            <summary>
+            获取评论总数
+            </summary>
+            <param name="nState">0 未审核，1己审核</param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IRemark.GetDetail(System.Int32)">
+            <summary>
+            读取评论详情
+            </summary>
+            <param name="nRemarkId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IChannel.GetList(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取频道分页列表
+            </summary>
+            <param name="nType">0 - All 1-广播 2-直播 3-转播</param>
+            <param name="nGroupMask"></param>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IChannel.GetCount(System.Int32,System.Int32)">
+            <summary>
+            获取频道总数
+            </summary>
+            <param name="nType"></param>
+            <param name="nGroupMask"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IChannel.GetAddress(System.Int32)">
+            <summary>
+            获取频道地址
+            </summary>
+            <param name="nChannelId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IChannel.GetChannelInfoById(System.Int32)">
+            <summary>
+            根据id提取频道的详细信息
+            </summary>
+            <param name="cid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IChannel.Insert(MOD.Model.ChannelData)">
+            <summary>
+            插入频道信息(目前为复合频道)
+            </summary>
+            <param name="channeldata"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IChannel.Update(MOD.Model.ChannelData)">
+            <summary>
+            更新复合频道信息
+            </summary>
+            <param name="channeldata"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IChannel.UpdateSubChannelState(System.Int32,System.String)">
+            <summary>
+            更新c_upload_mediaserver字段
+            </summary>
+            <param name="nChannelId"></param>
+            <param name="strState"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IChannel.Delete(System.Int32)">
+            <summary>
+            删除复合频道
+            </summary>
+            <param name="nChannelId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IGuestBook.GetList(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            取得留言列表
+            </summary>
+            <param name="nType">留言类型0 公开，1全部(包括公开和私有)</param>
+            <param name="nPage"></param>
+            <param name="nPageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IGuestBook.GetCount(System.Int32)">
+            <summary>
+            取得留言总数
+            </summary>
+            <param name="nType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IGuestBook.GetDetail(System.Int32)">
+            <summary>
+            取得留言信息
+            </summary>
+            <param name="nGuestbookId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IGuestBook.Insert(MOD.Model.GuestbookData)">
+            <summary>
+            插入新留言
+            </summary>
+            <param name="guestbookdata"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MOD.IDAL.IGuestBook.Delete(System.Int32)">
+            <summary>
+            删除留言
+            </summary>
+            <param name="nGuestbookId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

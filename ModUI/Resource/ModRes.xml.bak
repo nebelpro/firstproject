@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+  <language>zh-cn</language>
+  <encode>GB2312</encode>
+  <company>
+    <name></name>
+    <website></website>
+  </company>
+  <product>
+    <name>视频点播系统</name>
+    <version>2007</version>
+  </product>
+  <Server>
+    <key name="Info_DateFormat">(YYYY-MM-DD)</key>
+    <key name="COPYRIGHT"></key>
+    <key name="INFO_DEFAULT">首页</key>
+    <key name="INFO_SOFTDOWN">软件下载</key>
+    <key name="Info_Play">点播</key>
+    <key name="Info_UserCenter">用户中心</key>
+    
+
+
+    <!-- GuestBook Manager-->
+    <key name="Info_GuestBookList">留言列表</key>
+    <key name="Info_GuestBook">用户留言</key>
+    <key name="Info_GuestBookAddTitle">发表留言</key>
+    <key name="Info_GuestBookAdd">发表留言</key>
+    <key name="Info_GuestBookTitle">留言标题: </key>
+    <key name="Info_GuestBookInfo">留言内容: </key>
+    <key name="Info_GuestBookType">留言类型: </key>
+    <key name="Info_GuestBookPublic">公开留言</key>
+    <key name="Info_GuestBookPrivate">不公开留言</key>
+
+    <key name="Info_GuestBookType0">公开</key>
+    <key name="Info_GuestBookType1">隐藏</key>
+
+    <key name="Warn_GuestBookNotEmpty">输入不能为空!</key>
+    <key name="Warn_GuestBookSubjectLength">最大字符为32个!</key>
+    <key name="Warn_GuestBookInfoLength">留言内容不超过2048个字符</key>
+
+    <key name="Info_UserMask">登录用名</key>
+    <key name="Info_UserName">用户姓名</key>
+    <key name="Info_UserGroup">用户组别</key>
+    <key name="Info_UserClass">安全级别</key>
+    <key name="Info_UserPoint">余   额</key>
+    <key name="Info_UserCardValid">卡有效期</key>
+    <key name="Info_UserInfo">备注信息</key>
+    <key name="Info_UserRequestIp">来访 IP</key>
+
+    <!-- MediaServer Info-->
+    <key name="Info_MediaServer">媒体服务器</key>
+    <key name="MS_Name">名称</key>
+    <key name="MS_State">状态</key>
+    <key name="MS_Load">网络负荷</key>
+    <key name="MS_Description">描述</key>
+    <key name="MS_State1">正常</key>
+    <key name="MS_State2">暂停</key>
+    <key name="MS_State3">停止</key>
+
+    <key name="Oper_Play">点播</key>
+    <key name="Oper_Download">下载</key>
+    
+    
+    <!--Program info-->    
+    <key name="INFO_ORDER">排序方式</key>
+    <key name="INFO_PROGRAM_NAME">影片名称</key>
+    <key name="INFO_PROGRAM_DIRECTOR">节目导演</key>
+    <key name="INFO_PROGRAM_ACTOR">节目主演</key>
+    <key name="INFO_PROGRAM_POINT">节目价格</key>
+    <key name="INFO_PROGRAM_LENGTH">节目长度</key>
+    <key name="INFO_PROGRAM_CLASS">节目级别</key>
+    <key name="INFO_PROGRAM_KBPS">节目码率</key>  
+    <key name="INFO_PROGRAM_ADDTIME">加入时间</key>
+    <key name="INFO_PROGRAM_VIEW">观赏次数</key>
+    <key name="INFO_PROGRAM_CHAPTER">节目片断</key>
+    <key name="INFO_PROGRAM_PLAY">在线播放</key>
+    <key name="INFO_PROGRAM_INTRO">影片简介</key>
+    <key name="INFO_PROGRAM_NOINTRO">暂无介绍!</key>
+
+    <key name="INFO_PROGRAM">影片信息</key>
+    <key name="INFO_PROGRAM_REMARK">影片评论</key>
+   
+    <key name="Info_ChapterName">节目片段</key>
+    <key name="Info_ChapterTime">片段时长</key>
+    <key name="Info_ChapterKbps">片段位率(Kbps)</key>
+    <key name="Info_ChapterPlay">点播</key>
+    <key name="Info_ChapterDown">下载</key>
+    <key name="Info_Program_FreeTime">在{0}之前点播本节目不计费</key>
+    
+    <!-- Btn Text-->
+    <key name="BTN_SUBMIT">提交</key>
+    <key name="BTN_RESET">重置</key>
+    <key name="BTN_CLOSE">关闭</key>
+    <!-- Remark -->
+    <key name="WARN_REMARK_NO_TITLE">请输入评论标题!</key>
+    <key name="WARN_REMARK_TITLE_ERR">评论标题不能超过32个字符!</key>
+    <key name="WARN_REMARK_NO_INFO">请输入评论内容!</key>
+    <key name="WARN_REMARK_INFO_ERR">评论内容不能超过512个字符!</key>
+    <key name="INFO_REMARK_TITLE">评论标题</key>
+    <key name="INFO_REMARK_CONTENT">评论内容</key>
+
+    <key name="INFO_BULLETIN_LIST">公告列表</key>
+    <key name="INFO_BULLETIN_TITLE">公告内容</key>
+
+    <key name="WARN_REMARK_NOLOGIN">请您先登录</key>
+    <key name="WARN_LIST_EMPTY">暂时没有相关信息...</key>
+    <key name="INFO_ADDREMARK">评论添加成功!管理员审核后将显示于节目信息中!</key>
+
+    <!-- User Reg-->
+    <key name="REG_LOGIN">登录帐号</key>
+    <key name="REG_USERNAME">用户名称</key>
+    <key name="REG_PWD">密码</key>
+    <key name="REG_CONFIRM">确认密码</key>
+    <key name="REG_INFO">描述信息</key>
+
+    <key name="WARN_REG_NOLOGIN">请输入登录名!</key>
+    <key name="WARN_REG_OUTLEN">最大字符为32个!</key>
+    <key name="WARN_REG_ERRDATA">非法字符，请重新输入!只允许字母、数字和下划线!</key>
+    <key name="WARN_REG_NOUSERNAME">请输入用户名称!</key>
+    <key name="WARN_REG_NOPWD">请输入密码!</key>
+    <key name="WARN_REG_NOCONFIRMPWD">请输入确认密码!</key>
+    <key name="WARN_REG_NOEQUALPWD">两次密码不相同,请重新输入!</key>
+    <key name="WARN_REG_OUTINFOLEN">描述信息最大值为1024个字符!</key>
+    <key name="WARN_REG_EXISTLOGIN">己存在相同的登录帐号，请重新输入!</key>
+    <key name="WARN_REG_FALID_PRIVATE_FLOD">创建私有目录失败！</key>
+    <key name="WARN_REG_REGOK">申请成功!</key>
+
+    <!-- Channel Address Type-->
+    <key name="ADDRESS_INVALID">非活动</key>
+    <key name="ADDRESS_UDP">单播</key>
+    <key name="ADDRESS_TCP">TCP</key>
+    <key name="ADDRESS_MASTER">组播</key>
+    <key name="ADDRESS_BROAD">广播</key>
+    <key name="ADDRESS_NAT">NAT</key>
+
+    <!-- Channel Info -->
+    <key name="CHANNEL_STATE_MIX">复合频道</key>   
+    <key name="INFO_CHANNEL_LIVE">直播频道</key>
+    <key name="INFO_CHANNEL_BROAD">广播频道</key>
+    <key name="INFO_CHANNEL_REBROAD">转播频道</key>
+    <key name="INFO_CHANNEL_MIX">复合频道</key>
+    <key name="INFO_CHANNEL_STATE">频道状态</key>
+    <key name="INFO_CHANNEL_START">开始时间:</key>
+    <key name="INFO_CHANNEL_CREATE">创建时间:</key>
+    <key name="INFO_CHANNEL_USER">发起用户</key>
+    <key name="CHANNEL_STATE_NOACTIVE">未活动</key>
+    <key name="CHANNEL_STATE_STOP">停止</key>
+    <key name="CHANNEL_STATE_NORMARL">正常</key>
+    <key name="CHANNEL_STATE_PAUSE">暂停</key>
+    <key name="INFO_CHANNEL_DETAIL">频道详细信息</key>
+    <key name="INFO_CHANNEL_ADDRESS_TITLE">接收列表</key>
+
+    <key name="ERR_NOTALLOWGROUP">您所在的用户组没有权限当前操作!</key>
+    <key name="ERR_FORBINUSER">您没有权限当前操作!</key>
+    <key name="ERR_CHANNELINFO">获取频道信息出错!</key>
+    <key name="ERR_CHANNELADDRESS">获取指定频道地址出错!</key>
+    <key name="ERR_MIXCHANNEL">复合频道地址出错!</key>
+    
+    <key name="INFO_CARD_NO">卡号</key>
+    <key name="INFO_CARD_PWD">密码</key>
+
+    <key name="INFO_PLAYLOG_SEARCH">点播记录查询</key>
+    <key name="INFO_PLAY_TIME">点播时间</key>
+    <key name="INFO_PROGRAM_NAME">节目名称</key>
+    <key name="INFO_CARD_VALUE">点数</key>
+    <key name="INFO_CARD_VALUE_MONTH">月份</key>
+    <key name="ERR_TIME">时间格式错误</key>
+    <key name="WARN_NOTIME">请输入要查询的日期范围</key>
+    <key name="WARN_TIMERANGE">起始时间大于结束时间</key>
+
+    <key name="INFO_CARDUSE_SEARCH">充值记录查询</key>
+    <key name="INFO_CARDUSE_DATE">充值日期</key>
+    <key name="INFO_SEARCH_RESULT">搜索结果</key>
+    <key name="INFO_SEARCH_ALL">搜索--全部节目</key>
+    <key name="INFO_SEARCH_KEY">搜索--关键字:</key>
+    
+
+    <key name="INFO_CHANGE_PWD">修改密码</key>
+    <key name="INFO_PWD_OLD">旧密码</key>
+    <key name="INFO_PWD_NEW">新密码</key>
+    <key name="INFO_PWD_NEWCONFIRM">新密码确认</key>
+    <key name="INFO_PWD_CONFIRM_ERR">两次密码不相同,请重新输入</key>
+    <key name="ERR_PWD_OLD">原密码错误,请重新再试!</key>
+    <key name="SUCC_CHANGE_PWD">密码修改成功!</key>
+
+    <!-- WARN needs modify-->   
+    <key name="WARN_NOLOGIN">请您先登录</key>
+    <key name="WARN_NOPERMIT">您的权限不足以点播此节目!</key>
+    <key name="WARN_NOPLAYPMERIT">没有点播权限!</key>
+    <key name="WARN_NOPOINT">您的点数不够点播此节目,请充值!</key>
+    <!-- end -->
+    <key name="INFO_POP_PLAY">播放</key>
+    <key name="ERR_PARAMS">参数错误</key>
+
+    <!--add point -->
+    <key name="WARN_CardIsEmpty">请输入卡号、密码</key>
+    <key name="WARN_ERRCARD">卡号错误!</key>
+    <key name="WARN_NOCARD">卡号不存在!</key>
+    <key name="WARN_ERRPWD">卡号的密码错误</key>
+    <key name="WARN_CARD_HASUER">卡号己经被使用过!</key>    
+    <key name="WARN_ADDCARDTYPEERR">消费卡不可以向帐号充值!</key>
+    <key name="INFO_ADDPOINT">充值成功!</key>
+    <!-- IPTV-->
+    <key name="INFO_IPTV">网络电视台</key>
+    <key name="INFO_IpTVTitle">网络电视台</key>
+    <!-- Weige -->
+    <key name="Info_SysSetWeige">微格配置</key>
+    <key name="Info_WeigeView">默认显示方式</key>
+    <key name="Info_WeigeView1"><![CDATA[&nbsp;&nbsp;4分 (2*2)]]></key>
+    <key name="Info_WeigeView2"><![CDATA[&nbsp;&nbsp;6分 (2*3) ]]></key>
+    <key name="Info_WeigeView3"><![CDATA[&nbsp;&nbsp;6分 (1大5小)]]></key>
+    <key name="Info_WeigeView4"><![CDATA[&nbsp;&nbsp;9分 (3*3)]]></key>
+    <key name="Info_WeigeView5">12分 (3*4)</key>
+    <key name="Info_WeigeView6">13分 (1大12小)</key>
+    <key name="Info_WeigeView7">16分 (4*4)</key>
+
+    <key name="Info_WeigeSort">默认排序方式</key>
+    <key name="Info_WeigeSortByNameDesc">按频道名称降序</key>
+    <key name="Info_WeigeSortByNameAsc">按频道名称升序</key>
+    <key name="Info_WeigeSortByBeginTimeDesc">按开始时间降序</key>
+    <key name="Info_WeigeSortByBeginTimeAsc">按开始时间升序</key>
+
+    <!-- Recorder -->
+    <key name="INFO_RECORDER">直录系统</key>
+    <key name="INFO_RecorderTitle">直录系统</key>
+    <key name="Warn_IE_55">IE版本不低于5.5，否则页面可能会出现错误！您继续访问吗？</key>
+    <!-- SoftDown -->
+    <key name="Info_Directx">由微软公司开发的用途广泛的API，提供了一整套的多媒体接口方案。</key>
+    <key name="Info_Miniplayer">Miniplayer</key>
+    <key name="Info_MiniplayerIntro">媒体播放器可单独作为播放器使用，该播放器能够播放大部分类型的视频文件。</key>
+    <key name="Info_Manager">系统管理器</key>
+    <key name="Info_ManagerIntro">系统管理器以资源管理器的形式对用户进行分组管理，同时对所有连接到“宿主服务器”的“媒体服务器”进行管理。</key>
+  </Server>
+  <Client>
+
+
+    <key name="VER_LOCAL">本机版本:</key>
+    <key name="VER_SERVER">服务器版本:</key>
+    <key name="VER_PLAYER">  媒体播放器版本是</key>
+    <key name="VER_PLAYERLOW">低于服务器上版本</key>
+    <key name="VER_MANAGER">  管理器版本是</key>
+    <key name="VER_MANAGERLOW">低于服务器上版本</key>
+    <key name="INFO_NOSETUP">未安装</key>
+    
+    
+    <!-- public -->
+    <key name="WARN_NOLOGIN">请您先登录</key>
+    <key name="WARN_NOLOGINPLAY">请您先登录，然后观看节目！</key>   
+    <key name="WARN_NOPLAYER">请先安装播放器!需转向下载页面,请点击“确定”;否则请点击“取消”</key>
+    <!-- program -->
+    <key name="WARN_NOPOINT">您帐户上的点数不能够点播此节目!</key>
+    <key name="INFO_CONFIRMPLAY">点播该节目将扣除您{0}点!确定点播吗?</key>
+    <!-- user -->
+    <key name="ERR_ACCOUNT">用户帐号仅允许数字字母和下划线!</key>
+    <!--add point -->
+    <key name="WARN_NOCARD">请输入卡号</key>
+    <key name="WARN_ERRCARD">卡号错误!</key>
+    <key name="WARN_NOCARD">卡号不存在!</key>
+    <key name="WARN_ERRPWD">卡号的密码错误</key>
+    <key name="WARN_CARD_HASUER">卡号己经被使用过!</key>
+    <key name="WARN_ADDCARDTYPEERR">消费卡不可以向帐号充值!</key>
+    <key name="INFO_ADDPOINT">充值成功!</key>
+    <key name="WARN_CARD_INVALID">卡号己过期!</key>
+
+    <!-- IpTv Recorder-->
+    <key name="ERR_OPENSTREAM">打开媒体流失败!</key>
+    <key name="ERR_MIXCHANNEL">复合频道地址出错!</key>
+    
+  </Client>
+</Resources>

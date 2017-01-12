@@ -1,0 +1,55 @@
+/***************
+项目: WebTd
+编写: luokaiwu@hotmail.com
+功能: 全局样式
+******************/
+* {	margin:0;	padding:0;}
+* {	font-size:12px;	font-family: Arial,verdana,sans-serif;}		
+* {	table-layout:fixed;	word-wrap:break-word; word-break:break-all;	/*for ie */}
+
+/* style tag */
+body	{ margin:0;padding:0;text-align:center;font-size: 12px;background:#fff;}
+h1		{ font-size:16px;}
+
+a				{ text-decoration:none;color:#777}
+a:active		{ text-decoration:none;color:#777}
+a:visited       { text-decoration:none; color:#777}
+a:hover         { text-decoration:underline;color:red;}
+
+table			{ border-collapse:collapse;border:0;}
+
+ul	{ list-style:none;}
+li	{ list-style:none;}
+img	{ border:0;}
+
+
+select {height:20px;border:1px solid #c7c7c7;text-align:center;}
+input  {height:20px;text-align:center;border:1px solid #c7c7c7;}
+
+/*style class*/
+.valign{vertical-align:middle;}
+
+.txtRight	{ text-align:right;}
+.txtLeft	{ text-align:left;}
+.txtCenter	{ text-align:center;}
+
+.left       { float: left;}
+.right      { float: right;}
+.clear      { clear: both; font-size:1px; width:1px; visibility: hidden; }
+.hidden     { display: none;}
+.unLine ,.unLine a{text-decoration: none;}
+.noBorder   { border:0;	}
+
+.hand		{ cursor:pointer;}
+
+
+
+
+
+
+/* Page Numbers */
+.page{clear:both;text-align:right;height:25px;float:right;margin:0 10px 5px 0;}
+a.pageNor:link,a.pageNor:visited{float:left;padding:2px 4px 2px 4px;margin:1px;color:#FBAF5C;border:1px solid #FBAF5C;}
+span.pageCur,a.pageNor:hover
+{float:left;padding:2px 4px 2px 4px;margin:1px;color:#fff;text-align:center;background:#FBAF5C;border:1px solid #FBAF5C;}
+span.pageDis{float:left;padding:2px 4px 2px 4px;margin:1px;color:#ccc;text-align:center;border:1px solid #ccc;}

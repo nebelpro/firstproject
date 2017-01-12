@@ -1,0 +1,1 @@
+<div id="nav"><ul >$CatalogNav:{<li $it.Style$><a  href="ViewByClass.aspx?cid=$it.CId$">$it.CName$</a></li>}$</ul></div>

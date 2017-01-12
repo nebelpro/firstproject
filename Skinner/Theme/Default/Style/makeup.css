@@ -1,0 +1,145 @@
+﻿.ListBar{margin:3px auto; height:24px; clear:both; }
+div#empty {  margin:3px auto; padding:48px 0; text-align:center; background:#f8f8f8;border:1px solid #cad0d9;}
+/*=======Default==========*/
+#TopBlock	{width:639px;}
+#TopBlock h3	{ width:312px; text-indent:16px; height:24px; border:1px solid #980902; background:url(../Images/nodepend/t_block.gif) repeat-x left center;}
+#TopBlock ul	{ height:146px;padding:5px 10px; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px solid #ccc;}
+#TopBlock ul	{height:156; voice-family:"\"}\"";voice-family:inherit; height:146px;}
+#BulletinTop	{ width:314px; float:left;}
+#BulletinTop li	{ text-indent:16px;height:18px;line-height:18px; background:url(../Images/nodepend/li1.gif) no-repeat 5px 50%;}
+#BulletinTop li a { display:block; float:left; width:210px;}
+#ProgramNew		{ width:314px;float:right;}
+
+#ProgramNew li	{float:left;padding:0 3px; height:18px; width:64px; line-height:18px;}
+#ProgramNew li	{width:70px; voice-family:"\"}\"";voice-family:inherit; width:64px;}
+
+#NewListByCatalog{width:639px; margin:10px 0;}
+
+
+#NewListByCatalog table		{ width:100%;border-collapse:separate;}
+#NewListByCatalog table	td	{ background:#fdf7f7;}
+td.cataname				{ width:86px; text-align:center; vertical-align:middle;}
+td.cataname img		{margin-right:5px;}
+td.cataprolst			{ padding:0 30px 0 40px;}
+td.cataprolst a			{width:106px; text-indent:6px; display:block; float:left; margin:0 6px;line-height:20px;  background:url(../Images/nodepend/li2.gif) no-repeat left center;}
+
+/*======== BulletinList=================*/
+#BulletinList{width:639px;}
+#BulletinList h3{width:639px;height:24px;background:url(../Images/depend/t_bulletin_list.gif) no-repeat left center;}
+#BulletinList h3 span{display:none;}
+#BulletinList li {width:639px; line-height:20px;}
+#BulletinList li a {display:block; width:500px; float:left; text-indent:24px;}
+
+
+/*========== ViewByClass ==================*/
+#ViewByClass{width:639px;}
+#ViewByClass h3{ width:639px; text-indent:24px; font-size:14px; color:#fff; font-family:黑体; height:24px; line-height:24px; background:url(../Images/nodepend/t_bg.gif) no-repeat left center;}
+#ViewByClass h3 a,#ViewByClass h3 a:visited {color:#fff;}
+#CatalogList {float:left;width:609px;height:auto; margin:10px 0; padding:5px 15px; border:1px solid #ccc;}
+#CatalogList {width:639px; voice-family:"\"}\"";voice-family:inherit; width:609px;}
+#CatalogList li{ float:left; width:145px; margin-right:3px; }
+#CatalogList li{ display:inline;}/*ie 6 float bug*/
+#CatalogList li a{display:block; width:100px; text-indent:12px; float:left;}
+#Order	{margin:5px 0; border-bottom:1px solid #bca7a2;}
+#Order img { margin-right:4px;}
+
+#SearchResult	{width:639px;}
+#SearchResult h3{ width:639px; text-indent:24px; font-size:14px; color:#fff; font-family:黑体; height:24px; line-height:24px; background:url(../Images/nodepend/t_bg.gif) no-repeat left center;}
+
+
+#ProgramList					{width:639px;}
+#ProgramList ul					{width:639px;}
+#ProgramList ul li				{float:left;width:312px; height:100px; border:1px solid #bca7a2; margin:5px 5px 0 0; background:#fdf7f7;}
+#ProgramList li div.pimg		{width:100px; border:4px solid #efefef;height:92px; margin-right:10px; background:#000;}
+#ProgramList li table			{width:100%; height:100%;}
+#ProgramList li td				{vertical-align:middle; text-align:center;}
+#ProgramList li div.pimg img	{vertical-align:middle;}
+#ProgramList li div.pitem		{margin:5px 0;}
+
+
+
+/*=========== ProgramInfo ===============================*/
+
+/*ProgramDetail*/
+#ProgramDetail {width:639px; margin-bottom:10px;}
+#ProgramDetail	h3{ margin-bottom:10px; width:639px; height:24px; background:url(../Images/depend/t_programdetail.gif) no-repeat left center;}
+#ProgramDetail h3 span{ display:none;}
+#ProgramDetail div.img{ float:left; padding:0 10px; width:160px;}
+#ProgramDetail div.img {width:180px; voice-family:"\"}\"";voice-family:inherit; width:160px;}
+#ProgramDetail div.img table{ width:160px; height:133px;}
+#ProgramDetail div.img table td{height:100%; width:100%; vertical-align:middle; text-align:center; background:#000;}
+#ProgramDetail ul.item{ float:left;}
+#ProgramDetail ul.item li{ float:left; line-height:20px; width:219px;padding:0 5px;}
+#ProgramDetail ul.item li {width:229px; voice-family:"\"}\"";voice-family:inherit; width:219px;}
+#ProgramDetail ul.item li.title,#ProgramDetail ul.item li.btn{ width:459px;padding:0;}
+
+#ProgramChapter{width:639px; margin-bottom:10px;}
+#ProgramChapter h3{margin-bottom:10px; width:639px; height:24px; background:url(../Images/depend/t_chapter.gif) no-repeat left center;}
+#ProgramChapter h3 span{ display:none;}
+#ProgramChapter ul	{ margin:0 10px;}
+#ProgramChapter li{ float:left; width:45%; line-height:24px;}
+
+#ProgramIntro	{width:639px; margin-bottom:10px;}
+#ProgramIntro h3{margin-bottom:10px; width:639px; height:24px; background:url(../Images/depend/t_programintro.gif) no-repeat left center;}
+#ProgramIntro h3 span{ display:none;}
+#ProgramIntro p	{ text-indent:24px;}
+
+#ProgramRemark {width:639px; margin-bottom:10px;}
+#ProgramRemark h3{margin-bottom:10px; width:639px; height:24px; background:url(../Images/depend/t_remark.gif) no-repeat left center;}
+#ProgramRemark h3 span{ display:none;}
+
+.Remark_item {width:637px; margin-bottom:5px; height:auto;border:1px solid #d1d1d3;}
+.Remark_item div.title	{margin:1px;width:635px;height:24px;line-height:24px;background:#f0f0ee;}
+.Remark_item p{clear:both;height:auto;line-height:1.2;padding:6px;overflow:auto;}
+
+
+
+table.addRemark			{margin:5px auto; width:639px;height:auto; border:1px solid #d1d1d3;background: #f0f0ee;}
+table.addRemark td.w1	{width:79px;padding:3px 0; text-align:right;}
+table.addRemark td.w2	{width:560px;padding:3px 0; text-align:left;}	
+table.addRemark td.rowbtn	{text-align:center; padding:2px;}
+table.addRemark input		{border:1px solid #ccc; width:500px; vertical-align:middle;}
+table.addRemark textarea	{border:1px solid #ccc; width:500px; height:80px;}
+table.addRemark td.rowbtn input	{width:41px; height:18px;}
+
+/*======= Window Page ==========*/
+
+#modifyPwd	{width:220px;height:auto; margin:15px auto 0 auto;}
+#modifyPwd td{height:20px;margin:2px 0;}
+#modifyPwd .w1{ width:70px; text-align:right;}
+#modifyPwd .w2{ width:150px; text-align:right;}
+#modifyPwd input {text-align:left; width:140px;height:18px;}
+#modifyPwd input.btn{width:41px; height:19px;}
+
+#addPoint	{width:220px;height:auto; margin:15px auto 0 auto;}
+#addPoint td{ height:20px; margin:2px 0;}
+#addPoint .w1{ width:70px; text-align:right;}
+#addPoint .w2{ width:150px; text-align:right;}
+#addPoint input.txt {text-align:left;width:140px; height:18px;}
+#addPoint input.ibtn{width:41px; height:19px;border:0;}
+
+
+#Charge		{width:500px; margin:20px auto 0px auto;}
+#Charge .ListBar	{width:480px;}
+#Charge input.ibtn	{width:41px;height:19px;border:0;}
+#Charge table	{width:480px; clear:both;}
+#Charge td{line-height:18px;}
+#Charge table .w1 {width:180px;}
+#Charge table .w2 {width:200px; text-align:left;}
+#Charge table .w3 {width:100px;}
+#Charge div#empty { width:500px; margin:20px auto; padding:48px 0; text-align:center; background:#f8f8f8;border:1px solid #cad0d9;}
+
+#PlayLog		{width:500px; margin:20px auto 0px auto;}
+#PlayLog .ListBar	{width:480px;}
+#PlayLog input.ibtn	{width:41px;height:19px;border:0;}
+#PlayLog table	{width:480px; clear:both;}
+#PlayLog td{line-height:18px;}
+#PlayLog table	.w1 {width:280px; text-align:left;}
+#PlayLog table	.w2 {width:120px; text-align:left;}
+#PlayLog table	.w3 {width:80px;}
+#PlayLog div#empty	{ width:500px; margin:20px auto; padding:48px 0; text-align:center; background:#f8f8f8;border:1px solid #cad0d9;}
+
+#BulletinInfo {width:500px; margin:20px auto 0 auto; font-size:12px;}
+#BulletinInfo h3{font-size:16px;color:#004a9c;}
+#BulletinInfo p{margin:5px 10px;font-size:12px; text-align:left; clear:both; text-indent:12px;}
+#BulletinInfo span{color:#719675;margin-right:10px;}

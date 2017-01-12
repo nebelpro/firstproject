@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" EnableViewState="false" AutoEventWireup="true" Inherits="MOD.WebTd.MasterPage"
+    Codebehind="MasterPage.master.cs" %>
+<%@ Register TagPrefix="UC" TagName="Nav"  Src="UserControls/UC_CatalogNav.ascx"%>
+<%@ Register TagPrefix="UC" TagName="Footer" Src="UserControls/UC_Footer.ascx"%>
+<%@ Register TagPrefix="UC" TagName="Toper" Src="UserControls/UC_Toper.ascx" %>
+<%@ Register TagPrefix="UC" TagName="Search" Src="~/UserControls/UC_ProgramSearch.ascx" %>
+<%@ Register TagPrefix="UC" TagName="BulletinTop" Src="~/UserControls/UC_BulletinTop.ascx" %>
+<%@ Register TagPrefix="UC" TagName="ProgramTop" Src="~/UserControls/UC_ProgramTop.ascx" %>
+<%@ Register TagPrefix="UC" TagName="ProgramNew" Src="~/UserControls/UC_ProgramNew.ascx" %>
+<%@ Register TagPrefix="UC" TagName="Down" Src="~/UserControls/UC_SoftDown.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Master Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="zh-CN" />
+    <link rel="stylesheet" type="text/css" href="Style/default.css" />         
+    <link rel="stylesheet" type="text/css" href="Style/theme/alphacube.css" />    
+    <script type="text/javascript" src="Scripts/prototype.js"></script>  
+    <script type="text/javascript" src="Scripts/window.js"></script>     
+    <script type="text/javascript" src="Scripts/mod.js"></script>    
+</head>
+<body>
+    <form id="ModForm" runat="server">
+    <div id="wrapper">
+       <UC:Toper ID="Toper1" runat="server" />
+        <UC:Nav ID="CatalogNav1" runat="server" />   
+        <div id="primary">
+            <div id="firster">              
+                <UC:Search ID="seach1"  runat="server" />
+                <UC:BulletinTop runat="server" ID="BulletinTop1" />
+                <UC:ProgramTop runat="server" ID="ProgramTop" />
+                <UC:ProgramNew runat="server" ID="ProgramNew1" />
+                <UC:Down runat="server" ID="Down1" />
+            </div>   
+            <div id="seconder">             
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>           
+            </div>
+        </div>
+        <UC:Footer ID="Footer1" runat="server" />
+    </div>
+   
+    </form>
+
+    <script type="text/javascript">   
+    UpdateUserState();
+    </script>
+
+</body>
+</html>

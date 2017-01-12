@@ -1,0 +1,135 @@
+.subb							{  margin:0 auto; width:720px; height:auto;}
+.subcontent					{  margin:0 auto; padding:5px 0; width:720px; height:auto;}
+.subcontent					{ background:url(../Images/nodepend/subbg.gif) repeat-y;}
+.subfooter						{ width:720px;height:13px; clear:both; background:url(../Images/nodepend/subfooter.gif) no-repeat;}
+.subb h3						{ width:720px; height:auto;}
+
+.ListBar{width:700px;margin:5px auto; margin-bottom:3px; height:24px; clear:both; }
+div#empty { width:714px; height:275px; margin:0 auto;}
+div#empty	{ background:url(../Images/depend/empty.gif) no-repeat;}
+
+/*------- Defalut_aspx--------*/
+.albums						{ float:left;width:356px;height:211px;margin:0 4px;}
+.albums h3						{ width:356px; height:41px;}
+.albums dl						{position:relative; float:right;  margin-right:0!important; margin:5px -2px 0 0; padding:0;width:220px;text-align:left;}
+.albums dl dd					{ line-height:1.6em; clear:both;}
+.albums dl li					{ float:left; margin:0 1px; width:68px;}
+.albums p.more					{ clear:both; width:356px; height:27px; text-align:right;}
+
+.acover							{ float:left; margin:0;padding-left:16px; width:116px;}
+.acover							{ width:132px; voice-family:"\"}\"";voice-family:inherit; width:116px;}
+.acover img						{ margin: 0; width:110px;height:136px; padding:1px; }
+
+.albums dl ul.info				{ width:220px;}
+.albums dl li.name				{ width:56px; padding-left:9px;background:url(../Images/nodepend/li.gif) no-repeat left center ; } 
+.albums dl li.name				{ width:65px; voice-family:"\"}\"";voice-family:inherit; width:56px;}
+.albums dl li.name  ul			{ display:none; }
+.albums dl li.name  ul	li		{  float:none; width:60px; padding-left:3px;}
+.albums dl li.item				{width:70px;}
+.albums dl li.item span			{ position:absolute; font-size:11px; top:-4px; margin-left:-8px; }
+
+
+
+#castui							{float:left;width:357px;margin-top:-30px; height:211px;margin:0 3px;}
+#castui	h3						{width:357px;height:49px;}
+#castui #castcontent			{width:317px;height:151px;padding:0 20px; text-align:center; background:url(../Images/depend/castuicontent.gif) repeat-y; }
+#castui #castcontent			{ width:357px; voice-family:"\"}\"";voice-family:inherit; width:317px;}
+#castui #castfooter				{width:357px;height:11px; background:url(../Images/depend/castuifooter.gif) no-repeat;}
+
+#MWP        { width:100%; height:100%; border:0;}
+#divImg     { display: none; text-align: center; width:100%; text-align:center;  height:100%;}
+
+
+/*------------  Bulletin-----------------------------*/
+table#bulletin				{ width:712px; margin:0 auto;}
+table#bulletin	td.w1		{ width:48px;}
+table#bulletin	td.w2		{ width:400px; text-align:left; line-height:1.5; font-weight:bold;}
+table#bulletin	td.w3		{ width:132px;}
+table#bulletin	td.w4		{ width:132px;}
+table#bulletin  tr.cTitle   { height:24px;}
+table#bulletin  tr.cInfo    { height:auto;}
+table#bulletin  tr.cInfo td     {padding:5px; text-align:left; line-height:1.5;}
+
+
+/* Channel
+---------------------------------------------------*/
+dl.ChannelList			{ width:712px; margin:0 auto; text-align:left; padding:10px 0;height:auto; clear:both; }
+dl.ChannelList dd		{ display:inline;}
+dl.ChannelList dd img	{ height:33px; width:32px; margin:12px 50px; float:left;}
+dl.ChannelList dd ul  img{float:none; height:14px; width:15px; padding:0px; margin:0px;} 
+
+dl.ChannelList dd ul  { float:left;}
+dl.ChannelList dd ul li{  float:left;height:18px;width:240px;}
+dl.ChannelList dd ul li.infoLi {width:480px;height:auto;}
+dl.ChannelList dd ul li.btnLi  { width:480px; text-align:right;padding-right:48px;margin:10px 0; } 
+dl.ChannelList dd ul li.btnLi img  { width:83px; height:25px;  } 
+dl.ChannelList dd ul li.titleLi  {height:24px; text-align:left; width:480px;} 
+
+ul.ulcast{ margin:15px;width:638px;min-height:60px; }
+/*\*/* html ul.ulcast {height:60px; }/**/   /*bug*/
+ul.ulcast li {border-bottom:1px dotted #000; margin:5px 8px; padding:0 4px; font-size:14px;  height:20px; line-height:20px;
+     width:128px; float:left; text-align:left;}
+ul.ulcast li	{ width:136px; voice-family:"\"}\"";voice-family:inherit; width:128px;}
+
+
+
+ul#ChannelLinkList {width:672px; margin:10px auto; text-align:left; clear:both;}
+ul#ChannelLinkList li{ position:relative; float:left; width:224px; height:23px;}
+ul#ChannelLinkList li p{ display:inline;}
+ul#ChannelLinkList li p span{display:none;}
+
+
+/*------------ ViewByClass_aspx ---------------------*/
+#cataloglist			{ width:640px; margin:0 40px;height:auto;text-align:left;}
+#cataloglist li			{ float:left; width:320px;background:url(../Images/nodepend/m_star.gif) no-repeat left center;}
+#cataloglist li a	{display:block; width:270px; text-indent:12px; float:left; line-height:20px;}
+
+
+table.programlist { width:712px; margin:0 auto;}
+table.programlist td.w0	{width:60px;}
+table.programlist td.w1{ width:226px; text-align:left; }
+table.programlist td.w2{width:100px;}
+table.programlist td.w3{width:130px;}
+table.programlist td.w4{width:80px;}
+table.programlist td.w5{width:80px;}
+
+
+
+
+/*----------   ProgramInfo.aspx --------------------*/
+table#pChapter { width:712px; margin:0 auto;}
+
+table#pChapter  td.w0{width:60px;}
+table#pChapter  td.w1{width:200px;  text-align:left;}
+table#pChapter  td.w2{width:172px;}
+table#pChapter  td.w3{ width:160px;}
+table#pChapter  td.w4{width:120px;}
+
+
+
+div#pInfo   { width:712px; margin:0 auto; text-align:left; height:auto;}
+div#pInfo img { float:left; padding:12px; margin:10px;}
+div#pInfo td.tdTitle  img{float:none; height:14px; width:15px; padding:0px; margin:0px;} 
+div#pInfo table			{ border-collapse:separate;}
+div#pInfo td	{vertical-align:middle;}
+div#pInfo td.tdTitle	{ height:24px;width:500px;}
+div#pInfo td.w1{ width:60px; font-weight:bold;}
+div#pInfo td.w2{width:185px; padding-right:5px;}
+div#pInfo td.w2  { width:190px; voice-family:"\"}\"";voice-family:inherit; width:185px;}
+div#pInfo td.tdInfo {width:500px; text-indent:24px; line-height:18px;}
+div#pInfo td.tdBtn{height:24px; text-align:right; padding-right:30px;}
+div#pInfo td.tdBtn img{float:none; width:83px; height:25px;padding:0px; margin:0px 5px;}
+
+
+/*--------------  Soft Down ---------------------------*/
+#softdown		{ width:712px; margin:0 auto;padding:5px 0; text-align:left;}
+#softdown dd.directx			{ background:url(../Images/nodepend/m_icon_sd_dx.gif) no-repeat left center;}
+#softdown h4	{ font-size:16px; padding:10px 0;}
+#softdown  h4 img { height:20px; vertical-align:bottom;}
+#softdown dd	{ margin-bottom:15px; text-indent:56px;}
+#softdown p.down	{ width:84%; text-align:right;}
+
+
+
+
+

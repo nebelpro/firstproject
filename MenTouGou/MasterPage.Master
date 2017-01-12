@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="mentougou.MasterPage" %>
+<%@ Register Src="UserControl/UC_BulletinMarquee.ascx" TagName="UC_BulletinMarquee"
+    TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="zh-CN" />
+    <link rel="stylesheet" href="Style/default.css" type="text/css" media="screen" />  
+    <script type="text/javascript" src="scripts/Lib.js"></script>
+    <script type="text/javascript" src="scripts/Main.js"></script>  
+    <asp:literal id="ltrJS" runat="server"></asp:literal>
+    <title></title>    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+        <div id="banner">
+            <ul>
+                <li><a href="ChannelList.aspx?type=0"><img src="Images/depend/onlive.gif" alt="" /></a></li>
+                <li><a href="ChannelLink.aspx?type=5"><img src="Images/depend/rebroadcast.gif" alt="" /></a></li>
+                <li><a href="SoftDown.aspx"><img src="Images/depend/soft.gif" alt="" /></a></li>
+            </ul>
+        </div>
+       
+    <div id="box">   
+         <asp:Panel ID="pnlLogin" runat="server" DefaultButton="ibtnLogin">
+       <dl class="login">              
+        <dd> <%=this.GetRes("BOX_LOGIN_ACCOUNT") %></dd>
+        <dd> <asp:TextBox ID="tbUserName" CssClass="txt" runat="server"></asp:TextBox> </dd> 
+        <dd> <%=this.GetRes("BOX_LOGIN_PWD") %> </dd>
+        <dd><asp:TextBox ID="tbPassWord" CssClass="txt" TextMode="Password" runat="server"></asp:TextBox></dd>
+        <dd> &nbsp;<asp:ImageButton ID="ibtnLogin" ImageAlign="AbsMiddle" ImageUrl="Images/depend/btnlogin.gif" runat="server" OnClick="ibtnLogin_Click"/></dd></dl>
+	    </asp:Panel>
+	    <asp:Panel ID="pnlIsLogon" runat="server" Visible="false" DefaultButton="ibtnExit">  
+	        <dl class="login"> 
+	            <dd><asp:Literal ID="ltrUserName" runat="server"></asp:Literal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dd>
+	            <dd><asp:ImageButton ID="ibtnExit" OnClick="ibtnExit_Click" ImageUrl="Images/depend/btnexit.gif" ImageAlign="AbsMiddle" runat="server" /></dd>
+	        </dl> 
+	    </asp:Panel>
+        <asp:Panel runat="server" ID="pnlSearch" DefaultButton="ibtnSearch">
+           <dl class="search">
+               <dd><img src="Images/nodepend/bg_search.gif" style=" vertical-align:top;" alt=""/>&nbsp;&nbsp; </dd>
+               <dd> <asp:TextBox ID="tbSearchText" CssClass="txt" runat="server"></asp:TextBox></dd>
+               <dd> &nbsp;<asp:ImageButton ID="ibtnSearch" ImageAlign="AbsMiddle" ImageUrl="Images/depend/search.gif" runat="server" OnClick="ibtnSearch_Click" /></dd>         
+           </dl>
+       </asp:Panel>              
+    </div> 
+        
+        <dl id="bulletin"><dd class="w1"></dd><dd class="w2"><%=this.GetRes("Info_Bulletin") %> </dd><dd class="w3">
+            <uc1:UC_BulletinMarquee id="bulletinList" runat="server"/>
+            </dd><dd class="w4">[ <a href="BulletinList.aspx"><%=this.GetRes("Info_More") %></a> ]</dd><dd class="w5"></dd></dl>
+        <h4 class="curpath"><span class="txt1"><%=this.GetRes("Info_CurPath")%>：</span><a href="Default.aspx"><%=this.GetRes("Info_Default")%></a><asp:Literal ID="ltrPath" runat="server"></asp:Literal></h4>
+        
+        <div id="main">           
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <table id="footer">
+        <tr><td colspan="2">
+            <a href="<%=this.GetRes("Url_AboutOfSite") %>"><%=this.GetRes("Info_AboutOfSite")%></a>  |
+            <a href="<%=this.GetRes("Url_Contact")%>"><%=this.GetRes("Info_Contact")%></a> | 
+            <a href="<%=this.GetRes("Url_AboutCopyright")%>"><%=this.GetRes("Info_AboutCopyright")%></a></td></tr>
+        <tr><td style=" width:50%;"> <%=this.GetRes("Info_CopyRight")%></td><td style=" width:50%;"><img src="Images/depend/copyright.gif" alt="" /></td></tr>
+        <tr><td colspan="2"><%=this.GetRes("Info_PoweredBy")%></td></tr>
+        </table>
+        
+    </div>
+    </form>
+</body>
+</html>

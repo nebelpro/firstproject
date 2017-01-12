@@ -1,0 +1,277 @@
+﻿/*Common
+------------------------------------------------------------------*/
+.ListBar{width:670px;margin:3px 0px 3px 10px; height:24px; clear:both;}
+.OperBar{width:640px;margin:3px 0px 3px 20px; height:24px; clear:both;}
+div#empty { width:680px; margin:24px auto; text-align:center; font-size:16px; font-weight:bolder;}
+
+
+
+/*Product*/
+#Product p{ font-size:13px; letter-spacing:2px; margin:8px 0; text-indent:24px; line-height:20px;}
+ul.productAuthor{margin:16px auto;width:500px; }
+ul.productAuthor label	{ display:block; float:left; width:160px; text-align:right;}
+ul.productAuthor li{ clear:both;}
+dl.productSoft	{margin:16px auto;width:500px;}
+dl.productSoft dd	{ clear:both;}
+dl.productSoft li	{ float:left; height:24px; line-height:24px;}
+dl.productSoft li.w1{ width:360px;}
+dl.productSoft li.w2{ width:140px;}
+
+/*Bulletin Style
+------------------------------------------------------------------*/
+.BulletinList{clear:both;width:680px; margin:0 auto;}
+
+#BulletinAdd{margin:16px auto;width:560px; border-collapse:collapse;}
+#BulletinAdd td.w1{width:64px; text-align:right;}
+#BulletinAdd td.w2{width:496px;}
+#BulletinAdd td textarea{width: 496px;height:100px;display: block;overflow:visible;}
+#BulletinAdd td.w2 input {width:496px;}
+
+
+/* Card Manager Style
+-----------------------------------------------------------------*/
+
+/*Card Area*/
+ul.cardArea{margin:8px;}
+ul.cardArea input.txt   {width:140px;}
+ul.cardArea select.sel  {width:144px;}
+ul.cardArea label       {width:100px; display:block; float:left; text-align:right;}
+ul.cardArea li          {height:24px; }
+
+/*Card List */
+#CardList{width:680px;}
+#CardList td.w1{ width:26px; padding-left:10px;}
+#CardList td.w2{ width:150px;}
+#CardList td.w3{ width:134px;}
+#CardList td.w4{ width:120px;}
+#CardList td.w5{ width:80px;}
+#CardList td.w6{ width:100px;}
+#CardList td.w7{ width:60px;}
+
+#CardUseList{width:680px;}
+
+#CardUseList td.w0{width:24px;}
+#CardUseList td.w1{width:156px;}
+#CardUseList td.w2{width:200px;}
+#CardUseList td.w3{width:150px;}
+#CardUseList td.w4{width:150px;}
+
+
+/*SysSet Manager
+--------------------*/
+ul.visitSet {margin:5px 32px 5px 32px;}
+ul.visitSet select.sel {width:520px;}
+ul.visitSet li         {width:550px;height:24px; }
+
+
+ul.sysSet   {margin:8px 60px 8px 60px; }
+ul.sysSet   select.sel  {width:160px;}
+ul.sysSet   input.txt   {width:158px;}
+ul.sysSet   li          {width:550px;height:24px; }
+ul.sysSet   label       {min-width:100px; display:block; float:left; text-align:left;}
+/*\*/* html ul.sysSet   label	{ width:100px; }/**/ 
+
+dl.expand {margin:5px 0px 5px 64px;}
+dl.expand dd   {width:360px; clear:both;margin:8px 0;}
+dl.expand img  { width:42px; height:40px;margin:16px; float:left;}
+dl.expand ul   { float:left;}
+dl.expand ul label {min-width:60px; display:block; float:left; text-align:left;}
+/*\*/* html dl.expand ul label	{ width:60px; }/**/ 
+dl.expand ul  li { height:24px; line-height:24px;}
+dl.expand input.txt{width:172px; font-size:13px; height:20px; line-height:20px;}
+dl.expand select.sel{width:174px;}
+
+
+#WeigeView{margin:8px 15px 8px 45px;width:500px;}
+#WeigeView td{padding-bottom:5px;}
+#WeigeView .w1{width:160px;vertical-align:top; text-align:right;}
+#WeigeView img {width:156px;height:156px; margin:10px 0 0 4px;}
+#WeigeView .w2{width:400px; vertical-align:top;}
+#WeigeView .wgBtn{width:500px; text-align:right;}
+#WeigeView  select.sel  {width:160px; display:block;}
+
+/* User Manager
+---------------------------------------------------*/
+
+table.UserInfo {margin:10px 0px 10px 100px;width:500px}
+table.UserInfo .w1{ width:100px; text-align:right;}
+table.UserInfo .w2{width:400px; text-align:left;}
+table.UserInfo .w2 ul{ margin:0;}
+table.UserInfo .w2 li{ list-style-position:outside;}
+
+table.UserInfo input.txt{width:144px;}
+table.UserInfo input.file{width:180px; border:1px solid #688b87;}
+
+table.GroupInfo {margin:10px 0px 10px 100px; width:500px}
+table.GroupInfo .w1{width:100px; text-align:right;}
+table.GroupInfo .w2{width:400px; text-align:left;}
+table.GroupInfo input.txt{width:144px; }
+table.GroupInfo ul ul {margin-left:16px;}
+
+#userlist { width:680px;margin:3px auto;}
+#userlist .w1{ width:26px; padding-left:10px;}
+#userlist .w2{ width:322px;}
+#userlist .w3{ width:322px;}
+
+#grouplist { width:680px;margin:3px auto;}
+#grouplist .w1{ width:26px; padding-left:10px;}
+#grouplist .w2{ width:322px;}
+#grouplist .w3{ width:322px;}
+
+#divImport { margin:16px; }
+#importResult{ margin:5px 0; line-height:20px; overflow:auto; height:260px;}
+
+
+
+
+/* Channel Manager
+---------------------------------------------------*/
+dl.ChannelList  {width:680px;padding:5px 0; height:120px; clear:both; }
+dl.ChannelList dd{ display:inline;}
+dl.item   {background:#dadada}
+dl.alter{ background:#f5f5f5;}
+dl.ChannelList dd img { float:left; height:33px; width:32px; padding:12px; margin:10px;}
+dl.ChannelList dd ul  img{float:none; height:14px; width:15px; padding:0px; margin:0px;} 
+
+dl.ChannelList dd ul  { float:left;}
+dl.ChannelList dd ul li{ clear:both; margin:0;padding:0;height:18px;}
+dl.ChannelList dd ul li.btnLi  { text-align:right;padding-right:48px;margin:10px 0; width:480px; } 
+dl.ChannelList dd ul li.titleLi  {height:24px;} 
+
+dl.ChannelList dd ul ul{ float:none; clear:both;}
+dl.ChannelList dd ul ul li  { clear:none; float:left; width:240px;} 
+
+ul.ulcast{ margin:15px;width:638px;min-height:60px; }
+/*\*/* html ul.ulcast {height:60px; }/**/   /*bug*/
+ul.ulcast li {border-bottom:1px dotted #000; margin:5px 8px; padding:0 4px; font-size:14px;  height:20px; line-height:20px;
+         width:180px; float:left;}
+         
+         
+#MixChannel{width:600px;margin:3px auto; }
+#MixChannel textarea.txt{ width:400px;height:100px;display: block;overflow:visible;}
+#MixChannel input.txt{width:400px;}
+#MixChannel td.w1{ width:100px; text-align:right;}
+#MixChannel td.w2{ width:auto; text-align:left;}
+#MixChannel td.tdbtn{ padding-left:50px;}
+#MixChannel td.tdbtn input{ margin:5px 50px;}
+
+
+table.subChannel{ width:680px;}
+table.subChannel td.w1{width:80px;}
+table.subChannel td.w2{width:200px;}
+table.subChannel td.w3{width:200px;}
+table.subChannel td.w4{width:200px;}
+
+/* Program Manager 
+-------------------------------------------------------------*/
+#pSearch   {margin-left:18px;}
+#pSearch input.txt{ width:100px;}
+
+
+dl.ProgramViewModelOne  { }
+dl.ProgramViewModelOne dd   { clear:both; margin:0;padding:0;}
+dl.ProgramViewModelOne dd img { float:left; height:33px; width:32px; padding:12px; margin:10px;}
+dl.ProgramViewModelOne dd ul  img{float:none; height:14px; width:15px; padding:0px; margin:0px;} 
+
+dl.ProgramViewModelOne dd ul  { float:left;}
+dl.ProgramViewModelOne dd ul li{ clear:both; margin:0;padding:0;height:18px;}
+dl.ProgramViewModelOne dd ul li.btnLi  { text-align:right;padding-right:48px; } 
+dl.ProgramViewModelOne dd ul li.titleLi  {height:24px;} 
+
+dl.ProgramViewModelOne dd ul ul{ float:none; clear:both;}
+dl.ProgramViewModelOne dd ul ul li  { clear:none; float:left; width:240px;} 
+
+table.ProgramViewModelTwo { width:680px; border-collapse:collapse;}
+table.ProgramViewModelTwo td.w0{ width:26px;padding-left:10px;}
+table.ProgramViewModelTwo td.w1{ width:224px;}
+table.ProgramViewModelTwo td.w2{width:100px;}
+table.ProgramViewModelTwo td.w3{width:140px;}
+table.ProgramViewModelTwo td.w4{width:80px;}
+table.ProgramViewModelTwo td.w5{width:100px;}
+
+#pChapter { width:680px; border-collapse:collapse;}
+
+#pChapter tr td.w1{width:290px; padding-left:10px}
+#pChapter tr td.w2{width:120px;}
+#pChapter tr td.w3{ width:140px;}
+#pChapter tr td.w4{width:60px;}
+#pChapter tr td.w5{width:60px;}
+
+
+#pInfo   { height:180px;}
+#pInfo img { float:left; padding:12px; margin:10px;}
+#pInfo ul  img{float:none; height:14px; width:15px; padding:0px; margin:0px;} 
+
+#pInfo ul  { float:left;}
+#pInfo ul li{ clear:both; margin:0;padding:0;height:18px;}
+#pInfo ul li.btnLi  { text-align:right;padding-top:5px; width:480px; } 
+#pInfo ul li.titleLi  {height:24px;} 
+#pInfo ul input.txt	{ width:80px;}
+
+#pInfo ul ul{ float:none; clear:both;}
+#pInfo ul ul li  { clear:none; float:left; width:240px;} 
+
+
+#pRemark { width:680px; margin:0 auto;}
+#pRemark div.rmkTitle { width:680px; background:#dfdcd5; padding-left:9px; color:#73705d; height:24px;}
+#pRemark div.rmkTitle {voice-family:"\"}\"";voice-family:inherit; width:670px;}
+#pRemark dd p {width:680px; text-indent:30px; background:#f5f5f5;color:#000;height:36px;}
+#pRemark dd{clear:both;margin:2px 0px; border:1px solid #d3d3d3;}
+
+#RemarkMng{ width:680px;}
+#RemarkMng tr.rTitle{background:#dfdcd5;color:#73705d; height:24px;}
+#RemarkMng tr.rInfo{background:#f5f5f5;color:#000;height:auto;}
+#RemarkMng tr.rInfo td{ padding:5px;}
+#RemarkMng tr.rInfo p{ text-indent:36px;}
+#RemarkMng td{border-top:1px solid #d3d3d3; border-bottom:1px solid #d3d3d3;}
+#RemarkMng td.w1{width:26px; padding-left:10px;}
+#RemarkMng td.w2{width:264px;}
+#RemarkMng td.w3{width:120px;}
+#RemarkMng td.w4{width:160px;}
+#RemarkMng td.w5{width:100px;}
+
+#RemarkAdd dd{}
+#RemarkAdd dd textarea {margin-left:60px;width:360px; height:120px;  border:1px solid red; }
+#RemarkAdd dd input.txt   {width:360px;}
+
+/* catlaog */
+#CatalogList{ width:680px; margin:0px;}
+#CatalogList li{ float:left;  line-height:21px; width:288px; margin:5px 0px 5px 20px; border-bottom:1px dotted #d3d3d3;}
+/*Float results margin twice*/
+
+#CatalogOper  {margin:8px auto; width:650px;}
+#CatalogOper input.txt   { width:200px;}
+#CatalogOper select.sel  {width:144px;}
+#CatalogOper label       {width:60px; display:block; float:left; text-align:right;}
+#CatalogOper li          {height:24px;}
+
+/* Log Manager
+---------------------------------------------*/
+
+#PlayLog{width:680px;margin:3px auto; }
+#PlayLog td.w1{ width:36px; text-indent:10px;}
+#PlayLog td.w2{ width:124px;}
+#PlayLog td.w3{ width:300px;}
+#PlayLog td.w4{ width:140px;}
+#PlayLog td.w5{ width:80px;}
+
+#PlayCount{width:680px;margin:3px auto; }
+#PlayCount .w1{ width:300px;padding-left:20px;}
+#PlayCount .w2{ width:80px; text-align:center;}
+#PlayCount .w3{ width:80px;text-align:center;}
+#PlayCount .w4{ width:80px; text-align:left;}
+#PlayCount .w5{ width:120px;text-align:center;}
+
+
+/* GuestBook Manager
+--------------------------------------------*/
+#GuestBookList{ width:680px; margin:3px auto;}
+#GuestBookList td.w1{ width:26px; padding-left:10px;}
+#GuestBookList td.w2{ width:340px; }
+#GuestBookList td.w3{ width:120px;}
+#GuestBookList td.w4{ width:132px;}
+#GuestBookList td.w5{ width:72px;}
+#GuestBookList tr.gbTitle  {background:#dfdcd5;color:#73705d; height:24px; }
+#GuestBookList tr.gbInfo {background:#f5f5f5;color:#000;height:auto;}
+#GuestBookList tr.gbInfo td{ padding:10px 10px 10px 20px;}
+

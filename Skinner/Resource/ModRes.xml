@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+  <language>zh-cn</language>
+  <encode>GB2312</encode>
+  <theme>default</theme>
+  <company>
+    <name></name>
+    <website></website>
+  </company>
+  <product>
+    <name>视频点播系统</name>
+    <version>2007</version>
+  </product>
+  <Server>
+    <key name="Info_HomePage">首页</key>
+    
+    <!-- 页面标题 -->
+    <key name="Info_Program">视频点播系统</key>
+    <key name="Info_Iptv">网络电视台</key>
+    <key name="Info_Recorder">直录系统</key>
+    
+    <!-- 登录前-->
+    <key name="Info_Username">帐 号</key>
+    <key name="Info_Password">密 码</key>
+    <key name="_Info_Register">注 册</key>
+    <key name="_Info_Login">登 录</key>
+    
+    <!-- 登录后 -->
+    <key name="Info_Exit">注 销</key>
+    <key name="Info_Welcome">欢迎您</key>
+    <key name="_Info_LeftPoint">帐户余额:{0}点.</key>
+
+    <!-- 用户信息导航 -->
+    <key name="Info_PlayQuery">点播查询</key>
+    <key name="Info_ChargeQuery">充值查询</key>
+    <key name="Info_AddPoint">帐号充值</key>
+    <key name="Info_ChangePwd">修改密码</key>
+    
+    <!-- 页脚-->
+    <key name="Info_CopyRight">版权所有 Copyright 2005-{0} All Rights Reserved</key>
+
+    <!-- 用户登录操作提示 -->
+    <key name="Warn_AccountEmpty">帐号不能为空!</key>
+    <key name="Warn_UserNotExist">该帐号不存在!</key>
+    <key name="Warn_PasswordError">用户密码错误!</key>
+    <key name="Warn_UserGroupError">用户组别错误!</key>
+    <key name="Warn_NoLoginPermit">该帐号无登录权限!</key>
+    <key name="Warn_CardInvalid">卡号己过期!</key>
+
+    <!-- 修改密码 -->
+    <key name="INFO_CHANGE_PWD">修改密码</key>
+    <key name="Info_PasswordOld">旧密码</key>
+    <key name="Info_PasswordNew">新密码</key>
+    <key name="Info_PasswordConfirm">新密码确认</key>
+
+    <!-- 充值 -->
+    <key name="Info_CardNo">卡 号</key>
+    <key name="Info_CardPwd">密 码</key>
+    <key name="Info_CardUserDate">充值日期</key>
+
+    <!-- 点播日志-->
+    <key name="Info_CardValue">点数</key>    
+    <key name="Info_PlayTime">点播时间</key>
+    
+    <!-- Search Result-->
+    <key name="Info_SearchResult">搜索结果:</key>
+    <key name="Info_Program_All">全部节目</key>
+
+    <!-- Program Detail-->
+    <key name="Info_Program_Detail">节目信息</key>
+    <key name="Info_Program_Name">影片名称</key>
+    <key name="Info_Program_Point">节目价格</key>
+    <key name="Info_Program_Director">节目导演</key>
+    <key name="Info_Program_Actor">节目主演</key>
+    <key name="Info_Program_Length">节目长度</key>
+    <key name="Info_Program_Class">节目级别</key>
+    <key name="Info_Program_Kbps">节目码率</key>
+    <key name="Info_Program_AddTime">加入时间</key>
+    <key name="Info_Program_View">观赏次数</key>
+    <key name="Info_Program_Adder">加入者</key>
+    <key name="Info_Program_Publish">出版单位</key>
+    
+    <key name="Info_Program_Play">在线播放</key>
+    <key name="Info_Program_Down">影片下载</key>
+    <key name="Info_Program_FreeTime">在{0}之前点播本节目不计费.</key>
+    
+    <!-- Program Introduction-->
+    <key name="Info_Program_Intro">影片介绍</key>
+    
+    <!-- Chapter-->
+    <key name="Info_Chapter">节目片断</key>
+    <key name="_Info_Chapter_Name">片断名称</key>
+    <key name="_Info_Chapter_length">片断长度</key>
+    <key name="_Info_Chapter_Kbps">片断码流</key>
+    
+    <!-- Remark -->
+    <key name="Info_Remark">影片评论</key>
+    <key name="Info_Remark_Title">评论标题</key>
+    <key name="Info_Remark_Content">评论内容</key>
+    <key name="Info_Remark_Add">发表您的评论</key>
+    
+    <!-- Bulletin List -->
+    <key name="Info_Bulletin_List">公告列表</key>
+    
+    <!--Soft down-->
+    <key name="Down_MiniPlay">播放器下载</key>
+    <key name="Down_Directx9">DirectX9 下载</key>
+
+    <key name="Warn_IE_55">IE版本不低于5.5，否则页面可能会出现错误！您继续访问吗？</key>
+    
+  </Server>
+  <Client>
+    <!-- public -->
+    <key name="Warn_NotNull">输入不能为空!</key>  
+    <key name="Warn_NoLoginPlay">请您先登录，然后观看节目！</key>     
+    <key name="Warn_DateError">时间格式错误</key>
+    <key name="Warn_Waiting">正在加载</key>
+    <!-- 点播  -->    
+    <key name="Info_PlayConfirm">点播该节目将扣除您{0}点!确定点播吗?</key>
+
+    <key name="Warn_NoLogin">请先登陆</key>
+    <key name="Warn_NoGroupPermit">您的权限不足以点播此节目!</key>
+    <key name="Warn_NoPlayPermit">没有点播权限!</key>
+    <key name="Warn_NoPoint">您的点数不够点播此节目,请充值!</key>
+    <key name="Warn_NoMediaDownPermit">没有权限下载节目</key>
+    <!-- 用户 -->
+    <key name="Warn_PasswordConfirm">两次密码不相同,请重新输入</key>
+    <key name="Warn_PasswordFormat">密码仅允许字母、数字和下划线!</key>
+    <key name="Warn_UserPermit">您没有密码修改权限!</key>
+    <key name="Warn_UserOldPwdError">原密码错误,请重新再试!</key>
+    <key name="Suc_UserModifyPwd">密码修改成功!</key>
+    
+    <!-- 充值  -->
+    <key name="Warn_AddPoint">卡号或密码错误!</key>
+    <key name="Warn_CardNo">卡号错误!</key>
+    <key name="Warn_CardPwd">密码错误!</key>
+    <key name="Warn_CardNotExist">卡号不存在!</key>
+    <key name="Warn_CardIsUsed">卡号己经被使用过!</key>
+    <key name="Warn_CardInvalid">卡号己过期!</key>
+    <key name="Warn_CardTypeError">消费卡不可以向帐号充值!</key>
+    <key name="Suc_AddPoint">充值成功!</key>
+
+    <!-- Remark -->
+    <key name="Warn_Remark_NoTitle">请输入评论标题!</key>
+    <key name="Warn_Remark_TitleLength">评论标题不能超过32个字符!</key>
+    <key name="Warn_Remark_NoInfo">请输入评论内容!</key>
+    <key name="Warn_Remark_InfoLength">评论内容不能超过512个字符!</key>
+    <key name="Warn_Remark_Success">评论添加成功!管理员审核后将显示于节目信息中!</key>
+    
+    <!-- Log-->
+    <key name="Warn_DateRange">请输入要查询的日期范围</key>
+
+    <!-- Channel -->
+    <key name="Warn_OperStreamError">打开媒体流失败!</key>
+    <key name="Warn_MixChannelError">复合频道地址出错!</key>
+
+    <!-- Player -->
+    <key name="Warn_NoPlayer">请先安装播放器!点击"确定"将下载安装;否则请"取消"</key>
+    <key name="Warn_MiniPlayerLower">媒体播放器低于服务器版本,您需要更新吗?</key>
+    
+  </Client>
+</Resources>

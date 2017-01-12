@@ -1,0 +1,35 @@
+﻿@import url(public.css);
+
+/*== VideoPage left-middle-right==*/
+#bulletinNav		{ float:left; margin:10px 0;width:800px;padding:0 74px; font-size:16px; color:#fff; font-weight:bold;}
+#bulletinNav		{width:948px; voice-family:"\"}\"";voice-family:inherit;width:800px; }
+
+#bulletinNav li { float:left;padding-left:8px;  text-align:center;line-height:22px;}
+#bulletinNav li a		{ color:#fff;}
+#bulletinNav li a:hover	{ background-color:#35c8fe;}
+
+
+#firster	{float:left; width:221px; margin:0 5px 0 3px;display:inline;}
+#firster	#chaList{width:221px;height:345px;  background:url(../Images/nodepend/bcenter.gif) repeat-y;}
+#chaList	{ overflow:auto;}
+#chaList ul{ margin:5px 5px 5px 24px;}
+.selected		{background:#d4e7eb;}
+.none			{background:#fff;}
+
+#seconder	{float:left;width:527px;height:421px; margin:0 7px;display:inline;
+						 background:url(../Images/depend/channel_video.jpg) no-repeat left center;}
+#thirder	{ float:right; width:221px;height:345px;margin:0 3px 0 5px;display:inline;}
+ #thirder #chaInfo{width:221px;height:345px; overflow:auto;background:url(../Images/nodepend/bcenter.gif) repeat-y;}
+#chaInfo p{text-indent:24px; margin:10px; line-height:16px;}
+
+#primary  .btm{height:8px;width:221px;margin:0 0 4px 0;background:url(../Images/nodepend/btm.gif) no-repeat;}
+.video_player{position:relative;  width:527px; height:421px;}
+
+#MWP        { position:absolute;left:9px; top:30px; width:0px; height:0px; border:0;}
+.MWPPlayer	{width:506px;height:326px;}
+#divImg     { display: none; text-align: center; width:100%; text-align:center;  height:100%;}
+
+#Oper #imgPlay	{ position:absolute; left:36px;bottom:15px;}
+#Oper #imgStop	{ position:absolute; left:83px;bottom:18px;}
+#Time		{ position:absolute;right:32px;bottom:10px; height:18px; line-height:18px;
+		font-size:18px; color:#969696; letter-spacing:2px; font-family:黑体; font-weight:bolder; text-align:center; background:url(../Images/Player/time.gif) no-repeat;}

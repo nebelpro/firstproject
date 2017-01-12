@@ -1,0 +1,44 @@
+﻿/* Catalog Nav */
+#CatalogNav		{ float:left; margin:10px 0;width:948px; font-size:16px; color:#fff; font-weight:bold;}
+#CatalogNav li	{ float:left; background:url(../Images/nodepend/li_catanav.gif) no-repeat left center;padding-left:2px; width:84px; text-align:center;line-height:22px;}
+#CatalogNav li a		{ color:#fff;}
+#CatalogNav li a:hover	{ background-color:#35c8fe;}
+#CatalogNav li.nobg{ background:none;}
+#CatalogNav li.hot {}
+#CatalogNav li.hot a{ border-bottom:1px solid #fff;}
+#CatalogNav li.hot a:hover{ text-decoration:none;}
+
+.navnor			{color:#fff;}
+.navcur			{color:Red;}
+
+/*== left ==*/
+#firster	{float:left; width:221px;margin:0 3px 0 5px; display:inline;}
+#firster h3	{ width:221px; height:auto; margin:4px 0 0 0;}
+#firster .btm{width:221px;margin:0 0 4px 0;background:url(../Images/nodepend/btm.gif) no-repeat left bottom; padding-bottom:8px;}
+#firster .list{width:221px;background:url(../Images/nodepend/bcenter.gif) repeat-y; }
+#firster .list li{clear:both;padding-left:16px;line-height:24px;	height:22px;}	
+
+#TopProgram h3 {width:221px;height:70px; background:url(../Images/depend/pop.gif) no-repeat left center;}
+#TopProgram h3 span{ display:none;}
+
+#search {width:220px; height:29px;padding:3px 0 0 0;  text-align:right; background:url(../Images/nodepend/box_search.gif) no-repeat;}
+#search	{height:32px; voice-family:"\"}\"";voice-family:inherit; height:29px;}
+#search .txt	{ width:100px; height:19px; vertical-align:middle; margin-right:16px;}
+#search .btn	{ width:41px; border:0; height:19px;vertical-align:middle; margin-right:12px;}
+
+
+.bulletin li {background:url(../Images/nodepend/bullist.gif) no-repeat left center; margin-left:15px;}
+.nb{width:18px;font-weight:bolder;float:left; color: #0f81d7;margin-right:10px;}
+.pop a{	width:130px;display:block; float:left;line-height:22px;}
+.newpro li{background:url(../Images/nodepend/newlist.gif) no-repeat left center;margin-left:15px;}
+.soft li{background:url(../Images/nodepend/icon_down.gif) no-repeat left center;margin-left:15px;}
+
+
+/*== Right ==*/
+#seconder	{float:right; width:770px;}
+#position{height:32px;line-height:32px; font-size:14px; margin:0 0 5px 8px; text-indent:24px;text-align:left;background:url(../Images/nodepend/position.gif) no-repeat left center;}
+#position span { color:#20a8ac;}
+
+
+
+

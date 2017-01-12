@@ -1,0 +1,132 @@
+﻿* {	
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:12px;
+	font-family: Arial,verdana,sans-serif;		
+	/*table-layout:fixed;*/
+	word-wrap:break-word; /*for ie */
+	word-break:break-all;
+	
+	
+	
+}
+/*  test 
+li:hover { border:1px solid red;}
+td:hover {border:1px solid red;}*/
+
+table { border-collapse:collapse; }
+input.file {margin-left:4px;}
+input.txt {border:1px solid #688b87; height:18px; margin-left:4px;}
+input.btn {color:#688b87;border:1px solid #688b87; background:#fff; 
+            height:20px; line-height:20px;
+            padding:0 2px; margin-left:4px; font-size:13px; cursor:pointer; }
+textarea.txt {border:1px solid #688b87; height:48px; margin-left:4px;}
+select	{ margin-left:4px;}
+
+span.ResError{ font-weight:bolder; color:Red;}
+#nav .selected {
+	font-weight:bolder;  
+	color: #ff0; 
+   }
+li.selected,dd.selected {
+	 background:#E0E4E5;
+	
+   }   
+
+
+
+body        { margin:0;padding:0;text-align:center;font-size: 12px;background:#fff;}
+a           { text-decoration:none; color:#000;}
+a:active    { text-decoration:none; color:#000;}
+a:visited   { text-decoration:none; color:#000;}
+a:hover     { text-decoration:underline; color:red;}
+ul          { list-style:none;}
+li          { list-style-type:none;}
+
+
+/* 右边统一的距离左边的距离*/
+.pl10px { margin-left:10px;}
+.pl15px { margin-left:15px;}
+
+/* 颜色属性 [定义规则，小写c加颜色名称] */
+.cRed,a.cRed:link,a.cRed:visited            {color:Red; }
+.cBlue,a.cBlue:link,a.cBlue:visited         {color:#1f3a87;}
+.cDRed,a.cDRed:link,a.cDRed:visited         {color:#bc2931;}
+.cGray,a.cGray:link,a.cGray:visited         {color: #4F544D;}
+.cDGray,a.cDGray:link,a.cDGray:visited      {color: #666;}
+.cWhite,a.cWhite:link,a.cWhite:visited      {color:#fff;}
+.cBlack,a.cBlack:link,a.cBlack:visited      {color:#000;}
+a.cBlack:hover                              {color:#bc2931;}
+.cYellow,a.cYellow:link,a.cYellow:visited   {color:#ff0;}
+.cGreen,a.cGreen:link,a.cGreen:visited      {color:#008000;}
+/* 字体属性 [定义规则，小写f加属性名称] */
+.fB {font-weight: bold;}
+.fI {font-style: italic;}
+
+/* 字体大小*/
+.f12px{ font-size:12px;}
+.f14px{ font-size:14px;}
+
+/* 其他属性 */
+.txtRight   { text-align:right;}
+.txtCenter  { text-align:center;}
+.txtLeft    { text-align:left;}
+
+.left       { float: left;}
+.right      { float: right;}
+.clear      { clear: both; font-size:1px; width:1px; visibility: hidden; }
+.hidden     { display: none;}
+.unLine ,.unLine a{text-decoration: none;}
+.noBorder   { border:none;	}
+
+
+/*tip效果代码开始*/
+.tip              { position:relative; z-index:0;   text-decoration:none }
+.tip:hover        { z-index:1;  }
+.tip span         { display: none; width:0px; }
+.tip:hover span   { display:block; position:absolute; top:25px; padding:0 6px;text-decoration:none; left:15px; width:100px; border:1px solid #888; background-color:#fff; color:#000; text-align:center; }
+
+
+
+
+#imgView   { z-index:1;position:absolute; top:25px; padding:0 6px;text-decoration:none; left:15px; border:1px solid #888; background-color:#fff; color:#000; text-align:center; }
+
+div.notice{display:none; position:absolute;top:14px; left:800px;color:red; z-index:2; font-size:13px; }
+.loading { height:81px; text-align:center;}
+/* Page Numbers */
+.page {
+    font-size: 85%;
+}
+
+
+.page a, .page span {
+    display: block;
+    float: left;
+    padding: 3px 5px;
+    margin-right: 3px; 
+    background: #fff;
+    text-align:center;
+}
+
+.page span.pageCur {
+    border: 1px solid #fff;
+    font-weight: bold;
+    background: #e0f2f2;
+    color: #9ba9aa;
+}
+
+.page a {
+    border:1px solid #688b87;
+    text-decoration: none;
+}
+
+.page a:hover {
+    border-color: #688b87;
+    font-weight:bold;
+}
+
+.valign
+{
+    vertical-align:middle;
+}

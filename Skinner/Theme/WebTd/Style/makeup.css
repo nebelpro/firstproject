@@ -1,0 +1,144 @@
+﻿#banner{margin:5px 2px 5px 2px;text-align:left;clear:both; width:766px;height:122px;}
+
+.ListBar{margin:3px auto; height:24px; clear:both; }
+div#empty { width:756px; margin:3px auto; padding:48px 0; text-align:center; background:#f8f8f8;border:1px solid #cad0d9;}
+/* default */
+.mark{ clear:both; margin-left:3px;height:42px;background:url(../Images/nodepend/mark_c.gif) repeat-x;}
+.mark div { height:42px;}
+.mark .right{ background:url(../Images/nodepend/mark_r.gif) no-repeat; width:30px; height:42px;}
+
+/*view by class*/
+
+#CatalogList {float:left;width:708px;height:auto; margin:0 5px; padding:5px 15px; border:1px solid #ccc;}
+#CatalogList li{ float:left; width:170px; margin-right:3px; line-height:22px;  }
+#CatalogList li{ display:inline;}/*ie 6 float bug*/
+#CatalogList li a{display:block;background:url(../Images/nodepend/cataicon.gif) no-repeat left center; width:120px; text-indent:12px; float:left;}
+
+
+.programView				{clear:both;margin:0 5px;text-align:center;}
+.view-item			{float:left;width:246px;height:110px;overflow:hidden;margin:0 1px 5px 1px;padding:1px;text-align:left;}
+.view-item			{width:248px;height:112px;voice-family:"\"}\"";voice-family:inherit;width:246px;height:110px; }
+.view-item-img		{padding:1px;border:2px solid #ccc;background:#000;text-align:center;width:100px;height:104px;}
+
+.view-item-title a:link,.view-item-title a:visited{color:#0076A3;font-size:12px;font-weight:bolder;font-family:黑体 宋体;}
+.view-item-info		{padding-left:6px;background:#fff; vertical-align:top;}
+.view-item-info td	{height:20px;font-size:12px;}
+.sort						{text-align:right;	margin:5px 3px 10px 5px;border-bottom:1px solid #ccc;}
+.sort img					{padding-left:1px;}
+span.movie	{color:#0076A3;font-size: 13px;}
+/****  index.aspx ******/  
+#prmlist{clear:both;float:none; margin:10px 5px 0 8px;}
+
+
+#newprm				{clear:both;text-align:center;height:160px;position:relative;margin:5px;}
+#newprm img			{width:132px;}
+#newprm table		{margin:2px; height:160px; width:132px; display:inline;}
+#newprm table td	{height: 160px; width: 132px;background:#000;cursor:pointer;overflow:hidden;}
+
+
+/*******   programinfo.aspx ********/
+h3.caption{clear:both;height:36px;margin:6px 0 0 10px;}
+
+
+
+#ProgramDetail {width:710px;height:auto;margin:3px 0 0 5px; padding:10px 0;}
+#ProgramDetail div.img{ float:left; padding:0 10px; width:160px; margin-right:15px; display:inline;}
+#ProgramDetail div.img table{ width:160px; height:133px;}
+#ProgramDetail div.img table td{height:100%; width:100%; vertical-align:middle; text-align:center; background:#000;}
+#ProgramDetail ul.item{ float:left;}
+#ProgramDetail ul.item li{ float:left; line-height:20px; width:240px;padding:0 5px; }
+#ProgramDetail ul.item li span{color:#0076A3; margin-right:10px;}
+#ProgramDetail ul.item li.title{width:500px;padding:0;font-size:13px;color:#0076A3;font-weight:bolder;}
+#ProgramDetail ul.item li.btn{ width:500px;padding:0;}
+
+
+
+div#prmintro		{width:720px;height:auto;margin:3px auto;line-height:18px; text-indent:24px;}
+
+
+ul#chapter			{width:700px;margin:3px auto;line-height:22px;}
+ul#chapter li		{height:20px; padding:0 0 4px 15px;background:url(../Images/nodepend/list-icon.gif) no-repeat left center;}
+ul#chapter li		{height:24px; voice-family:"\"}\"";voice-family:inherit;height:20px; }
+ul#chapter a:link,ul#chapter a:visited{color:#666;text-decoration:underline;}
+ul#chapter a:hover	{background:#e8e8e8;color:#96ACCE;text-decoration:none;}
+ul#chapter .time	{color:#ccc;}
+
+/*remark*/
+#RemarkArea	{clear:both; width:751px;margin:10px 0 0 10px; padding:10px 0 0 0;background:url(../Images/nodepend/remark_top.gif) no-repeat left top;}
+#RemarkArea .btm {height:10px;background:url(../Images/nodepend/remark_bottom.gif) no-repeat left bottom;}
+
+#RemarkList {width:731px;background:url(../Images/nodepend/remark_center.gif) repeat-y;padding:10px;}
+#RemarkList div#empty{width:700px; margin:0 auto;}
+.RemarkItem	{padding:2px;border:1px solid #dfd9c6;background:#F5F4EB;	margin:5px 0;}
+.RemarkItem h3	{padding:4px;background:#dfd9c6;}
+.RemarkItem p	{margin:5px; text-indent:24px;}
+
+#AddRemark	{width:731px;background:url(../Images/nodepend/remark_center.gif) repeat-y;padding:10px;}
+#AddRemark p	{text-align:center;width:100%;}
+#AddRemark textarea.txt	{width:700px;}
+#AddRemark input.ibtn	{width:71px;height:26px; border:0;}
+
+/**  ViewByClass */
+.pagenav{
+	clear:both;	
+	margin-top:5px;margin-bottom:5px;
+	margin-left:0px;margin-right:2px;
+	padding-right:20px;
+	text-align:right;	
+	height:30px;
+	line-height:30px;
+	background-color:#86a4bc;	
+}
+span.listcur{
+	margin-right:320px;
+}
+
+/* nav  */
+#modifyPwd	{width:220px;height:auto; margin:15px auto 0 auto;}
+#modifyPwd td{height:20px;margin:2px 0;}
+#modifyPwd .w1{ width:70px; text-align:right;}
+#modifyPwd .w2{ width:150px; text-align:right;}
+#modifyPwd input {text-align:left; width:140px;height:18px;}
+#modifyPwd img{ cursor:pointer;}
+
+#addPoint	{width:220px;height:auto; margin:15px auto 0 auto;}
+#addPoint td{ height:20px; margin:2px 0;}
+#addPoint .w1{ width:70px; text-align:right;}
+#addPoint .w2{ width:150px; text-align:right;}
+#addPoint input.txt {text-align:left;width:140px; height:18px;}
+#addPoint input.ibtn{width:41px; height:19px;border:0;}
+
+
+#Charge		{width:500px; margin:20px auto 0px auto;}
+#Charge .ListBar	{width:480px;}
+#Charge input.ibtn	{width:41px;height:19px;border:0;}
+#Charge table	{width:480px; clear:both;}
+#Charge td{line-height:18px;}
+#Charge table .w1 {width:180px;}
+#Charge table .w2 {width:200px; text-align:left;}
+#Charge table .w3 {width:100px;}
+#Charge div#empty { width:500px; margin:20px auto; padding:48px 0; text-align:center; background:#f8f8f8;border:1px solid #cad0d9;}
+
+#PlayLog		{width:500px; margin:20px auto 0px auto;}
+#PlayLog .ListBar	{width:480px;}
+#PlayLog input.ibtn	{width:41px;height:19px;border:0;}
+#PlayLog table	{width:480px; clear:both;}
+#PlayLog td{line-height:18px;}
+#PlayLog table	.w1 {width:280px; text-align:left;}
+#PlayLog table	.w2 {width:120px; text-align:left;}
+#PlayLog table	.w3 {width:80px;}
+#PlayLog div#empty	{ width:500px; margin:20px auto; padding:48px 0; text-align:center; background:#f8f8f8;border:1px solid #cad0d9;}
+
+/*========== Bulletin =============*/
+#BulletinInfo {width:500px; margin:20px auto 0 auto; font-size:12px;}
+#BulletinInfo h3{font-size:16px;color:#004a9c;}
+#BulletinInfo p{margin:5px 10px;font-size:12px; text-align:left; clear:both; text-indent:12px;}
+#BulletinInfo span{color:#719675;margin-right:10px;}
+
+#BulletinList { width:750px;margin:0 auto; border:solid 1px #ccc; padding:5px;}
+#BulletinList {width:760px; voice-family:"\"}\"";voice-family:inherit;width:750px; }
+#BulletinList td{height:24px;}
+#BulletinList .w1{width:440px; text-indent:60px;}
+#BulletinList .w2{width:310px;}
+#BulletinList .alter{background:#fff;}
+#BulletinList .item{ background:#f4fcff;}

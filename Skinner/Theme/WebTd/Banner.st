@@ -1,0 +1,1 @@
+<div id="banner"><img src="Theme/webtd/Images/depend/banner.gif" alt="banner" /></div>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+  <language>zh-cn</language>
+  <company>
+    <name>南京优网科技有限公司</name>
+    <website>http://www.topdomain.com.cn</website>
+  </company>
+  <product>
+    <name>极域视频服务系统</name>
+    <version>4.00</version>   
+  </product>
+  <Server>
+    <key name="DEFAULT">首页</key>
+
+    <!-- WebUility Helper 不常用 -->
+    <key name="INFO_POP_PLAY">播放</key>
+    
+    
+    <!-- =================================== Admin Manager Page Resourse ========================================== -->
+    <key name="Info_ProductDetail">产品信息</key>
+    <key name="Info_ProductIntro">产品介绍</key>
+    <key name="Info_ProductFunc">产品功能</key>
+    <key name="Info_ProductChac">产品特点</key>
+    <!-- Public Resource -->
+    <key name="Warn_Waiting">正在加载...</key>
+    <key name="Info_WebTitle">极域视频点播系统 后台管理</key>
+    <key name="Info_CopyRight">版权所有© 2005</key>
+
+    <key name="Info_Search2">查 询</key>
+    <key name="Oper_Search">搜 索</key>
+    <key name="Oper_Search2">查 询</key>    
+    <key name="Oper_Reset">重 设</key>
+    <key name="Oper_Submit">确 定</key>
+    <key name="Oper_CheckAll">全选</key>
+    <key name="Oper_Remove">删除</key>
+    <key name="Oper_Modify">修 改</key>
+    <key name="Warn_InputEmptyOfSearch">不输入任何则查询全部记录</key>
+    
+    <!-- Nav Menu -->
+    <key name="Info_BulletinMng">公告管理</key>
+    <key name="Info_ProgramMng">节目管理</key>
+    <key name="Info_ChannelMng">频道管理</key>
+    
+    <key name="Info_SysSetMng">系统设定</key>
+    <key name="Info_CardMng">点卡管理</key>
+    <key name="Info_LogMng">日志管理</key>
+    <key name="Info_LogOut">退 出</key>
+
+    <!-- Bulletin Manager -->
+    <key name="Info_BulletinList">公告列表</key>
+    <key name="Info_BulletinAdd">发表公告</key>
+
+    <key name="Info_BulletinTitle">公告标题</key>
+    <key name="Info_BulletinInfo">公告内容</key>
+    <key name="Info_BulletinEdit">编辑公告</key>
+
+    <key name="Oper_BulletinAdd">发表公告</key>
+    <key name="Oper_BulletinEdit">编辑公告</key>
+
+    <!-- GuestBook Manager-->
+    <key name="Info_GuestBookList">留言列表</key>
+    <key name="Info_GuestBook">用户留言</key>
+    <key name="Info_GuestBookAdd">发表留言</key>
+    <key name="Info_GuestBookTitle">留言标题</key>    
+    <key name="Info_GuestBookInfo">留言内容</key>
+    <key name="Info_GuestBookType">留言类型</key>
+    <key name="Info_GuestBookPublic">公开留言</key>
+    <key name="Info_GuestBookPrivate">不公开留言</key>
+
+    <key name="Info_GuestBookType0">公开</key>
+    <key name="Info_GuestBookType1">隐藏</key>
+
+    <!-- Card Manager-->
+    <key name="CARD_STATE_1">已使用</key>
+    <key name="CARD_STATE_0">未使用</key>
+    <key name="INFO_CARD_VALUE">点数</key>
+    <key name="INFO_CARD_VALUE_MONTH">月数</key>
+    
+    <key name="Info_CardMake">制作点卡</key>
+    <key name="Info_CardSearch">点卡查询</key>
+    <key name="Info_CardUseSearch">充值查询</key>
+
+    <key name="Info_CardUseDate">充值日期</key>
+    <key name="Info_CardUsePerson">用户名</key>
+    <key name="Info_CardList">点卡列表</key>
+    <key name="Info_CardNo">卡号</key>
+    <key name="Info_CardPwd">密码</key>
+    <key name="Info_CardPoint">点数</key>
+    <key name="Info_CardState">状态</key>
+    <key name="Info_CardState0">未使用</key>
+    <key name="Info_CardState1">已使用</key>
+    <key name="Info_CardValid">有效期</key>
+    <key name="Info_CardMaker">制作者</key>
+    <key name="Info_CardType">充值卡类型</key>
+    <key name="Info_CardTypePoint">点数卡</key>
+    <key name="Info_CardTypeMonth">包月卡</key>
+    <key name="Info_CardTypeConsume">消费卡</key>
+    <key name="Info_CardPointValue">面值</key>
+
+    <key name="Info_CardReg">卡号由4位a-z(A-Z)的字母(不区分大小写)和6位0-9的数字组成，共10位字符。如:JSNJ820214 </key>
+    <key name="Info_CardNoPrefix">卡号前4位</key>
+    <key name="Info_CardNoPrefixReg"> 仅允许4位a-z(A-Z)的字母 </key>
+    <key name="Info_CardNoBeginNo">卡号起始数字</key>
+    <key name="Info_CardNoBeginNoReg"> 仅允许最多6位0-9的数字</key>
+    <key name="Info_CardNoEndNo">卡号结束数字</key>
+    <key name="Info_CardNoEndNoReg">仅允许最多6位0-9的数字 </key>
+
+    <key name="Info_CardUseRecord">充值记录</key>
+    <key name="Info_CardUsePerson">用户名</key>
+    <key name="Info_CardUseDate">充值日期</key>
+
+    <key name="Oper_CardMake">生成点卡</key>
+
+
+    <!-- Channel Manager -->
+    <key name="CHANNEL_STATE_NOACTIVE">未活动</key>
+    <key name="CHANNEL_STATE_STOP">停止</key>
+    <key name="CHANNEL_STATE_NORMARL">正常</key>
+    <key name="CHANNEL_STATE_PAUSE">暂停</key>
+    <key name="CHANNEL_STATE_MIX">复合频道</key>
+
+    <key name="ERR_NOTALLOWGROUP">您所在的用户组没有权限当前操作!</key>
+    <key name="ERR_FORBINUSER">您没有权限当前操作!</key>
+    <key name="ERR_CHANNELINFO">获取频道信息出错!</key>
+    <key name="ERR_CHANNELADDRESS">获取指定频道地址出错!</key>
+    <key name="ERR_MIXCHANNEL">复合频道存在问题,请修改后再试!</key>
+
+    <key name="ADDRESS_INVALID">非活动</key>
+    <key name="ADDRESS_UDP">单播</key>
+    <key name="ADDRESS_TCP">TCP</key>
+    <key name="ADDRESS_MASTER">组播</key>
+    <key name="ADDRESS_BROAD">广播</key>
+    <key name="ADDRESS_NAT">NAT</key>
+    
+    
+    <key name="Info_ChannelAll">全部频道</key>
+    <key name="Info_ChannelBroad">广播频道</key>
+    <key name="Info_ChannelLive">直播频道</key>
+    <key name="Info_ChannelRebroad">转播频道</key>
+    <key name="Info_ChannelMix">复合频道</key>
+
+    <key name="Info_ChannelList"> 频道列表</key>
+
+    <key name="Info_ChannelInfo">频道信息</key>
+    <key name="Info_ChannelState">频道状态</key>
+    <key name="Info_ChannelName">频道名称</key>
+    <key name="Info_ChannelBeginTime">开始时间</key>
+    <key name="Info_ChannelMaker">发起用户</key>
+    <key name="Info_ChannelAddTime">创建时间</key>
+    <key name="Info_ChannelReceiveList">接收列表</key>
+
+    <key name="Info_ChannelMixInfo">复合频道信息</key>
+    <key name="Info_ChannelMixName">复合频道名称</key>
+    <key name="Info_ChannelMixIntro">复合频道说明</key>
+    <key name="Info_ChannelSubAdded">已加入复合频道列表</key>
+    <key name="Info_ChannelSubNotAdd">待加入复合频道列表</key>
+
+    <key name="Info_ChannelDetail">详细信息</key>
+    
+    
+    <key name="Oper_ChannelReceive">接收频道</key>
+
+    <!-- Log Manager -->
+    <key name="Info_PlayLog">点播日志</key>
+    
+    <key name="Info_PlayCount">点播统计</key>
+    <key name="Info_PlayTime">点播时间</key>
+    <key name="Info_PlayUser">用户名称</key>
+    <key name="Info_PlayUsePoint">点数</key>
+    
+    <!-- SysSet Manager -->
+    <key name="Info_SysSetSystem">系统设定</key>
+    <key name="Info_SysSetExpand">扩展设定</key>
+
+    <key name="Info_SysExpandOne">扩展功能一</key>
+    <key name="Info_SysExpandTwo">扩展功能二</key>
+    <key name="Info_SysExpandThree">扩展功能三</key>
+    <key name="Info_SysExpandName">功能名称</key>
+    <key name="Info_SysExpandLink">功能链接</key>
+    <key name="Info_SysExpandIcon">功能图标</key>
+    <key name="Oper_SysSave">保存修改</key>
+    
+    <key name="Info_SysVisitor">访问设定</key> 
+    <key name="Info_SysVisitorTip">用户帐号-安全级别-隶属组别</key>
+    <key name="Info_SysVisitorSetDefault">设定缺省访问用户</key>
+    <key name="Info_SysSystem">系统设定</key>
+    <key name="Info_SysShowLogin">显示登录页面</key>
+    <key name="Info_SysAllowReg">允许用户申请帐号</key>
+    <key name="Info_SysDefaultOrder">节目默认排序方式</key>
+    <key name="Info_SysViewSet">节目默认显示方式</key>
+    <key name="Info_SysViewDetail">详细模式</key>
+    <key name="Info_SysViewList">列表模式</key>
+    <key name="Info_SysViewIcon">缩图模式</key>
+    <key name="Info_SysFreeTime">重复点播免费时间</key>
+    <key name="Info_SysMinute">分钟</key>
+    
+    <!-- User Manager -->
+    <key name="Info_UserMng">用户管理</key>
+    <key name="Info_UserAdd">新建用户</key>
+    <key name="Info_UserInfo">用户信息</key>
+    <key name="Info_UserMask">登录帐号</key>
+    <key name="Info_UserMask2">帐号</key>
+    <key name="Info_UserMaskReg">允许字母、数字和下划线</key>
+    <key name="Info_UserName">用户名称</key>
+    <key name="Info_UserPasswd">用户密码</key>
+    <key name="Info_UserConfirmPass">确认密码</key>
+    <key name="Info_UserPermit">用户权限</key>
+    <key name="Info_UserAllowLogin">允许登录</key>
+    <key name="Info_UserChangePwd">修改密码</key>
+    <key name="Info_UserIntro">备注信息</key>
+    <key name="Info_UserGroup">用户组别</key>
+    <key name="Info_GroupSelect">选择组别</key>
+    <key name="Info_GroupAll">全部组别</key>
+    
+    
+    <!-- ================ User Login  =====================-->
+    <key name="Warn_AccountEmpty">帐号不能为空!</key>
+    <key name="Warn_UserNotExist">该帐号不存在!</key>
+    <key name="Warn_PasswdError">用户密码错误!</key>
+    <key name="Warn_GroupError">用户组别错误!</key>
+    <key name="Warn_NoLoginPermit">该帐号无登陆权限!</key>
+    <key name="Warn_NoManagerPermit">您没有系统管理的权限！</key>
+
+    <!-- Group Manger-->
+    <key name="Info_GroupMng">管理组别</key>
+    <key name="Info_GroupAdd">新建组别</key>
+    <key name="Info_GroupInfo">组别信息</key>
+    <key name="Info_GroupName">组别名称</key>
+    <key name="Info_GroupClass">安全级别</key>
+    <key name="Info_GroupPermit">组别权限</key>
+    <key name="Info_GroupIntro">组别描述</key>
+
+    <key name="Per_Login">用户登录</key>
+    <key name="Per_PrivateFolder">私有目录</key>
+    <key name="Per_MyCourse">用户课程</key>
+    
+    <key name="Per_Program">节目权限</key>
+    <key name="Per_Find">节目查找</key>
+    <key name="Per_Play">节目点播</key>
+    <key name="Per_ProgramMng">节目管理</key>
+    <key name="Per_CatalogMng">分类管理</key>
+    <key name="Per_SubToCheck">节目提交</key>
+    <key name="Per_Auditing">节目审核</key>
+    <key name="Per_MediaDown">节目下载</key>
+    <key name="Per_FreeAudit">免审核</key>
+    <key name="Per_ExportInfo">导出信息</key>
+    
+    <key name="Per_Channel">频道权限</key>
+    <key name="Per_SetChannel">频道配置</key>
+    <key name="Per_ChannelReceive">频道收看</key>
+    <key name="Per_ChannelPlay">频道直播</key>
+    <key name="Per_LiveRecord">直播端录制</key>
+    <key name="Per_PlayerRecord">播放端录制</key>
+    
+    <key name="Per_SomeManager">其他管理权限</key>
+    <key name="Per_UserMng">用户管理</key>
+    <key name="Per_SysMontior">系统监控</key>
+    <key name="Per_BulletinMng">公告管理</key>
+    <key name="Per_RateMng">计费管理</key>
+    <key name="Per_PrivateFolderMng">私有目录管理</key>
+    
+    
+    
+    
+    <!-- Program Manager-->
+    <key name="INFO_REMARK_STATE0">未审核</key>
+    <key name="INFO_REMARK_STATE1">已审核</key>
+    
+    
+    <key name="Info_ProgramAll">全部节目</key>
+    <key name="Info_ProgramInCatalog">归类节目</key>
+    <key name="Info_ProgramNoCatalog">未归类节目</key>
+    <key name="Info_ProgramRecommend">推荐节目</key>
+    <key name="Info_ProgramNoChecked">待审核节目</key>
+
+    <key name="Info_ProgramSearch">节目搜索</key>
+    <key name="Info_ProgramList">节目列表</key>    
+    <key name="Info_ProgramInfo">节目信息</key>
+    <key name="Info_ProgramName">节目名称</key>
+    <key name="Info_ProgramCatalog">节目分类</key>
+    <key name="Info_ProgramDirector">节目导演</key>
+    <key name="Info_ProgramClass">节目级别</key>
+    <key name="Info_ProgramActor">节目主演</key>
+    <key name="Info_ProgramPublish">出版单位</key>
+    <key name="Info_ProgramTime">节目时长</key>
+    <key name="Info_ProgramKbps">节目位率</key>
+    <key name="Info_ProgramReadCount">点播次数</key>
+    <key name="Info_ProgramAddTime">加入时间</key>
+    <key name="Info_ProgramAddUser">加入人员</key>
+    <key name="Info_ProgramPoint">点数</key>
+    <key name="Info_ProgramReadCount">点播次数</key>
+    <key name="Info_ProgramTime">节目时长</key>
+    <key name="Info_ProgramKbps">节目位率</key>
+    <key name="Info_ProgramAddTime">加入时间</key>
+
+    <key name="Oper_ProgramDetail">详细信息</key>
+    <key name="Oper_ProgramPlayOnline">在线播放</key>
+    <key name="Oper_ProgramCancelRecommend">取消推荐</key>
+    <key name="Oper_ProgramRecommend">推荐节目</key>
+    <key name="Oper_ProgramCheck">通过审核</key>
+    <key name="Oper_ProgramEdit">编辑节目</key>
+    
+
+    <key name="Info_Chapter">节目片段</key>
+    <key name="Info_ChapterName">节目片段</key>
+    <key name="Info_ChapterTime">片段时长</key>
+    <key name="Info_ChapterKbps">片段位率(Kbps)</key>
+    <key name="Info_ChapterPlay">点播</key>
+    <key name="Info_ChapterDown">下载</key>
+
+
+    <key name="Info_ProgramOrderByAddTimeDesc">按加入时间降序排列</key>
+    <key name="Info_ProgramOrderByAddTimeAsc">按加入时间升序排列</key>
+    <key name="Info_ProgmraOrderByReadCountDesc">按点播次数降序排列</key>
+    <key name="Info_ProgmraOrderByReadCountAsc">按点播次数升序排列</key>
+    <key name="Info_ProgramOrderByTimeDesc">按节目时长降序排列</key>
+    <key name="Info_ProgramOrderByTimeAsc">按节目时长升序排列</key>
+    <key name="Info_ProgramOrderByNameDesc">按节目名称降序排列</key>
+    <key name="Info_ProgramOrderByNameAsc">按节目名称升序排列</key>
+   
+
+    <!-- Remark Manager-->
+    <key name="Info_RemarkMng">评论管理</key>
+    <key name="Info_RemarkList">评论列表</key>
+    <key name="Info_RemarkAdd">发表评论</key>
+    <key name="Info_RemarkTitle">评论标题</key>
+    <key name="Info_RemarkInfo">评论内容</key>
+    <key name="Info_RemarkAll">全部评论</key>
+    
+    <key name="Oper_RemarkAdd">发表评论</key>
+    <key name="Oper_RemarkCheck">通过审核</key>
+
+    <!-- Catalog Manager-->
+    <key name="Info_CatalogView">分类浏览</key>
+    <key name="Info_ProgramCatalogMng">分类管理</key>
+    <key name="Info_ProgramCatalogTree">节目分类</key>
+    <key name="Info_CatalogList">分类列表</key>
+    <key name="Info_CatalogPath">分类路径</key>
+    <key name="Oper_CatalogMng">分类操作</key>
+    <key name="Info_CatalogName">分类</key>
+    <key name="Info_CatalogNameValue">名称</key>
+    <key name="Info_CatalogOper">操作</key>
+    <key name="Oper_CatalogAddSub">建立子类</key>
+    <key name="Oper_CatalogReName">重命名</key>
+    <key name="Oper_CatalogRemove">删除分类</key>
+    <key name="Warn_IsDefault">系统固定分类，不可以更改!</key>
+
+    <!-- =========================================================================================================== -->
+  </Server>
+  <Client>
+    <!--  Public -->
+    <key name="Info_Close">关闭</key>
+    <key name="Info_Month">月</key>
+    <key name="Info_Year">年</key>
+    <key name="Info_Mon">一</key>
+    <key name="Info_Tue">二</key>
+    <key name="Info_Wed">三</key>
+    <key name="Info_Thu">四</key>
+    <key name="Info_Fri">五</key>
+    <key name="Info_Sat">六</key>
+    <key name="Info_Sun">日</key>    
+    
+    <key name="ERR_PARAMS">参数错误</key>
+    <key name="OPER_SUCCESS">操作成功</key>
+    <key name="WARN_NOPLAYER">请先安装播放器!</key>
+    <key name="WARN_NOLOGIN">请先登陆</key>
+    
+    <key name="Warn_NotNull">输入不能为空!</key>
+    <key name="Warn_Choose">请选择您要操作的项!</key>
+    <key name="Warn_Delete">确定删除吗?</key>
+    <key name="Warn_Check">确定通过该节目的审核吗?</key>
+    <key name="Warn_Recommend">确定取消该节目的推荐吗?</key>
+    <key name="Warn_RemarkCheck">您确定通过所选的评论吗？</key>
+
+    <!-- String Format-->
+    <key name="Err_DateValid">时间格式错误!请按YYYY-MM-DD输入有效的日期!</key>
+    <key name="Err_NoValid">仅可以输入数字</key>
+    
+
+    <!-- Bulletin Manager -->
+    <key name="Warn_BulletinNoTitle">请输入公告标题!</key>
+    <key name="Warn_BulletinTitleOutLength">公告标题不能超过32个字符!</key>
+    <key name="Warn_BulletinNoContent">请输入公告内容!</key>
+    <key name="Warn_BulletinContentOutLenght">公告内容不能超过512个字符!</key>
+    <key name="Warn_BulletinNoMng">您没有公告管理权限</key>
+
+    <!-- GuestBook Manager-->
+    <key name="Warn_GuestBookSubjectLength">最大字符为32个!</key>
+    <key name="Warn_GuestBookInfoLength">留言内容不超过2048个字符</key>
+    
+
+    <!-- Card Manager -->
+    <key name="Warn_CarnEndNo">卡号后6位仅允许是数字!</key>
+    <key name="Warn_CardNoError">卡号起始数字必须小于等于卡号结束数字!</key>
+    <key name="Warn_CardOutMaxCount">每次生成点卡的数量不能超过200个，请重新填写!</key>
+    <key name="Warn_CardValue">点数仅允许输入小于10000的数字</key>
+    <key name="Warn_MonthCard">包月卡最大包月数不能超过12个月</key>
+
+    <key name="Warn_CardNoError">卡号错误!</key>
+    <key name="Warn_CardNoMng">您没有点卡管理权限!</key>
+    <key name="Warn_CardPrefixError">卡号仅允许前4位字母!</key>
+    <key name="Warn_CardNoExist">输入的卡号前4位或起始数字或结束数字己经使用过!检查卡号，确保输入的范围是没有使用过!</key>
+
+    <key name="CARD_VALUE_0">点数</key>
+    <key name="CARD_VALUE_1">月数</key>
+
+    <!-- Catalog Manager-->
+    <key name="Warn_NoCatalogMngPermit">您没有分类管理权限!</key>
+    <key name="Err_CatalogName">请您填写正确的分类名称!</key>
+    <key name="Err_LengthofCatalogName">分类名称长度小于64个字符!</key>
+    <key name="Warn_CatalogNameExist">存在相同的分类名!</key>
+    <key name="Warn_CatalogCount">分类总数必须小于9999个!</key>
+    <key name="Warn_Out32Step">分类不能超过32级</key>
+
+
+    <!-- Channel Manager-->
+    <key name="Warn_ChannelNoSet">您没有频道配置权限!</key>
+    <key name="Warn_ChannelNoPlay">您没有频道收看权限!</key>
+    <key name="Warn_MoreSubMix">子频道不能超过两个!</key>
+    <key name="Warn_NoSubMix">父频道没有子频道</key>
+    <key name="Warn_NoHaveSubMix">该子频道不在父频道中!</key>
+    <key name="Err_ChannelName">频道名称不能为空或频道长度不能超过64个字符!</key>
+    <key name="Err_ChannelInfo">频道信息长度不能超过1023个字符!</key>
+    <key name="Warn_ChannelExist">已存在相同名称的频道</key>
+
+    <!-- User Manager -->
+    <key name="Warn_UserMng">您没有用户管理权限！</key>
+
+    <key name="eu_maskneed">请输入登录帐号!</key>
+    <key name="eu_maskerr">用户帐号不正确!</key>
+    <key name="eu_maskout">帐号长度不能超过32个字符!</key>
+    <key name="eu_nameneed">请输入用户名称!</key>
+    <key name="eu_nameout">用户名称长度不能超过64个字符!</key>
+    <key name="eu_passerr">两次密码不相同!</key>
+    <key name="eu_existuser">存在相同的帐号!</key>
+    <key name="errpwdfomart">密码仅允许字母、数字和下划线!</key>
+    <!-- Group Manager -->
+    <key name="Warn_GroupNameNull">请输入组别名称!</key>
+    <key name="Err_GroupClassNull">级别不能为空!</key>
+    <key name="Err_GroupClass">级别只能是0-255之间的数字!</key>
+    <key name="Warn_GroupNameExist">存相同的组别名称!</key>
+    <key name="Warn_GroupNameOutLength">组别名称不能超过32个字符!</key>
+    <key name="Warn_GroupoutMaxCount">组别最多有32个！！</key>
+    <!-- Log Manager -->
+    
+    <key name="Warn_PlayLogPermit">您没有点播日志管理权限</key>
+    <key name="Warn_PlayCountPermit">您没有查看点播统计的权限</key>
+
+    <!-- Program Manager -->
+    <key name="Err_CardValue">点数仅允许输入小于10000的数字</key>
+    <key name="Warn_NoPoint">请输入点播节目所需的点数!</key>
+    <key name="Warn_SetPointOk">设置成功!</key>
+
+    <key name="NoProgramPermit">您没有节目管理的相关权限</key>
+    <key name="ErrAuditing">您没有节目审核权限</key>
+    <key name="ErrProgramMng">您没有节目管理权限</key>
+    <key name="ErrRateMng">您没有费率管理权限</key>
+    <key name="ErrPlay">您没有节目播放权限</key>
+    <key name="NoMaskPlay">您的权限不足以播放该节目</key>
+    <key name="ErrPointPlay">您帐户上的点数不能够点播此节目!</key>
+
+    <key name="Warn_ConfirmPlay">点播该节目将扣除您{0}点! 确定点播吗?</key>
+
+    <!-- Set Manager -->
+    <key name="Warn_NoSetDefault">请选择一个缺省登录用户!</key>
+    <key name="Warn_NoMaxFreeTime">请输入重复点播免费时间!</key>
+    <key name="Err_MaxFreeTime">最大免费时间不能超过1440分钟(24小时)!</key>    
+    <key name="Warn_NoSysMngPermit">您没有系统设定权限!</key>
+
+  
+   
+  </Client>
+</Resources>

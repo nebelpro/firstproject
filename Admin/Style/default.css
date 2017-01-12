@@ -1,0 +1,58 @@
+﻿#wrapper { border-top:10px solid #2b4448; border-bottom:10px solid #2b4448;}
+
+
+/*page Top*/
+#pageTop{font-size:14px; background:#d5e8ec;}
+
+#nav    { background:url(../Images/nodepend/bg_nav.gif) repeat-x; color:#fff; font-size:12px; text-align:right;}
+#nav a{ font-size:12px; color:#fff; letter-spacing:2px;margin:0 5px;}
+
+/*====page Main*/
+
+/*page Main Left
+--------------------------------------------------------------------------------------*/
+#pageMain .colLeft .lRow { border-color:#9dbabe; border-style:solid; }
+#pageMain .colLeft .lRow h3 { background:#cce2e0; font-size:14px;  font-weight:bold; letter-spacing:2px; color:#2b4448; text-align:center; border-bottom:1px solid #9ba9aa;}
+#pageMain .colLeft .lRow ul li      {line-height:21px;font-size:14px;list-style-type: square; list-style-position:inside; }
+
+
+/*page Main Right
+--------------------------------------------------------------------------------------*/
+#pageMain .colRight .rRow{border-style:solid; border-color:#9dbabe;}
+#pageMain .colRight .rRow h3   {font-size:14px;color:#2b4448;font-weight:bold; letter-spacing:2px; background:#cce2e0;border-bottom:1px solid #9ba9aa;}
+
+/*page Footer*/
+#pageFoot{ background:#d5e8ec;  color :#2b4448; font-size:14px; text-align:center; border-top:1px solid #9dbabe; }
+
+
+
+/*For Every Page 
+-----------------------------------------------------------------------------------------*/
+/*Common
+----------------------------------*/
+.ListBar .left * {font-size:14px;}
+.ListBar div  { font-size:14px;}
+.ListBar .left label {padding:0 5px 0 3px;}
+.ListBar .right *	{font-size:14px;} 
+
+
+tr.hdr { background:#dfdcd5;color:#73705d; height:28px; font-size:14px; letter-spacing:2px;}
+tr.alter{ background:#dadada; height:24px;}
+tr.item{ background:#f5f5f5; height:24px;}
+
+
+
+/*Bulletin Style
+---------------------------------------------------------------------*/
+
+
+.BulletinList     { border-collapse:collapse;/*border:1px solid #d3d3d3;*/}
+.BulletinList  td          {border-top:1px solid #d3d3d3; border-bottom:1px solid #d3d3d3;}
+.BulletinList  td.w1       {width:26px;padding-left:10px;}
+.BulletinList  td.w2       {width:460px;}
+.BulletinList  td.w3       {width:60px; text-align:left;}
+.BulletinList  td.w4       {width:124px; text-align:left;}
+.BulletinList  tr.cTitle   {background:#dfdcd5;color:#73705d; height:24px; }
+.BulletinList  tr.cInfo    {background:#f5f5f5;color:#000;height:auto;}
+.BulletinList  tr.cInfo td     {padding:5px;}
+

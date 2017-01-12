@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+  <language>zh-cn</language>
+  <company>
+    <name>南京优网科技有限公司</name>
+    <website>http://www.topdomain.com.cn</website>
+  </company>
+  <product>
+    <name>极域视频服务系统</name>
+    <version>4.00</version>
+  </product>
+  <Server>
+
+
+    <!--Begin  =客户可配置资源文件  url设置时请使用绝对路径： http://www.temp.com/    -->
+
+
+    <key name="Info_AboutOfSite">关于本站</key>
+    <key name="Url_AboutOfSite">#</key>
+	
+    <key name="Info_Contact">联系站长</key>
+    <key name="Url_Contact">mailto:temp@temp.com</key>
+    
+    <key name="Info_AboutCopyright">版权申明</key>
+    <key name="Url_AboutCopyright">#</key>
+
+    <key name="Info_CopyRight">Copyright ©2000-2004</key>
+    <key name="Info_PoweredBy">Powered by：北京世纪优网科技有限公司提供技术支持</key>
+
+    <!--End  -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 以下如无必要，请客户不要更改 -->
+
+    <key name="Info_Default">首页</key>
+    <key name="Info_SearchResult">搜索结果</key>
+    <key name="Info_SearchKey">关键字:"{0}"</key>
+    <key name="ERR_PARAMS">参数错误</key>   
+    <key name="WARN_NOLOGIN">请您先登陆</key>
+    <key name="WARING_NODOWNPERMIT">没有权限下载节目</key>
+    <key name="INFO_LOGIN_WELCOME">欢迎您!</key>
+    <!-- WebUility Helper 不常用 -->
+    <key name="INFO_POP_PLAY">播放</key>
+    <!-- Public Resource -->
+
+    <key name="Info_More">更多</key>
+    <key name="Info_SoftDown">软件下载</key>
+
+    <key name="Info_CurPath">当前位置</key>
+    <key name="Info_Search2">查 询</key>
+    <key name="Oper_Search">搜 索</key>
+    <key name="Oper_Search2">查 询</key>
+    <key name="Oper_Reset">重 设</key>
+    <key name="Oper_Submit">确 定</key>
+    <key name="Oper_CheckAll">全选</key>   
+    <key name="Oper_Modify">修 改</key>
+    <key name="Warn_InputEmptyOfSearch">不输入任何则查询全部记录</key>
+
+    <!-- Bulletin  -->
+    <key name="Info_Bulletin">公告:</key>
+    <key name="Info_BulletinList">公告列表</key>
+    <key name="Info_BulletinAdd">发表公告</key>
+    <key name="Info_BulletinTitle">公告标题</key>
+    <key name="Info_BulletinInfo">公告内容</key> 
+    <key name="Oper_BulletinAdd">发表公告</key>
+    <key name="Oper_BulletinEdit">修改公告</key>
+
+    <!--Uc Login -->
+    <key name="INFO_LOGIN_WELCOME">欢迎您!</key>
+    <key name="INFO_LOGIN_LEFTPOINT">帐户余额:{0}点.</key>
+    <key name="WARN_ACCOUNT_EMPTY">帐号不能为空!</key>
+    <key name="WARN_NO_USER">该帐号不存在!</key>
+    <key name="WARN_PWD_ERR">用户密码错误!</key>
+    <key name="WARN_USERGROUP_ERR">用户组别错误!</key>
+    <key name="WARN_LOGIN_NOPERMIT">该帐号无登陆权限!</key>
+    <key name="WARN_EXISTACCOUNT">存在相同的帐号!</key>
+
+    <key name="BOX_LOGIN_LOGIN">登录</key>
+    <key name="BOX_LOGIN_LOGOUT">注销</key>
+    <key name="BOX_LOGIN_ACCOUNT">帐号</key>
+    <key name="BOX_LOGIN_REG">注册</key>
+    <key name="BOX_LOGIN_PWD">密码</key>
+ 
+    
+    <!-- Channel  -->  
+    <key name="CHANNEL_STATE_NOACTIVE">未活动</key>
+    <key name="CHANNEL_STATE_STOP">停止</key>
+    <key name="CHANNEL_STATE_NORMARL">正常</key>
+    <key name="CHANNEL_STATE_PAUSE">暂停</key>
+    <key name="CHANNEL_STATE_MIX">复合频道</key>
+
+    <key name="ERR_NOTALLOWGROUP">您所在的用户组没有权限当前操作!</key>
+    <key name="ERR_FORBINUSER">您没有权限当前操作!</key>
+    <key name="ERR_CHANNELINFO">获取频道信息出错!</key>
+    <key name="ERR_CHANNELADDRESS">获取指定频道地址出错!</key>
+    <key name="ERR_MIXCHANNEL">复合频道存在问题,请修改后再试!</key>
+
+    <key name="ADDRESS_INVALID">非活动</key>
+    <key name="ADDRESS_UDP">单播</key>
+    <key name="ADDRESS_TCP">TCP</key>
+    <key name="ADDRESS_MASTER">组播</key>
+    <key name="ADDRESS_BROAD">广播</key>
+    <key name="ADDRESS_NAT">NAT</key>
+
+    <key name="Info_ChannelList"> 频道列表</key>
+    <key name="Info_ChannelAll">全部频道</key>
+    <key name="Info_ChannelBroad">广播频道</key>
+    <key name="Info_ChannelLive">直播频道</key>
+    <key name="Info_ChannelRebroad">转播频道</key>
+    <key name="Info_ChannelMix">复合频道</key>
+
+    <key name="Info_ChannelInfo">频道信息</key>
+    <key name="Info_ChannelState">频道状态</key>
+    <key name="Info_ChannelName">频道名称</key>
+    <key name="Info_ChannelBeginTime">开始时间</key>
+    <key name="Info_ChannelMaker">发起用户</key>
+    <key name="Info_ChannelAddTime">创建时间</key>
+    <key name="Info_ChannelReceiveList">接收列表</key>
+    <key name="Info_ChannelDetail">详细信息</key>
+
+    <key name="Oper_ChannelReceive">接收频道</key>
+
+    <key name="Info_SchoolChannel">校内频道</key>
+    <key name="Info_ChannelLink">校外频道</key>
+    <key name="Oper_ChannelLinkAdd"> 添加</key>
+    <key name="Oper_ChannelLinkEdit">编辑</key>
+    <key name="Oper_ChannelLinkDelete"> 删除</key>
+    <key name="Info_ConfirmDelete">您确定要删除该链接吗?</key>
+    
+    <key name="Info_LinkName">名 称</key>
+    <key name="Info_LinkHref">链 接</key>
+    <key name="Warn_LinkNameExist">该名称已经存在！</key>
+    <key name="Warn_LinkNameNoTitle">请输入链接名称!</key>
+    <key name="Warn_LinkNameTitleOutLength">链接名称不能超过30个字符!</key>
+    <key name="Warn_LinkHrefNoContent">请输入链接地址!</key>
+    <key name="Warn_LinkHrefContentOutLenght">链接地址不能超过512个字符!</key>
+    <key name="Warn_LinkHrefNoMng">您没有公告管理权限</key>
+
+
+    <!-- Log  -->
+    <key name="Info_PlayLog">点播日志</key>
+
+    <key name="Info_PlayCount">点播统计</key>
+    <key name="Info_PlayTime">点播时间</key>
+    <key name="Info_PlayUser">用户名称</key>
+    <key name="Info_PlayUsePoint">点数</key>
+    
+    <!-- User  -->   
+    <key name="Info_UserInfo">用户信息</key>
+    <key name="Info_UserMask">登录帐号</key>
+    <key name="Info_UserMask2">帐号</key>
+    <key name="Info_UserMaskReg">允许字母、数字和下划线</key>
+    <key name="Info_UserName">用户名称</key>
+    <key name="Info_UserPasswd">用户密码</key>
+    <key name="Info_UserConfirmPass">确认密码</key>
+    <key name="Info_UserPermit">用户权限</key>
+   
+    <key name="Info_UserIntro">备注信息</key>
+    <key name="Info_UserGroup">用户组别</key>
+   
+
+
+    <!-- ================ User Login  =====================-->
+    <key name="Warn_AccountEmpty">帐号不能为空!</key>
+    <key name="Warn_UserNotExist">该帐号不存在!</key>
+    <key name="Warn_PasswdError">用户密码错误!</key>
+    <key name="Warn_GroupError">用户组别错误!</key>
+    <key name="Warn_NoLoginPermit">该帐号无登陆权限!</key>   
+
+    <!-- Program -->
+    <key name="INFO_REMARK_STATE0">未审核</key>
+    <key name="INFO_REMARK_STATE1">已审核</key>
+
+
+    <key name="Info_ProgramAll">全部节目</key>
+    <key name="Info_ProgramInCatalog">归类节目</key>
+    <key name="Info_ProgramNoCatalog">未归类节目</key>
+    <key name="Info_ProgramRecommend">推荐节目</key>
+    <key name="Info_ProgramNoChecked">待审核节目</key>
+
+    <key name="Info_ProgramSearch">节目搜索</key>
+    <key name="Info_ProgramList">节目列表</key>
+    <key name="Info_ProgramInfo">节目信息</key>
+    <key name="Info_ProgramName">节目名称</key>
+    <key name="Info_ProgramCatalog">节目分类</key>
+    <key name="Info_ProgramDirector">节目导演</key>
+    <key name="Info_ProgramClass">节目级别</key>
+    <key name="Info_ProgramActor">节目主演</key>
+    <key name="Info_ProgramPublish">出版单位</key>
+    <key name="Info_ProgramTime">节目时长</key>
+    <key name="Info_ProgramKbps">节目位率</key>
+    <key name="Info_ProgramReadCount">点播次数</key>
+    <key name="Info_ProgramAddTime">加入时间</key>
+    <key name="Info_ProgramAddUser">加入人员</key>
+    <key name="Info_ProgramPoint">点数</key>
+    <key name="Info_ProgramReadCount">点播次数</key>
+    <key name="Info_ProgramTime">节目时长</key>
+    <key name="Info_ProgramKbps">节目位率</key>
+    <key name="Info_ProgramAddTime">加入时间</key>
+
+    <key name="Oper_ProgramDetail">详细信息</key>
+    <key name="Oper_ProgramPlayOnline">在线播放</key>
+    
+    <key name="Info_Chapter">节目片段</key>
+    <key name="Info_ChapterName">节目片段</key>
+    <key name="Info_ChapterTime">片段时长</key>
+    <key name="Info_ChapterKbps">片段位率(Kbps)</key>
+    <key name="Info_ChapterPlay">点播</key>
+    <key name="Info_ChapterDown">下载</key>
+
+    <key name="Info_ProgramOrderByAddTimeDesc">按加入时间降序排列</key>
+    <key name="Info_ProgramOrderByAddTimeAsc">按加入时间升序排列</key>
+    <key name="Info_ProgmraOrderByReadCountDesc">按点播次数降序排列</key>
+    <key name="Info_ProgmraOrderByReadCountAsc">按点播次数升序排列</key>
+    <key name="Info_ProgramOrderByTimeDesc">按节目时长降序排列</key>
+    <key name="Info_ProgramOrderByTimeAsc">按节目时长升序排列</key>
+    <key name="Info_ProgramOrderByNameDesc">按节目名称降序排列</key>
+    <key name="Info_ProgramOrderByNameAsc">按节目名称升序排列</key>
+
+    <!-- Remark -->
+    
+    <key name="Info_RemarkList">评论列表</key>
+    <key name="Info_RemarkAdd">发表评论</key>
+    <key name="Info_RemarkTitle">评论标题</key>
+    <key name="Info_RemarkInfo">评论内容</key>
+    <key name="Oper_RemarkAdd">发表评论</key>
+  
+    <!-- Catalog -->
+    <key name="Info_CatalogView">分类浏览</key>    
+    <key name="Info_ProgramCatalogTree">节目分类</key>
+    <key name="Info_CatalogList">分类列表</key>
+
+    <!-- Bulletin Manager -->
+    <key name="Warn_BulletinNoTitle">请输入公告标题!</key>
+    <key name="Warn_BulletinTitleOutLength">公告标题不能超过32个字符!</key>
+    <key name="Warn_BulletinNoContent">请输入公告内容!</key>
+    <key name="Warn_BulletinContentOutLenght">公告内容不能超过512个字符!</key>
+    <key name="Warn_BulletinNoMng">您没有公告管理权限</key>   
+    
+	 <!-- WARN needs modify-->
+    <key name="WARING_NOLOGIN">请您先登陆</key>
+    <key name="WARN_NOLOGIN">请您先登陆</key>
+    <key name="WARING_NOPERMIT">您的权限不足以点播此节目!</key>
+    <key name="WARING_NOPLAYPMERIT">没有点播权限!</key>
+    <key name="WARING_NOPOINT">您的点数不够点播此节目,请充值!</key>
+    <!-- =========================================================================================================== -->
+  </Server>
+  <Client>
+
+    <key name="Info_WebPlayer">您没安装Web播放控件!需自动下载安装,请点击“确定”; 否则请点击“取消”。</key>
+    <!--  Public -->
+  
+
+    <key name="ERR_PARAMS">参数错误</key> 
+    <key name="WARN_NOPLAYER">请先安装播放器!需自动转向下载页面,请点击“确定”;否则请点击“取消”</key>
+    <key name="WARN_NOLOGIN">请先登陆</key>
+
+    <key name="Warn_NotNull">输入不能为空!</key>
+  
+
+    <!-- String Format-->
+    <key name="Err_DateValid">时间格式错误!请按YYYY-MM-DD输入有效的日期!</key>
+    <key name="Err_NoValid">仅可以输入数字</key>
+
+    <!-- GuestBook -->
+    <key name="Warn_GuestBookSubjectLength">最大字符为32个!</key>
+    <key name="Warn_GuestBookInfoLength">留言内容不超过2048个字符</key>
+
+    <!-- Card  -->  
+    <key name="Warn_CardNoError">卡号错误!</key>
+    <key name="CARD_VALUE_0">点数</key>
+    <key name="CARD_VALUE_1">月数</key>
+    
+    <!-- Channel -->   
+    <key name="Warn_ChannelNoPlay">您没有频道收看权限!</key>  
+    
+    <!-- User  -->
+    <key name="eu_maskneed">请输入登录帐号!</key>
+    <key name="eu_maskerr">用户帐号不正确!</key>
+    <key name="eu_maskout">帐号长度不能超过32个字符!</key>
+    <key name="eu_nameneed">请输入用户名称!</key>
+    <key name="eu_nameout">用户名称长度不能超过64个字符!</key>
+    <key name="eu_passerr">两次密码不相同!</key>
+    <key name="eu_existuser">存在相同的帐号!</key>
+    <key name="errpwdfomart">密码仅允许字母、数字和下划线!</key>   
+    <!-- Log  -->
+    <key name="Warn_PlayLogPermit">您没有点播日志管理权限</key>
+    <key name="Warn_PlayCountPermit">您没有查看点播统计的权限</key>
+    <!-- Program  -->   
+    <key name="ErrPlay">您没有节目播放权限</key>
+    <key name="NoMaskPlay">您的权限不足以播放该节目</key>
+    <key name="ErrPointPlay">您帐户上的点数不能够点播此节目!</key>
+    <key name="Warn_ConfirmPlay">点播该节目将扣除您{0}点! 确定点播吗?</key>
+    <key name="WARN_NOPOINT">您帐户上的点数不能够点播此节目!</key>
+    <key name="INFO_CONFIRMPLAY">点播该节目将扣除您{0}点!确定点播吗?</key>
+    <!-- PlayUi -->
+    <key name="TA_TITLE">节目名称</key>
+    <key name="TA_PREV">上一片断</key>
+    <key name="TA_NEXT">下一片断</key>
+    <key name="TA_NOW">正在播放</key>
+    <key name="TA_FF">快进</key>
+    <key name="TA_FR">快退</key>
+    <key name="TA_PLAYPAUSE">播放/暂停</key>
+    <key name="TA_MUTE">声音/静音</key>
+    <key name="TA_FULL">全屏</key>
+    <key name="TA_STOP">停止</key>
+    <key name="TA_PLAY">接收</key>
+    
+   
+  
+    <key name="TA_BIT">节目位率</key>
+    <key name="TA_LOOP_0">单次播放</key>
+    <key name="TA_LOOP_1">循环片断</key>
+    <key name="TA_LOOP_2">循环节目</key>
+    
+    <key name="TA_STATE_CLOSE">己关闭</key>
+    <key name="TA_STATE_STOP">己停止</key>
+    <key name="TA_STATE_PAUSE">暂停</key>    
+    <key name="TA_STATE_BUFFER">缓冲中...</key>    
+    <key name="TA_NO_OCX">播放插件出现问题!请重新安装</key>
+    <key name="TA_REC">录制</key>
+    <key name="TA_STOPREC">停止录制</key>
+    <key name="TA_CURBIT">当前位率</key>
+    <key name="TA_AVGBIT">平均位率</key>
+    
+    
+    <key name="TA_SET">系统设定</key>
+    <key name="TA_SET_CARD">绑定的网卡</key>
+    <key name="TA_SET_CARD_DEF">使用系统默认IP</key>
+    <key name="TA_SET_CONNTIMEOUT">连接超时(秒)</key>
+    <key name="TA_SET_RETRY_COUNT">重试次数</key>
+    <key name="TA_SET_TRANSTIMEOUT">传输超时(秒)</key>
+    <key name="TA_SET_OK">设定完成</key>
+    <!--End -->
+
+  
+  </Client>
+</Resources>

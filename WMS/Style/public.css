@@ -1,0 +1,37 @@
+* {	margin:0;	padding:0;}
+* {	font-size:12px;	font-family: Arial,verdana,sans-serif;}		
+* {	table-layout:fixed;	word-wrap:break-word; /*for ie */}
+
+/* style tag */
+body	{ margin:0px;padding:0;text-align:center;font-size: 12px;background:#fff;}
+h1		{ font-size:16px;}
+
+a				{ text-decoration:none;		color:#959398;}
+a:active		{ text-decoration:none;		color:#959398;}
+a:visited       { text-decoration:none;		color:#959398;}
+a:hover         { text-decoration:underline;color:#2b4347;}
+
+table			{ border-collapse:collapse; }
+
+ul	{ list-style:none;}
+li	{ list-style:none;}
+img	{ border:0;}
+
+
+input  { width:30px;height:21px;background:#fff;text-align:left;}
+
+/*style class*/
+.valign{vertical-align:middle;}
+
+.txtRight	{ text-align:right;}
+.txtLeft	{ text-align:left;}
+.txtCenter	{ text-align:center;}
+
+.left       { float: left;}
+.right      { float: right;}
+.clear      { clear: both; font-size:1px; width:1px; visibility: hidden; }
+.hidden     { display: none;}
+.unLine ,.unLine a{text-decoration: none;}
+.noBorder   { border:0;	}
+
+.hand		{ cursor:pointer;}

@@ -1,0 +1,102 @@
+/***************
+项目: Mod
+编写: luokaiwu@hotmail.com
+功能: 全局样式
+******************/
+* {	margin:0;	padding:0;}
+* {	font-size:12px;	font-family: Arial,verdana,sans-serif;}		
+* {	table-layout:fixed;	word-break:break-all;word-wrap:break-word;  /*for ie */}
+
+/* style tag */
+body	{ margin:0px;padding:0;text-align:center;font-size: 12px;background:#fff;}
+h1		{ font-size:16px;}
+
+a				{ text-decoration:none;		color:#959398;}
+a:active		{ text-decoration:none;		color:#959398;}
+a:visited       { text-decoration:none;		color:#959398;}
+a:hover         { text-decoration:underline;color:#2b4347;}
+
+table			{ border-collapse:collapse; }
+ul				{ list-style:none;}
+li				{ list-style:none;}
+img				{ border:0;}
+
+
+input  { width:30px;height:21px;background:#fff;text-align:left;}
+
+/*style class*/
+.valign{vertical-align:middle;}
+
+.txtRight	{ text-align:right;}
+.txtLeft	{ text-align:left;}
+.txtCenter	{ text-align:center;}
+
+.left       { float: left;}
+.right      { float: right;}
+.clear      { clear: both; font-size:1px; width:1px; visibility: hidden; }
+.hidden     { display: none;}
+.unLine ,.unLine a{text-decoration: none;}
+.noBorder   { border:0;	}
+
+.hand		{ cursor:pointer;}
+
+
+/*tip效果代码开始*/
+.tip              { position:relative; z-index:0;}
+.tip              { text-decoration:none }
+.tip:hover        { z-index:1;  }
+.tip span         { display: none; width:0px; }
+.tip:hover span   { display:block; position:absolute; top:25px;left:15px; width:100px; padding:0 6px;}
+.tip:hover span   { text-decoration:none;  border:1px solid #888; background-color:#fff; color:#000; text-align:center; }
+
+/* Page Numbers */
+.page { font-size: 85%;}
+.page a, .page span {display: block; float: left;padding: 3px 5px;margin-right: 3px; background: #fff;text-align:center;}
+.page span.pageCur {border: 1px solid #fff;font-weight: bold;background: #e0f2f2;color: #9ba9aa;}
+.page a {border:1px solid #688b87;text-decoration: none;}
+.page a:hover {border-color: #688b87;font-weight:bold;}
+
+
+/* 公共样式 */
+
+#wrapper				{ width:1000px; margin:0 auto; text-align:left; background:#d5e8ec !important;}	
+#toper					{ position:relative; height:71px; width:1000px;background:url(../Images/nodepend/navbg.gif) repeat-x;}
+#logo					{ position:absolute; left:0;top:9px;}
+.person_info			{ position:absolute; right:0;top:0;color:#2b4347;  border-top:9px solid #728a8c; padding:2px 25px 0 9px;}
+
+.person_info li				{ float:left; padding:0px 2px; font-size:12px; line-height:20px; height:20px;}
+.person_info li input.txt	{color:#688b87; vertical-align:middle; border:1px solid  #adbfbf; height:15px; width:64px; vertical-align:middle; }
+.person_info li input.btn	{color:#688b87;height:17px; width:32px; vertical-align:middle;}
+
+#module		{ position:absolute;right:24px; bottom:0;height:29px;}
+#module li	{ float:left; width:90px;}
+
+#naver			{width:980px; margin:0 auto;}
+#naver dd		{float:left;height:36px;  }
+#naver dd.w1	{width:12px;background:url(../Images/nodepend/cataleft.gif) no-repeat; }
+#naver dd.w2	{height:34px; width:954px;border-top:1px solid #9dbabe ;border-bottom:1px solid #9dbabe;color:#9dbabe;background:#fff; text-align:left;}
+#naver dd.w3	{width:14px;background:url(../Images/nodepend/cataright.gif) no-repeat;}
+
+#naver a		{color:#2b4347;}
+#naver a:hover	{background-color:#d4e7eb;}
+.selected		{background:#d4e7eb;}
+.none			{background:#fff;}
+
+
+#primary				{clear:both;width:1000px;height:auto;}
+
+
+/*  ============= rgt: w 564px===========*/
+.ListBar{margin:5px auto; margin-bottom:3px; height:24px; clear:both; }
+div#empty {margin:3px auto; padding:36px 0; text-align:center; border:1px solid #dfdcd5;}
+
+
+
+tr.hdr { background:#dfdcd5;color:#73705d;font-weight:bold; height:28px; font-size:14px; letter-spacing:2px;}
+tr.alter{ background:#dadada; line-height:24px;}
+tr.item{ background:#f5f5f5; line-height:24px;}
+
+/*  footer */
+#btmer				{ clear:both; width:1000px;height:12px; background:#fff;
+					 text-align:center;	border-top: 1px solid #9dbabe;border-bottom: 1px solid #9dbabe;}
+#footer				{ clear:both;width:1000px;height:64px;line-height:64px;text-align:center;background:#d5e8ec url(../Images/nodepend/navbg.gif) repeat-x bottom;}

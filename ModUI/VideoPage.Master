@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="VideoPage.master.cs" Inherits="MOD.UI.VideoPage" %>
+<%@ Register Src="UserControls/UC_Footer.ascx" TagName="Footer" TagPrefix="UC" %>
+<%@ Register Src="UserControls/UC_BulletinMarquee.ascx" TagName="BulletinMarquee" TagPrefix="UC" %>
+<%@ Register Src="UserControls/UC_Toper.ascx" TagName="Toper" TagPrefix="UC" %>
+<%@ Register TagName="SoftDown"  TagPrefix="UC" Src="UserControls/UC_SoftDown.ascx" %>
+<%@ Register TagName="Top"    TagPrefix="UC" Src="~/UserControls/UC_ProgramTop.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="zh-CN" />
+    <link rel="stylesheet" href="Style/public.css" type="text/css"/>  
+    <link rel="stylesheet" href="Style/master.css" type="text/css" />  
+    <link rel="stylesheet" href="Style/makeup.css" type="text/css" />    
+    <script type="text/javascript" src="Scripts/prototype.js"></script> 
+    <script type="text/javascript" src="Scripts/mod.js"></script> 
+    <title></title>   
+</head>
+<body>
+      <form id="form1" runat="server">        
+        <div id="wrapper">            
+            <UC:Toper ID="Toper1" runat="server" />
+            <dl id="naver"><dd class="w1"></dd>
+                <dd class="w2"><UC:BulletinMarquee ID="UC_BulletinMarquee1" runat="server" /></dd>
+            <dd class="w3"></dd>                
+            </dl>
+            
+            <div id="primary">
+                <div id="firster">
+                    <div class="top"></div>                   
+                    <UC:Top ID="ProgramTop1" runat="server" />
+                    <UC:SoftDown ID="softdown1" runat="server" />
+                </div>
+                <div id="seconder">
+                    <div id="top"></div>
+                    <asp:ContentPlaceHolder ID="rightHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="pribtm"></div>
+            <UC:Footer id="Footer1" runat="server"/></div>
+    </form>
+</body>
+</html>
+<script type="text/javascript">
+    window.onload= ContentResize;
+    UpdateUserState();
+</script>

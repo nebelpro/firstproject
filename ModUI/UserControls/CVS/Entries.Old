@@ -1,0 +1,61 @@
+/UC_BulletinMarquee.ascx.cs/1.1/Fri Feb  9 09:04:50 2007//
+/UC_BulletinMarquee.ascx.designer.cs/1.1/Fri Feb  9 09:04:46 2007//
+/UC_CatalogNav.ascx.designer.cs/1.1/Fri Feb  9 07:44:06 2007//
+/UC_CatalogView.ascx.designer.cs/1.1/Tue Feb 27 03:13:32 2007//
+/UC_Login.ascx/1.1/Wed Feb 14 01:41:06 2007//
+/UC_Login.ascx.cs/1.1/Wed Feb 14 01:19:26 2007//
+/UC_Login.ascx.designer.cs/1.1/Wed Feb 14 01:19:28 2007//
+/UC_ProgramChapter.ascx.designer.cs/1.1/Mon Feb 26 09:44:42 2007//
+/UC_ProgramRemark.ascx.designer.cs/1.2/Tue Mar 13 03:16:34 2007//
+/UC_BulletinTop.ascx.cs/1.1/Thu Mar 15 07:12:30 2007//
+/UC_BulletinTop.ascx.designer.cs/1.1/Thu Mar 15 07:03:28 2007//
+/UC_ProgramNew.ascx.designer.cs/1.1/Thu Mar 15 07:07:40 2007//
+/UC_ProgramNewView.ascx.designer.cs/1.1/Thu Mar 15 07:16:20 2007//
+/UC_ProgramSearch.ascx.designer.cs/1.1/Thu Mar 15 06:52:36 2007//
+/UC_ProgramTop.ascx.designer.cs/1.1/Thu Mar 15 06:55:44 2007//
+/UC_ProgramSearch.ascx/1.1/Thu Mar 22 07:15:12 2007//
+/UC_ProgramChapter.ascx.cs/1.3/Fri Mar 30 06:31:32 2007//
+/UC_ProgramRemark.ascx/1.4/Mon Apr  9 02:37:14 2007//
+/UC_Toper.ascx.designer.cs/1.5/Thu Apr  5 09:50:54 2007//
+/UC_BulletinList.ascx.cs/1.3/Tue Apr 10 00:56:52 2007//
+/UC_BulletinMarquee.ascx/1.4/Wed Apr 11 09:27:36 2007//
+/UC_ProgramChapter.ascx/1.4/Wed Apr 11 09:28:02 2007//
+/UC_BulletinTop.ascx/1.5/Fri Apr 13 02:46:54 2007//
+/UC_ProgramNew.ascx/1.3/Mon Apr 16 07:32:34 2007//
+/UC_ProgramTop.ascx/1.2/Wed Apr 18 01:09:02 2007//
+/UC_SoftDown.ascx/1.1/Wed Apr 18 00:45:28 2007//
+/UC_SoftDown.ascx.cs/1.1/Tue Apr 17 08:12:54 2007//
+/UC_SoftDown.ascx.designer.cs/1.1/Tue Apr 17 08:12:28 2007//
+/UC_ProgramRemark.ascx.cs/1.3/Fri Apr 27 01:59:22 2007//
+/UC_BulletinList.ascx.designer.cs/1.1/Fri May 11 01:07:32 2007//
+/UC_ProgramNewView.ascx/1.4/Thu Jun 21 03:05:12 2007//
+/UC_Toper.ascx/1.7/Thu Jun 21 08:58:30 2007//
+/UC_ProgramSearch.ascx.cs/1.4/Fri Jun 22 01:19:22 2007//
+/UC_CatalogView.ascx/1.3/Thu Jun 28 03:51:18 2007//
+/UC_Footer.ascx/1.3/Fri Jun 29 02:46:22 2007//
+/UC_BulletinList.ascx/1.5/Tue Jul  3 06:55:54 2007//
+/UC_CatalogNav.ascx/1.6/Fri Jul  6 02:33:06 2007//
+/UC_CatalogNav.ascx.cs/1.3/Thu Jun 28 01:09:28 2007//
+/UC_CatalogView.ascx.cs/1.2/Wed Jun 27 07:51:46 2007//
+/UC_Footer.ascx.cs/1.2/Fri Jun 29 02:46:36 2007//
+/UC_Footer.ascx.designer.cs/1.2/Fri Jun 29 02:46:22 2007//
+/UC_ProgramInfo.ascx/1.7/Fri Jul 13 05:10:46 2007//
+/UC_ProgramInfo.ascx.cs/1.4/Thu Jul 12 09:41:26 2007//
+/UC_ProgramInfo.ascx.designer.cs/1.2/Thu Jul 12 09:39:46 2007//
+/UC_ProgramList.ascx/1.10/Wed Jul  4 06:09:16 2007//
+/UC_ProgramNew.ascx.cs/1.2/Wed Jun 27 03:23:40 2007//
+/UC_ProgramNewView.ascx.cs/1.4/Wed Jun 27 02:44:14 2007//
+/UC_ProgramSearchList.ascx/1.5/Tue Jun 26 03:27:18 2007//
+/UC_ProgramSearchList.ascx.cs/1.3/Wed Jun 27 06:54:46 2007//
+/UC_ProgramSearchList.ascx.designer.cs/1.2/Tue Jun 26 03:27:18 2007//
+/UC_ProgramTop.ascx.cs/1.2/Wed Jun 27 03:21:38 2007//
+/UC_Toper.ascx.cs/1.8/Tue Jul  3 07:14:24 2007//
+/uc_programlist.ascx.cs/1.12/Wed Jun 27 08:00:20 2007//
+/uc_programlist.ascx.designer.cs/1.5/Mon Jun 25 02:49:26 2007//
+/UC_GuestBookAdd.ascx/0/dummy timestamp//
+/UC_GuestBookAdd.ascx.cs/0/dummy timestamp//
+/UC_GuestBookAdd.ascx.designer.cs/0/dummy timestamp//
+/UC_GuestBookList.ascx/0/dummy timestamp//
+/UC_GuestBookList.ascx.cs/0/dummy timestamp//
+/UC_GuestBookList.ascx.designer.cs/0/dummy timestamp//
+D

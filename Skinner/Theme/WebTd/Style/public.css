@@ -1,0 +1,80 @@
+* {	margin:0;	padding:0;}
+* {	font-size:12px;	font-family: Arial,verdana,sans-serif;}		
+* {	table-layout:fixed;	word-wrap:break-word; word-break:break-all;	/*for ie */}
+
+/* style tag */
+body	{ margin:0;padding:0;text-align:center;font-size: 12px;background:#fff;}
+h1		{ font-size:16px;}
+
+a				{ text-decoration:none;color:#777}
+a:active		{ text-decoration:none;color:#777}
+a:visited       { text-decoration:none; color:#777}
+a:hover         { text-decoration:underline;color:red;}
+
+table			{ border-collapse:collapse;border:0;}
+
+ul	{ list-style:none;}
+li	{ list-style:none;}
+img	{ border:0;}
+
+
+select {height:20px;border:1px solid #c7c7c7;text-align:center;}
+input.txt  {height:20px;text-align:center;border:1px solid #c7c7c7;}
+
+/*style class*/
+.valign{vertical-align:middle;}
+
+.txtRight	{ text-align:right;}
+.txtLeft	{ text-align:left;}
+.txtCenter	{ text-align:center;}
+
+.left       { float: left;}
+.right      { float: right;}
+.clear      { clear: both; font-size:1px; width:1px; visibility: hidden; }
+.hidden     { display: none;}
+.unLine ,.unLine a{text-decoration: none;}
+.noBorder   { border:0;	}
+
+.hand		{ cursor:pointer;}
+
+
+
+
+
+
+/* Page Numbers */
+.page{clear:both;text-align:right;height:25px;float:right;margin:0 10px 5px 0;}
+a.pageNor:link,a.pageNor:visited{float:left;padding:2px 4px 2px 4px;margin:1px;color:#FBAF5C;border:1px solid #FBAF5C;}
+span.pageCur,a.pageNor:hover
+{float:left;padding:2px 4px 2px 4px;margin:1px;color:#fff;text-align:center;background:#FBAF5C;border:1px solid #FBAF5C;}
+span.pageDis{float:left;padding:2px 4px 2px 4px;margin:1px;color:#ccc;text-align:center;border:1px solid #ccc;}
+
+
+
+
+/* Page Common */
+.selected		{background:#d4e7eb;}
+.none			{background:#fff;}
+
+
+#wrapper				{ width:1000px; margin:0 auto; text-align:left;}	
+#toper					{ position:relative; height:75px; width:1000px;border-top:solid 3px #00A2E5;}
+#logo					{ position:absolute; left:0;top:0;}
+.person_info			{ position:absolute; right:0;top:0;color:#2b4347;   padding:2px 25px 0 9px;}
+.person_info li				{ float:left; padding:0px 2px; font-size:12px; line-height:20px; height:20px;}
+.person_info li input.txt	{color:#688b87; vertical-align:middle; border:1px solid  #2e9adc; height:15px; width:80px; vertical-align:middle; }
+.person_info li input.btn	{color:#688b87;height:19px; border:0; width:41px; vertical-align:middle;}
+
+#module					{ position:absolute;right:24px; bottom:0px;height:28px;}
+#module li				{ float:left; width:122px; margin:0 5px;}	
+
+#naver			{width:1000px;height:42px;background:url(../Images/nodepend/cata_mid.gif) repeat-x;}
+#naver .left	{width:27px;height:42px; float:left; background:url(../Images/nodepend/cata_left.gif) no-repeat; }
+#naver .right	{width:25px;height:42px; float:right;background:url(../Images/nodepend/cata_right.gif) no-repeat;}
+
+#primary	{clear:both;width:1000px;margin:5px auto;text-align:left;}
+
+
+#footer{clear:both;width:1000px;margin:0 auto;margin-top:5px;text-align:left;background:url(../Images/nodepend/bg_footer.gif) repeat-x;}
+#copyright{clear:both;height:90px;width:1000px; line-height:90px; text-align:center;}
+#copyright,#copyright a:link,#copyright a:visited{font-size:18px;color:#707070;}

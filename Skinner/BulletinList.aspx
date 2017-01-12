@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BulletinList.aspx.cs" Inherits="MOD.UI.SkinFactory.BulletinList" %>

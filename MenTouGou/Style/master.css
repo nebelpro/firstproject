@@ -1,0 +1,46 @@
+body{ background:url(../Images/nodepend/bg.gif); }
+
+#wrapper				{ margin:0 auto; width:749px; height:auto;}
+#wrapper				{ background:url(../Images/nodepend/bg_wrapper.gif) repeat-y;}
+
+#banner					{ width:749px; height:89px;}
+#banner					{ background:url(../Images/depend/banner.gif) no-repeat;}
+
+#banner ul				{ padding:67px 10px 0 480px; margin-bottom:-3px; text-align:right;}
+#banner ul li			{ display:inline;height:22px; line-height:22px;}
+#banner ul img			{ height:22px;}
+
+
+#box					{ width:569px;height:21px;padding:8px 90px 13px 90px;background:url(../Images/nodepend/box.gif) no-repeat;}
+#box					{ width:749px; height:42px;  voice-family:"\"}\"";voice-family:inherit; width:569px; height:21px;}
+
+#box dd					{ display:inline; height:21px; line-height:21px;  }
+
+#box dl.login			{ width:312px; float:left; text-align:center; letter-spacing:2px;}
+#box dl.search			{ width:216px; float:right; text-align:right;}
+#box dl.login input.txt		{width:80px; height:16px;vertical-align:text-bottom;}
+#box dl.search	 input.txt		{ width:100px; height:16px;}
+
+#bulletin				{ margin:5px auto; width:715px; height:26px; line-height:26px;}
+#bulletin dd			{ float:left; height:26px;}
+#bulletin dd.w1			{ width:20px; background:url(../Images/depend/bulletin01.gif) no-repeat;}
+#bulletin dd.w2			{ width:52px; background:url(../Images/depend/bulletin02.gif) repeat-x;}
+#bulletin dd.w3			{ width:500px; background:url(../Images/depend/bulletin02.gif) repeat-x; text-align:left;}
+#bulletin dd.w4			{ width:140px; background:url(../Images/depend/bulletin02.gif) repeat-x; }
+#bulletin dd.w5			{ width:3px; background:url(../Images/depend/bulletin03.gif) no-repeat;}
+
+#bulletin dd li			{ display:inline; padding:0 5px;}
+
+h4.curpath				{ margin:5px 24px; width:auto;line-height:16px; padding-left:20px; text-align:left;}
+h4.curpath				{ background:url(../Images/nodepend/bg_curpath.gif) no-repeat left; font-weight:normal; }
+h4.curpath span.txt1	{ letter-spacing:2px;}
+
+
+
+#main					{ margin:0 auto; width:732px; min-height:348px;height:auto;}
+/*\*/* html #main		{height:348px; }/**/   /*bug*/
+
+#footer					{ width:749px; text-indent:10px;text-align:left; height:84px; clear:both; margin-top:15px; }
+#footer					{ background:url(../Images/nodepend/bg_footer.gif) repeat-y;}
+
+

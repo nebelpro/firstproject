@@ -1,0 +1,81 @@
+﻿/* master page style*/
+#bulletinNav	{margin:6px 10px;}
+#bulletinNav li	{ float:left; height:20px; line-height:20px; }
+
+#CatalogNav		{ margin:6px 10px;position:absolute;z-index:1;}
+#CatalogNav li	{ float:left;width:83px;border-left:1px solid #9dbabe; }
+#CatalogNav a	{ display:block; width:83px; text-align:center; } 
+
+#CatalogNav li{height:20px; line-height:20px;overflow:hidden;cursor:hand;}
+
+#CatalogNav li.sfhover{ height:auto;cursor:hand;overflow:hidden;}
+
+#CatalogNav li .list{line-height:20px; background:#fff;font-weight:normal;}
+
+#CatalogNav li.sfhover .list	{width:180px; background:#fff; position:relative;}
+#CatalogNav li div a{color:#336601;background:#fff;text-indent:18px;text-align:left;width:180px;}
+#CatalogNav li div a:link{color:#336601;}
+#CatalogNav li div a:hover{color:white;background-color:#539D26; position:relative;}
+
+
+
+
+/* Primary content */
+#softdown				{clear:both;width:1000px;height:400px; background:#d5e8ec;}
+#softdown dd.row1		{ height:68px; background:url(../Images/depend/softdown_1.gif) no-repeat center;}
+#softdown dd.row3		{ clear:both; height:34px; background:url(../Images/nodepend/softdown_3.gif) no-repeat center;}
+#softdown dd.row2		{clear:both; background:url(../Images/nodepend/softdown_2.gif) repeat-y center;  }
+#softdown dd.row2 ul	{ width:889px;  margin:0 auto;}
+#softdown dd.row2 ul li	{ float:left; height:100px; }
+#softdown dd.row2 ul li.w1	{ width:188px; text-align:center; border-right:1px solid #ccc;border-bottom:1px solid #ccc;}
+#softdown dd.row2 ul li.w1 img	{ margin-top:20px;}
+#softdown dd.row2 ul h3	{  margin: 5px 20px;  line-height:24px; font-size:16px; color:#045ab0;}
+#softdown dd.row2 ul p	{position:relative; margin-left:20px; width:510px; line-height:20px;}
+#softdown dd.row2 ul p	span	{ position:absolute;left:520px; bottom:2px; font-size:12px;}
+#softdown dd.row2 ul li.w2	{ width:700px; text-align:left; border-bottom:1px solid #ccc;}
+
+#firster					{ float:left;width:216px; height:auto;}/*======= lft: w:216============*/
+#firster					{ background:url(../Images/nodepend/lftbg.gif) repeat-y right;}
+
+#firster .top			{ width:216px;height:36px;background:url(../Images/nodepend/firstertop.gif) no-repeat;}
+
+#search				{ float:right;height:131px;width:204px; margin:5px 0 7px 0; }/*h.136 w:199 */
+#search				{ background:url(../Images/depend/search.gif) no-repeat right;}
+#search div.bug		{ margin:60px 24px 40px 36px;height:31px;width:139px; line-height:31px;}
+#search input.txt		{ border:1px solid #adbfbf; margin-right:5px; width:88px; height:20px; line-height:20px;}
+
+
+
+#topProgram			{clear:both;width:204px;height:auto;float:right;padding-bottom:39px;background:url(../Images/nodepend/countbtm.gif) no-repeat left bottom;}
+#topProgram h3		{width:204px;height:46px;}
+#topProgram div		{width:204px;background:url(../Images/nodepend/countlist.gif) repeat-y;}
+
+#topProgram table		{width:174px;margin:0 15px;}
+#topProgram table td	{line-height:24px;border-bottom:1px solid #aaa58f;}
+#topProgram td.w1		{width:34px;text-align:center;background:url(../Images/nodepend/rcli.gif) no-repeat left center;}
+#topProgram td.w2		{width:104px;}
+#topProgram td.w3		{width:36px;}
+
+
+#sideSoft		{width:203px; float:right;padding-bottom:23px; background:url(../Images/nodepend/side_softdown_btm.gif) no-repeat bottom;}
+#sideSoft h3	{width:203px;height:45px; margin:8px 0 0 0;}
+#sideSoft ul	{width:203px; height:auto; padding:8px 0; background:url(../Images/nodepend/side_softdown_mid.gif) repeat-y;}
+#sideSoft ul li	{margin-left:24px;line-height:18px; background:url(../Images/nodepend/li_softdown.gif) no-repeat left center; padding-left:16px;}	
+
+
+
+/* main content  right
+-------------------------------------------------------------------------------------*/
+#seconder					{float:right;width:784px;height:auto;}/*  ============= rgt: w 564px===========*/
+#seconder					{ background:url(../Images/nodepend/rgtbg.gif) repeat-y;}
+
+#top				{width:784px;height:23px;background:url(../Images/nodepend/rgttop.gif) no-repeat;}
+
+
+/* H 140+8 */
+#banner				{margin:0 24px 8px 13px;width:747px;height:140px;background:url(../Images/nodepend/banner.gif) no-repeat;}
+
+#pribtm				{  width:1000px;height:24px; clear:both;background:url(../Images/nodepend/pribtm.gif) no-repeat;}
+
+
+

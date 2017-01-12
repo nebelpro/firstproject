@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ProgramInfo.aspx.cs" Inherits="MOD.UI.SkinFactory.ProgramInfo" %>

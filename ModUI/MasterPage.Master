@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" EnableViewState="false" CodeBehind="MasterPage.master.cs" Inherits="MOD.UI.MasterPage" %>
+<%@ Register TagName="Search" TagPrefix="UC" Src="UserControls/UC_ProgramSearch.ascx"  %>
+<%@ Register TagName="Footer" TagPrefix="UC" Src="UserControls/UC_Footer.ascx"  %>
+<%@ Register TagName="Top"    TagPrefix="UC" Src="~/UserControls/UC_ProgramTop.ascx" %>
+<%@ Register TagName="Nav"    TagPrefix="UC" Src="UserControls/UC_CatalogNav.ascx"  %>
+<%@ Register TagName="Toper"  TagPrefix="UC" Src="UserControls/UC_Toper.ascx" %>
+<%@ Register TagName="SoftDown"  TagPrefix="UC" Src="UserControls/UC_SoftDown.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="zh-CN" />
+    <link rel="stylesheet" href="Style/public.css" type="text/css"/>   
+    <link rel="stylesheet" href="Style/master.css" type="text/css"/>   
+    <link rel="stylesheet" href="Style/makeup.css" type="text/css"/>        
+    <link rel="stylesheet" href="Style/tab/tab.css" type="text/css"/>     
+    <script type="text/javascript" src="Scripts/prototype.js"></script>     
+    <script type="text/javascript" src="Scripts/TabPane.js"></script>     
+    <script type="text/javascript" src="Scripts/mod.js"></script> 
+    <title></title>    
+</head>
+<body>
+    <form id="form1" runat="server">        
+        <div id="wrapper">            
+            <UC:Toper id="Toper1" runat="server"/>           
+            <UC:Nav ID="UC_CatalogNav1" runat="server" />
+            <div id="primary">
+                <div id="firster">
+                    <div class="top"></div>
+                    <UC:Search id="ProgramSearch1" runat="server"/>
+                    <UC:Top ID="ProgramTop1" runat="server" />
+                    <UC:SoftDown ID="softdown1" runat="server" />
+                </div>
+                <div id="seconder">
+                    <div id="top"></div>
+                    <asp:ContentPlaceHolder ID="rightHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="pribtm"></div>
+            <UC:Footer id="UC_Footer1" runat="server"/>           
+        </div>
+        
+    </form>
+</body>
+</html>
+<script type="text/javascript">
+    window.onload=function(){    
+         ContentResize();
+         //new Hover("CatalogNav","li","sfhover");
+         menuFix("CatalogNav");
+    }
+    UpdateUserState();
+</script>

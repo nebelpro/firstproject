@@ -1,0 +1,27 @@
+/***********updatelist style******************/
+
+#updatelist {float:left;margin: 0 0 10px; padding: 0px; width: 677px; }
+#updatelist .frline {float:left; width:676px; background:#f9f9f9; margin: 0px 0px 5px 0px; height:21px; padding: 0px; border-bottom: 1px #999 dashed;}
+#updatelist .frline .mode {float:left;  margin:2px 0px 0px 0px; padding:2px 15px;}
+#updatelist .frline .sele {float:right; margin:0; padding:0;}
+#updatelist .frline .pagenext {float:right; text-align:right; margin:0px; padding:3px 3px 0px 2px;}
+
+#updatelist .lastline {background:#f9f9f9;float:left; width:676px; margin: 5px 0 0 0; height:21px; padding: 0px; border-top: 1px #999 dashed;}
+#updatelist .lastline .mode {float:left;  margin:2px 0px 0px 0px; padding:2px 15px;}
+#updatelist .lastline .sele {float:right; margin:0; padding:0;}
+#updatelist .lastline .pagenext {float:right;  text-align:right; margin:0px; padding:3px 2px 2px 2px;}
+
+#updatelist .albums {float:left;width:330px;height:210px;background:#f9f9f9;margin:3px;border-bottom:1px #eee solid; border-right:1px #eee solid;padding: 5px 0 0 0;}
+#updatelist .albums ul.b-info {float:right;  margin-right:0!important; margin:20px -2px 0 0; padding:0;width:185px; }
+#updatelist .albums ul.b-info li {list-style:none;line-height:1.6em;}
+#updatelist .albums ul.b-info li.name a {color:#ff8800;height:40px;}
+
+.acover {float:left; margin:0; padding-left:8px;width:126px;}
+.acover img {margin: 0; width:120px; max-height:200px; padding:1px; border:1px #333 solid;}
+.acovers {width:124px; margin:1px auto;}
+.acovers p{text-align:left;margin:0;}
+.apics{height:200px; position:relative;}
+.apics div{position:absolute;top:50%; left:0;}
+.apics p{position:relative;top:-50%;}
+.acover>div.apics{position:static;display:table;}
+.acover>div.apics>div{display:table-cell;vertical-align:middle;position:static;}

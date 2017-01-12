@@ -1,0 +1,51 @@
+.overlay_alphacube	{background: #EBEBEB;filter:alpha(opacity=60);-moz-opacity: 0.6;opacity: 0.6;}
+.alphacube_nw		{ width:10px;height:25px;}
+.alphacube_nw		{background:transparent url(alphacube/left-top.gif) no-repeat 0 0;}
+.alphacube_n		{height:25px;}
+.alphacube_n		{background:transparent url(alphacube/top-middle.gif) repeat-x 0 0;}
+.alphacube_ne		{width:10px;height:25px;}
+.alphacube_ne		{background:transparent url(alphacube/right-top.gif) no-repeat 0 0;}
+.alphacube_w		{width:7px;}
+.alphacube_w		{background:transparent url(alphacube/frame-left.gif) repeat-y top left;}
+.alphacube_e		{width:7px;}
+.alphacube_e		{background:transparent url(alphacube/frame-right.gif) repeat-y top right;}
+.alphacube_sw		{width:7px;height:7px;}
+.alphacube_sw		{background:transparent url(alphacube/bottom-left-c.gif) no-repeat 0 0;}
+.alphacube_s		{height:7px;}
+.alphacube_s		{background:transparent url(alphacube/bottom-middle.gif) repeat-x 0 0;}
+.alphacube_se, .alphacube_sizer	 {width:7px;height:7px;}
+.alphacube_se, .alphacube_sizer  {background: transparent url(alphacube/bottom-right-c.gif) no-repeat 0 0;}
+
+.alphacube_sizer	{cursor:se-resize;}
+.alphacube_close	{width: 23px;height: 23px;position:absolute;top:0px;right:11px;z-index:1000;}
+.alphacube_close	{background: transparent url(alphacube/button-close-focus.gif) no-repeat 0 0;cursor:pointer;}
+
+.alphacube_minimize {width: 23px;height: 23px;position:absolute;top:0px;right:55px;z-index:1000;}
+.alphacube_minimize {background:transparent url(alphacube/button-min-focus.gif) no-repeat 0 0;cursor:pointer;}
+.alphacube_maximize {width:23px;height:23px;position:absolute;top:0px;right:33px;z-index:1000;}
+.alphacube_maximize {background: transparent url(alphacube/button-max-focus.gif) no-repeat 0 0;cursor:pointer;}
+.alphacube_title	{float:left;height:14px;margin-top:2px;width:100%;}
+.alphacube_title	{font-size:14px;text-align:center; color:#123456;}
+.alphacube_content	{overflow:auto;}
+.alphacube_content	{color: #000;font-family:Tahoma,Arial,sans-serif;font:12px arial;background:#FDFDFD;}
+
+
+.top_draggable, .bottom_draggable {cursor:move;}
+
+/* For alert/confirm dialog */
+.alphacube_window	{padding:20px;margin:0 auto;width:400px;}
+.alphacube_window	{border:1px solid #F00;background: #FFF;}
+.alphacube_message	{width:100%;padding-bottom:10px;}
+.alphacube_message	{font: 12px arial;text-align:center;}
+.alphacube_buttons	{text-align:center;width:100%;}
+.alphacube_buttons input {width:20%;margin:10px;}
+.alphacube_progress {float:left;margin:auto;width:100%;height:16px;}
+.alphacube_progress {text-align:center;background: #FFF url('alphacube/progress.gif') no-repeat center center;}
+.alphacube_wired_frame {background: #FFF;filter:alpha(opacity=60);-moz-opacity: 0.6;opacity: 0.6;}
+
+/* DO NOT CHANGE THESE VALUES*/
+.dialog {display: block;position: absolute;}
+.dialog table.table_window  {border-collapse: collapse;border-spacing: 0; width:100%;margin:0px;padding:0px;}
+.dialog table.table_window td , .dialog table.table_window th {padding: 0;}
+.dialog .title_window { -moz-user-select:none;}
+

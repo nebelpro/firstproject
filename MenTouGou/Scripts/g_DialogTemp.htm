@@ -1,0 +1,38 @@
+﻿<html>
+<head>
+<script language="JavaScript">
+
+var str = window.dialogArguments ;
+
+var sUrl = str.split("|")[0];
+var sTitle = str.split("|")[1];
+var iHeight = str.split("|")[2]
+var iWidth = str.split("|")[3]
+
+document.title = sTitle;
+
+function IniIframe()
+{
+	var nRnd = Math.random();
+	var strRnd = "";
+	if (sUrl.indexOf("?") > 0)
+	{
+		strRnd = "&rnd="+nRnd;
+	}
+	else
+	{
+		strRnd = "?rnd="+nRnd;		
+	}
+
+	document.all.tempIframe.src =  sUrl + strRnd;
+	document.all.tempIframe.height = iHeight  +"px";
+	//document.all.tempIframe.width = iWidth + "px";
+}
+
+</script>
+</head>
+
+<body leftmargin="0" topmargin="0" onLoad="IniIframe()" bgcolor="#f5f5f5">
+<iframe name="tempIframe"  scrolling="no"  frameborder="0" align="middle"  frameborder="0" width="100%" bgcolor=#f5f5f5></iframe>
+</body>
+</html>

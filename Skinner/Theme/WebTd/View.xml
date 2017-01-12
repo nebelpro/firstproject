@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<theme>
+  <path>theme/webtd/</path>
+  <views>
+    <!-- name 与 页    面（母板）填充点相同 ，与模块选择器选择-->
+    
+    <!-- 公共模块 -->
+    <view name="SearchBox"        file="SearchBox" />
+    <view name="SoftDown"         file="SoftDown" />
+    <view name="Module"           file="Module" />
+    <view name="LoginBox"         file="UserLoginBox" />
+    <view name="Footer"           file="Footer" />
+    
+    <!-- 模板页或首页 -->
+    <view name="ProgramNew"       file="ProgramNew" count="10" length="16"/>
+    <view name="ProgramNewImg"    file="ProgramNewImg" count="5"  />
+    <view name="ProgramNewView"   file="ProgramNewView" length="10"  />
+    <view name="ProgramTop"       file="ProgramTop" count="10" length="12" />
+    <view name="ProgramTopImg"    file="ProgramTopImg"  count="15" length="16" width="100" height="100"/>
+
+    <!-- 公告相关 -->
+    <view name="BulletinInfo"     file="BulletinInfo" />
+    <view name="BulletinList"     file="BulletinList" />
+    <view name="BulletinMarquee"  file="BulletinMarquee" count="6" length="12"  />
+    <view name="BulletinTop"      file="BulletinTop" count="7" length="18" />
+    
+    <!-- 分类相关 -->
+    <view name="CatalogNav"       file="CatalogNav"  count="11" />
+    <view name="CatalogView"      file="CatalogView" length="12" />
+    <!-- 节目详细介绍页面-->
+    <view name="Chapter"          file="ProgramChapter" />
+    <view name="ProgramDetail"    file="ProgramDetail" width="160" height="160"/>   
+    <view name="ProgramIntro"     file="ProgramIntro" />
+    
+    <view name="ProgramList"      file="ProgramList" page="24" length="12"   width="100" height="100" />
+
+    <view name="RemarkArea"       file="RemarkArea"/>
+    <view name="RemarkForm"       file="RemarkForm" />
+    <view name="RemarkList"       file="RemarkList" page="5" />
+
+    <!-- Channel -->
+    <view name="ChannelList"      file="TvList" />
+
+    <!-- 用户个人信息类 -->
+    
+    <view name="AddPoint"     file="UserAddPoint" />
+    <view name="ChargeLog"    file="UserChargeLog" />
+    <view name="ModifyPwd"    file="UserModifyPwd" />
+    <view name="PlayLog"      file="UserPlayLog" />
+
+    <!-- 随需求增加的 -->
+
+  </views> 
+  <master name="master">Module,CatalogNav,LoginBox,SearchBox,BulletinTop,ProgramTop,ProgramNew,SoftDown,Footer</master> 
+  
+  <page name="program">ProgramNewImg,ProgramTopImg</page>
+  <page name="viewbyclass">CatalogView,ProgramList</page>
+  <page name="searchresult">ProgramList</page>  
+  <page name="BulletinList">BulletinList</page>
+  <page name="ProgramInfo">ProgramDetail,ProgramIntro,Chapter,RemarkArea</page>
+  
+  <control name="RemarkArea">RemarkList,RemarkForm</control>
+  
+  <master name="Channel">Module,BulletinMarquee,Footer,LoginBox</master>
+  <page name="Iptv">ChannelList</page>
+  <page name="Recorder">ChannelList</page>
+  
+</theme>

@@ -1,0 +1,10 @@
+bin\Release\MOD.Model.dll
+bin\Release\MOD.Model.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\MOD.Model.dll
+obj\Release\MOD.Model.pdb
+bin\Debug\MOD.Model.dll
+bin\Debug\MOD.Model.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MOD.Model.dll
+obj\Debug\MOD.Model.pdb

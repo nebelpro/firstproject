@@ -1,0 +1,189 @@
+body
+{
+	background:#fff;
+}
+table {
+	font-family: "宋体";
+	font-size: 9pt;
+	word-break:break-all;
+}
+a:link {
+	font-family: "宋体";
+	font-size: 9pt;
+	text-decoration: none;
+	color: #18194D;
+
+}
+a:visited {
+	font-family: "宋体";
+	font-size: 9pt;
+	text-decoration: none;
+	color: #18194D;
+
+
+}
+a:hover {
+	font-family: "宋体";
+	font-size: 9pt;
+	color:blue;
+}
+
+
+
+#Player1Area
+{
+	text-align:center;
+	border:1px solid #666;
+	float:left;
+	background:#000;
+	margin:2px 2px 0px 2px;
+	clear:left;
+	z-index:1;
+}
+
+#Player2Area
+{
+	text-align:center;
+	border:1px solid #666;
+	float:right;
+	background:#000;
+	display:none;
+	margin:2px;
+	clear:right;
+	z-index:2;
+}
+
+#Player3Area
+{
+	text-align:center;
+	border:1px solid #666;
+	float:right;
+	background:#000;
+	display:none;
+	margin:2px;
+	clear:right;
+	z-index:3;
+}
+
+#VedioArea
+{
+	text-align:center;
+	overflow:hidden;
+}
+
+#spanAlign
+{
+	height:1px;
+	background:url(images/adotted.gif) repeat;
+	overflow:hidden;
+	display:none;
+	float:none;
+	margin:2px 0 2px 0;
+/*	cursor:s-resize; */
+}
+
+#spanValign
+{
+	width:1px;
+	background:url(images/vdotted.gif) repeat;
+	overflow:hidden;
+	margin:0 2px 0 2px; 
+	float:left;
+	display:none;
+/*	cursor:w-resize; */
+}
+.imgbtn
+{
+	cursor:hand;
+	margin-top:8px;
+}
+
+#Player1 #Player2 #Player3
+{
+	background:#000;
+	border:0;
+	height:100px;
+	width:160px;
+}
+
+
+#spTimeSlider
+{
+	height:8px;
+	cursor:hand;
+	position:absolute;
+	bottom:62px;
+	left:12px;
+}
+#spTimePass
+{
+	background:url("Images/long_bg.gif") repeat-x;
+	cursor:hand;
+	position:absolute;
+	left:15px;
+	margin-top:4px;
+}
+#spTimeBtn
+{
+	position:absolute;
+	cursor:hand;	
+	margin-top:3px;
+}
+
+#spMute
+{
+	position:absolute;
+	left:192px;	
+	margin-top:0px;
+}
+#spVolumeSlider
+{
+	height:11px;
+	cursor:hand;	
+	width:68px;
+	background:url("Images/volume_2.gif") no-repeat ;
+	position:absolute;
+	left:192px;
+	margin-top:3px;
+}
+#spVolumeCur
+{
+	height:11px;
+	cursor:hand;
+	width:68px;
+	background:url("Images/volume_1.gif") no-repeat ;
+	position:absolute;
+}
+#spVolumeBtn
+{
+	position:absolute;
+	margin-top:6px;
+	cursor:hand;
+}
+#spTimeLabel
+{
+	position:absolute;
+	right:120px;
+	font-weight:bold;
+	margin-top:3px;
+	width:140px;
+	color:#1D4378;
+}
+#spDown
+{
+	position:absolute;
+	top:2px;
+	left:300px;
+	width:160px;
+	color:#18194D;
+	display:none;
+}
+#spPlus
+{
+	position:absolute;
+	top:2px;
+	left:464px;
+	width:53px;
+	color:#18194D;
+	display:none;
+}

@@ -1,0 +1,44 @@
+﻿#nav		{width:849px;border-top:1px solid #c51508;height:23px; }
+#nav ul		{float:right;}
+#nav li		{float:left; width:72px; height:23px; line-height:23px; color:#c31304; background:url(../Images/nodepend/ball.jpg) no-repeat left center; text-indent:18px;}
+#nav a,#nav a:hover,#nav a:visited{color:#c31304; padding:2px 2px 1px 3px;}
+#nav li.hot {}
+#nav li.hot a,#nav li.hot a:hover,#nav li.hot a:visited{ background:#c41206 ; color:#fff;}
+
+#banner		{width:849px;height:152px;}
+
+#firster	{ float:left; width:193px; height:auto;}
+
+#LoginBox,#UserBox	{width:193px; background:url(../Images/nodepend/btm_first.gif) no-repeat left bottom; padding-bottom:9px;}
+#LoginBox h3,#UserBox h3{width:193px;height:32px; background:url(../Images/nodepend/shadow.gif) no-repeat 190px 10px;}
+#LoginBox ul,#UserBox ul	{border-left:1px solid #ccc; border-right:1px solid #ccc; padding:5px 0;}
+
+#LoginBox ul li	{height:24px;line-height:24px;}
+#LoginBox ul label {display:block;float:left; width:55px; text-align:right;}
+#LoginBox input.txt {width:80px;border:1px solid #ccc;line-height:16px; height:16px;}
+#LoginBox input.btn	{width:41px; height:18px; vertical-align:text-bottom;}
+#UserBox ul	{ float:left; width:191px;}
+#UserBox ul li	{ float:left;width:90px; text-indent:24px; height:20px; line-height:20px; }
+#UserBox ul li.welcome {width:191px;}
+
+
+#SearchBox	{ width:193px;height:21px; text-indent:16px; line-height:21px;margin-top:6px; background:url(../Images/nodepend/bg_search.gif) repeat-x left center;}
+#SearchBox img	{width:16px;height:21px; margin-right:20px; vertical-align:middle;}
+#SearchBox input.txt	{width:84px;height:16px; vertical-align:middle; border:0; }
+#SearchBox input.btn	{width:41px;height:18px;vertical-align:middle;}
+
+#TopProgram	{width:193px;margin-top:6px; background:url(../Images/nodepend/btm_first.gif) no-repeat left bottom; padding-bottom:9px;}
+#TopProgram h3{width:193px;height:24px; background:url(../Images/depend/t_topprogram.gif) no-repeat left bottom;}
+#TopProgram h3 span{ display:none;}
+#TopProgram	ul	{padding:5px 0; border-left:1px solid #ccc; border-right:1px solid #ccc;}
+#TopProgram ul li{height:20px;line-height:20px; text-indent:10px;}
+#TopProgram a{ text-indent:24px;width:130px;display:block; float:left;line-height:20px;}
+
+#SoftDown	{width:193px;margin-top:6px; background:url(../Images/nodepend/btm_first.gif) no-repeat left bottom; padding-bottom:9px;}
+#SoftDown	ul	{border-left:1px solid #ccc; border-right:1px solid #ccc; padding:5px 0;}
+#SoftDown ul li	{ height:24px; line-height:24px; text-align:center;}
+#SoftDown h3{width:193px;height:23px;}
+
+
+#seconder	{width:639px;float:right;}
+

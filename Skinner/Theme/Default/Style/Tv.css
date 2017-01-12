@@ -1,0 +1,39 @@
+﻿@import url(public.css);/*嵌入公共样式*/
+
+#nav		{ float:left; width:809px;padding:0 20px 6px 20px; font-size:16px;
+			border-top:1px solid #c51508; background:url(../Images/nodepend/bg_nav.gif) repeat-x left bottom; }
+#nav		{width:849px; voice-family:"\"}\"";voice-family:inherit;width:809px; }
+#nav li		{ float:left;padding-left:8px;  text-align:center;line-height:22px;}
+#nav li a		{ color:#c31304;}
+#nav li a:hover	{ background-color:#35c8fe;}
+
+
+#firster	{ float:left; width:252px;}
+
+#tvList	{width:252px;background:url(../Images/nodepend/tv_btm_first.gif) no-repeat left bottom;padding-bottom:10px;}
+#tvList h3{width:252px;height:24px; background:url(../Images/depend/tv_list.gif) no-repeat left center;}
+#tvList div{height:200px; overflow:auto;  border-left:1px solid #ccc; border-right:1px solid #ccc;}
+#tvList ul	{ padding:5px 0;}
+#tvList ul li	{ height:20px; line-height:20px; text-align:left; text-indent:36px;}
+
+
+#tvInfo	{ margin-top:8px; width:252px;background:url(../Images/nodepend/tv_btm_first.gif) no-repeat left bottom;padding-bottom:10px;}
+#tvInfo h3{width:252px;height:24px; background:url(../Images/depend/tv_info.gif) no-repeat left center;}
+#tvInfo div{height:180px;border-left:1px solid #ccc; border-right:1px solid #ccc; overflow:auto; }
+#tvInfo p	{ margin:10px; text-indent:24px;}
+
+
+#seconder	{width:590px;float:right;}
+
+
+.video_player{ position:relative;  width:588px; height:458px;background:url(../Images/player/video.jpg) no-repeat left center;}
+
+#MWP        { position:absolute;left:25px; top:25px; width:0px; height:0px; border:0;}
+.MWPPlayer	{width:538px;height:365px;}
+#divImg     { display: none; text-align: center; width:100%; text-align:center;  height:100%;}
+
+#Oper #imgPlay	{ position:absolute; left:20px;bottom:12px;}
+#Oper #imgStop	{ position:absolute; left:84px;bottom:12px;}
+#Oper #separator{ position:absolute;left:82px;bottom:12px;}
+#Time		{ position:absolute;right:48px;bottom:18px; height:18px; line-height:18px;
+		font-size:18px; color:#000; letter-spacing:2px; font-family:黑体; font-weight:bolder; text-align:center; background:url(../Images/Player/time.gif) no-repeat;}

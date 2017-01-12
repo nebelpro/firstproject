@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0EC1103D-20CC-4B19-A4AE-C9DA89EDE42C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MOD.UI.SkinFactory</RootNamespace>
+    <AssemblyName>MOD.UI.SkinFactory</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="antlr.runtime, Version=2.7.7.1, Culture=neutral, PublicKeyToken=d7701e059243744f, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Web.Preview, Version=1.1.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="StringTemplate, Version=3.0.1.21733, Culture=neutral, PublicKeyToken=beee492b52c41e85, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ajax.aspx.cs">
+      <DependentUpon>Ajax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BulletinList.aspx.cs">
+      <DependentUpon>BulletinList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Iptv.aspx.cs">
+      <DependentUpon>Iptv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Program.aspx.cs">
+      <DependentUpon>Program.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramInfo.aspx.cs">
+      <DependentUpon>ProgramInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recorder.aspx.cs">
+      <DependentUpon>Recorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowImage.aspx.cs">
+      <DependentUpon>ShowImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STModule.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Theme.cs" />
+    <Compile Include="ViewByClass.aspx.cs">
+      <DependentUpon>ViewByClass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax.aspx" />
+    <Content Include="BulletinList.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\mediatype\m_icon_media_asfwmv.gif" />
+    <Content Include="Images\mediatype\m_icon_media_avi.gif" />
+    <Content Include="Images\mediatype\m_icon_media_course.gif" />
+    <Content Include="Images\mediatype\m_icon_media_mp3.gif" />
+    <Content Include="Images\mediatype\m_icon_media_mpeg1.gif" />
+    <Content Include="Images\mediatype\m_icon_media_mpeg2.gif" />
+    <Content Include="Images\mediatype\m_icon_media_mpv.gif" />
+    <Content Include="Images\mediatype\m_icon_media_real.gif" />
+    <Content Include="Images\mediatype\m_icon_media_unknown.gif" />
+    <Content Include="Images\mediatype\m_icon_media_wave.gif" />
+    <Content Include="Images\nodepend\program_defult.gif" />
+    <Content Include="Iptv.aspx" />
+    <Content Include="Program.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="ProgramInfo.aspx" />
+    <Content Include="Recorder.aspx" />
+    <Content Include="Resource\ModRes.xml" />
+    <Content Include="Scripts\mod.js" />
+    <Content Include="Scripts\prototype.js" />
+    <Content Include="Scripts\window.js" />
+    <Content Include="Theme\Default\View.js" />
+    <Content Include="Theme\Default\View.xml" />
+    <Content Include="Theme\Default\BulletinMarquee.st">
+    </Content>
+    <Content Include="Theme\Default\MasterTv.st">
+    </Content>
+    <Content Include="Theme\Default\BulletinList.st">
+    </Content>
+    <Content Include="Theme\Default\CatalogView.st">
+    </Content>
+    <Content Include="Theme\Default\Footer.st">
+    </Content>
+    <Content Include="Theme\Default\Master.st">
+    </Content>
+    <Content Include="Theme\Default\Module.st">
+    </Content>
+    <Content Include="Theme\Default\CatalogNav.st">
+    </Content>
+    <Content Include="Theme\Default\UserLoginBox.st">
+    </Content>
+    <Content Include="Theme\Default\ProgramDetail.st">
+    </Content>
+    <Content Include="Theme\Default\ProgramInfo.st">
+    </Content>
+    <Content Include="Theme\Default\ProgramIntro.st">
+    </Content>
+    <Content Include="Theme\Default\ProgramList.st">
+    </Content>
+    <Content Include="Theme\Default\RemarkForm.st">
+    </Content>
+    <Content Include="Theme\Default\RemarkList.st">
+    </Content>
+    <Content Include="Theme\Default\SearchBox.st">
+    </Content>
+    <Content Include="Theme\Default\SearchResult.st">
+    </Content>
+    <Content Include="Theme\Default\SoftDown.st">
+    </Content>
+    <Content Include="Theme\Default\BulletinTop.st">
+    </Content>
+    <Content Include="Theme\Default\ProgramNewView.st">
+    </Content>
+    <Content Include="Theme\Default\UserModifyPwd.st">
+    </Content>
+    <Content Include="Theme\Default\UserAddPoint.st">
+    </Content>
+    <Content Include="Theme\Default\UserPlayLog.st">
+    </Content>
+    <Content Include="Theme\Default\UserChargeLog.st">
+    </Content>
+    <Content Include="Theme\Default\BulletinInfo.st">
+    </Content>
+    <Content Include="Theme\Default\TvList.st">
+    </Content>
+    <Content Include="Theme\Default\ViewByClass.st">
+    </Content>
+    <Content Include="Search.aspx" />
+    <Content Include="ShowImage.aspx" />
+    <Content Include="Theme\Default\Program.st">
+    </Content>
+    <Content Include="Theme\Default\ProgramNew.st">
+    </Content>
+    <Content Include="Theme\Default\ProgramTop.st">
+    </Content>
+    <Content Include="Theme\Default\ProgramChapter.st">
+    </Content>
+    <Content Include="Theme\Default\images\depend\banner.gif" />
+    <Content Include="Theme\Default\images\depend\btnLogin.gif" />
+    <Content Include="Theme\Default\images\depend\BtnSearch.gif" />
+    <Content Include="Theme\Default\images\depend\btn_down_big.gif" />
+    <Content Include="Theme\Default\images\depend\btn_ok.gif" />
+    <Content Include="Theme\Default\images\depend\btn_play_big.gif" />
+    <Content Include="Theme\Default\images\depend\btn_reset.gif" />
+    <Content Include="Theme\Default\images\depend\btn_search.gif" />
+    <Content Include="Theme\Default\images\depend\btn_submit.gif" />
+    <Content Include="Theme\Default\images\depend\DirectX9.gif" />
+    <Content Include="Theme\Default\images\depend\empty.gif" />
+    <Content Include="Theme\Default\images\depend\iptv.gif" />
+    <Content Include="Theme\Default\images\depend\iptvhot.gif" />
+    <Content Include="Theme\Default\images\depend\miniplayer.gif" />
+    <Content Include="Theme\Default\images\depend\mod_logo.gif" />
+    <Content Include="Theme\Default\images\depend\program.gif" />
+    <Content Include="Theme\Default\images\depend\programhot.gif" />
+    <Content Include="Theme\Default\images\depend\recorder.gif" />
+    <Content Include="Theme\Default\images\depend\recorderhot.gif" />
+    <Content Include="Theme\Default\images\depend\sort_name.gif" />
+    <Content Include="Theme\Default\images\depend\sort_name_sel.gif" />
+    <Content Include="Theme\Default\images\depend\sort_play.gif" />
+    <Content Include="Theme\Default\images\depend\sort_play_sel.gif" />
+    <Content Include="Theme\Default\images\depend\sort_time.gif" />
+    <Content Include="Theme\Default\images\depend\sort_time_sel.gif" />
+    <Content Include="Theme\Default\images\depend\topdomain.gif" />
+    <Content Include="Theme\Default\images\depend\tv_info.gif" />
+    <Content Include="Theme\Default\images\depend\tv_list.gif" />
+    <Content Include="Theme\Default\images\depend\t_bulletin.gif" />
+    <Content Include="Theme\Default\images\depend\t_bulletin_list.gif" />
+    <Content Include="Theme\Default\images\depend\t_chapter.gif" />
+    <Content Include="Theme\Default\images\depend\t_login.gif" />
+    <Content Include="Theme\Default\images\depend\t_newprogram.gif" />
+    <Content Include="Theme\Default\images\depend\t_NewProgramView.gif" />
+    <Content Include="Theme\Default\images\depend\t_programdetail.gif" />
+    <Content Include="Theme\Default\images\depend\t_programintro.gif" />
+    <Content Include="Theme\Default\images\depend\t_remark.gif" />
+    <Content Include="Theme\Default\images\depend\t_searh.gif" />
+    <Content Include="Theme\Default\images\depend\t_softdown.gif" />
+    <Content Include="Theme\Default\images\depend\t_topprogram.gif" />
+    <Content Include="Theme\Default\images\nodepend\ball.jpg" />
+    <Content Include="Theme\Default\images\nodepend\BgTopdomain.gif" />
+    <Content Include="Theme\Default\images\nodepend\bg_cata.gif" />
+    <Content Include="Theme\Default\images\nodepend\bg_footer.gif" />
+    <Content Include="Theme\Default\images\nodepend\bg_nav.gif" />
+    <Content Include="Theme\Default\images\nodepend\bg_search.gif" />
+    <Content Include="Theme\Default\images\nodepend\bg_topdomain.gif" />
+    <Content Include="Theme\Default\images\nodepend\btm_first.gif" />
+    <Content Include="Theme\Default\images\nodepend\li1.gif" />
+    <Content Include="Theme\Default\images\nodepend\li2.gif" />
+    <Content Include="Theme\Default\images\nodepend\shadow.gif" />
+    <Content Include="Theme\Default\images\nodepend\toper.gif" />
+    <Content Include="Theme\Default\images\nodepend\tv_btm_first.gif" />
+    <Content Include="Theme\Default\images\nodepend\t_bg.gif" />
+    <Content Include="Theme\Default\images\nodepend\t_block.gif" />
+    <Content Include="Theme\Default\images\player\play_0.gif" />
+    <Content Include="Theme\Default\images\player\play_1.gif" />
+    <Content Include="Theme\Default\images\player\play_2.gif" />
+    <Content Include="Theme\Default\images\player\separator.gif" />
+    <Content Include="Theme\Default\images\player\stop_0.gif" />
+    <Content Include="Theme\Default\images\player\stop_1.gif" />
+    <Content Include="Theme\Default\images\player\stop_2.gif" />
+    <Content Include="Theme\Default\images\player\video.jpg" />
+    <Content Include="Theme\Default\Style\program.css" />
+    <Content Include="Theme\Default\Style\makeup.css" />
+    <Content Include="Theme\Default\Style\master.css" />
+    <Content Include="Theme\Default\Style\public.css" />
+    <Content Include="Style\theme\alphacube.css" />
+    <Content Include="Style\theme\alphacube\bottom-left-c.gif" />
+    <Content Include="Style\theme\alphacube\bottom-middle.gif" />
+    <Content Include="Style\theme\alphacube\bottom-right-c.gif" />
+    <Content Include="Style\theme\alphacube\button-close-focus.gif" />
+    <Content Include="Style\theme\alphacube\button-max-focus.gif" />
+    <Content Include="Style\theme\alphacube\button-min-focus.gif" />
+    <Content Include="Style\theme\alphacube\frame-left.gif" />
+    <Content Include="Style\theme\alphacube\frame-right.gif" />
+    <Content Include="Style\theme\alphacube\left-top.gif" />
+    <Content Include="Style\theme\alphacube\progress.gif" />
+    <Content Include="Style\theme\alphacube\right-top.gif" />
+    <Content Include="Style\theme\alphacube\top-middle.gif" />
+    <Content Include="Theme\Default\Style\Tv.css" />
+    <Content Include="Theme\WebTd\images\depend\banner.gif" />
+    <Content Include="Theme\WebTd\images\depend\btn_channel_info.gif" />
+    <Content Include="Theme\WebTd\images\depend\btn_down.gif" />
+    <Content Include="Theme\WebTd\images\depend\btn_down_big.gif" />
+    <Content Include="Theme\WebTd\images\depend\btn_login.gif" />
+    <Content Include="Theme\WebTd\images\depend\btn_ok.gif" />
+    <Content Include="Theme\WebTd\images\depend\btn_play.gif" />
+    <Content Include="Theme\WebTd\images\depend\btn_play_big.gif" />
+    <Content Include="Theme\WebTd\images\depend\btn_reset.gif" />
+    <Content Include="Theme\WebTd\images\depend\btn_sear.gif" />
+    <Content Include="Theme\WebTd\images\depend\btn_search.gif" />
+    <Content Include="Theme\WebTd\images\depend\btn_submit.gif" />
+    <Content Include="Theme\WebTd\images\depend\btn_view.gif" />
+    <Content Include="Theme\WebTd\images\depend\bulletin.gif" />
+    <Content Include="Theme\WebTd\images\depend\Bul_List.gif" />
+    <Content Include="Theme\WebTd\images\depend\channel_info.gif" />
+    <Content Include="Theme\WebTd\images\depend\channel_list.gif" />
+    <Content Include="Theme\WebTd\images\depend\channel_video.jpg" />
+    <Content Include="Theme\WebTd\images\depend\copyright.gif" />
+    <Content Include="Theme\WebTd\images\depend\down_top.gif" />
+    <Content Include="Theme\WebTd\images\depend\empty.gif" />
+    <Content Include="Theme\WebTd\images\depend\iptv.gif" />
+    <Content Include="Theme\WebTd\images\depend\iptvhot.gif" />
+    <Content Include="Theme\WebTd\images\depend\iptv_logo.gif" />
+    <Content Include="Theme\WebTd\images\depend\lgn.gif" />
+    <Content Include="Theme\WebTd\images\depend\logo.gif" />
+    <Content Include="Theme\WebTd\images\depend\mod_logo.gif" />
+    <Content Include="Theme\WebTd\images\depend\netinfo.gif" />
+    <Content Include="Theme\WebTd\images\depend\new.gif" />
+    <Content Include="Theme\WebTd\images\depend\newpro.gif" />
+    <Content Include="Theme\WebTd\images\depend\pop.gif" />
+    <Content Include="Theme\WebTd\images\depend\poprogram.gif" />
+    <Content Include="Theme\WebTd\images\depend\program.gif" />
+    <Content Include="Theme\WebTd\images\depend\programhot.gif" />
+    <Content Include="Theme\WebTd\images\depend\pro_chapter_list.gif" />
+    <Content Include="Theme\WebTd\images\depend\pro_detail.gif" />
+    <Content Include="Theme\WebTd\images\depend\pro_info.gif" />
+    <Content Include="Theme\WebTd\images\depend\pro_remark_list.gif" />
+    <Content Include="Theme\WebTd\images\depend\recommend.gif" />
+    <Content Include="Theme\WebTd\images\depend\recorder.gif" />
+    <Content Include="Theme\WebTd\images\depend\recorderhot.gif" />
+    <Content Include="Theme\WebTd\images\depend\recorder_logo.gif" />
+    <Content Include="Theme\WebTd\images\depend\sort_name.gif" />
+    <Content Include="Theme\WebTd\images\depend\sort_name_sel.gif" />
+    <Content Include="Theme\WebTd\images\depend\sort_play.gif" />
+    <Content Include="Theme\WebTd\images\depend\sort_play_sel.gif" />
+    <Content Include="Theme\WebTd\images\depend\sort_time.gif" />
+    <Content Include="Theme\WebTd\images\depend\sort_time_sel.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\bcent2r.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\bcenter.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\bg_footer.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\box_search.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\btm.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\bullist.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\cataicon.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\cata_left.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\cata_mid.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\cata_right.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\icon_down.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\list-icon.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\li_catanav.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\mark_c.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\mark_r.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\m_icon_broadcast_large.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\m_icon_broadcast_small.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\m_icon_cast_1.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\m_icon_mixchannel_large.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\m_icon_mixchannel_small.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\m_icon_onlive_large.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\m_icon_onlive_small.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\m_icon_rebroadcast_large.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\m_icon_rebroadcast_small.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\navbg.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\navmborder.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\newlist.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\position.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\program_defult.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\remark_bottom.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\remark_center.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\remark_top.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\subnavdot.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\s_center.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\s_left.gif" />
+    <Content Include="Theme\WebTd\images\nodepend\s_right.gif" />
+    <Content Include="Theme\WebTd\images\player\play_0.gif" />
+    <Content Include="Theme\WebTd\images\player\play_1.gif" />
+    <Content Include="Theme\WebTd\images\player\play_2.gif" />
+    <Content Include="Theme\WebTd\images\player\stop_0.gif" />
+    <Content Include="Theme\WebTd\images\player\stop_1.gif" />
+    <Content Include="Theme\WebTd\images\player\stop_2.gif" />
+    <Content Include="Theme\WebTd\Style\default.css" />
+    <Content Include="Theme\WebTd\Style\makeup.css" />
+    <Content Include="Theme\WebTd\Style\master.css" />
+    <Content Include="Theme\WebTd\Style\public.css" />
+    <Content Include="Theme\WebTd\Style\video.css" />
+    <Content Include="Theme\WebTd\View.js" />
+    <Content Include="Theme\WebTd\View.xml" />
+    <Content Include="ViewByClass.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{63CC6863-C6C7-412D-AC84-0982E5E77312}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DALFactory\DALFactory.csproj">
+      <Project>{D969CD30-188B-4834-A115-00C9E031CD41}</Project>
+      <Name>DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{47AD42F0-08EA-423F-9931-78EF419C658C}</Project>
+      <Name>IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{1B803610-8F69-49E4-A4B0-B59331601017}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLServerDAL\SQLServerDAL.csproj">
+      <Project>{ED00B6EF-9854-4AA8-85A5-CE2351A028E4}</Project>
+      <Name>SQLServerDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebUtility\WebUtility.csproj">
+      <Project>{5CCE4EA2-710C-4E06-834E-C18370F6295A}</Project>
+      <Name>WebUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Theme\Default\RemarkArea.st" />
+    <Content Include="Theme\WebTd\Banner.st" />
+    <Content Include="Theme\WebTd\BulletinInfo.st" />
+    <Content Include="Theme\WebTd\BulletinList.st" />
+    <Content Include="Theme\WebTd\BulletinMarquee.st" />
+    <Content Include="Theme\WebTd\BulletinTop.st" />
+    <Content Include="Theme\WebTd\CatalogNav.st" />
+    <Content Include="Theme\WebTd\CatalogView.st" />
+    <Content Include="Theme\WebTd\Footer.st" />
+    <Content Include="Theme\WebTd\Master.st" />
+    <Content Include="Theme\WebTd\MasterTv.st" />
+    <Content Include="Theme\WebTd\Module.st" />
+    <Content Include="Theme\WebTd\Program.st" />
+    <Content Include="Theme\WebTd\ProgramChapter.st" />
+    <Content Include="Theme\WebTd\ProgramDetail.st" />
+    <Content Include="Theme\WebTd\ProgramInfo.st" />
+    <Content Include="Theme\WebTd\ProgramIntro.st" />
+    <Content Include="Theme\WebTd\ProgramList.st" />
+    <Content Include="Theme\WebTd\ProgramNew.st" />
+    <Content Include="Theme\WebTd\ProgramNewImg.st" />
+    <Content Include="Theme\WebTd\ProgramTop.st" />
+    <Content Include="Theme\WebTd\ProgramTopImg.st" />
+    <Content Include="Theme\WebTd\RemarkArea.st" />
+    <Content Include="Theme\WebTd\RemarkForm.st" />
+    <Content Include="Theme\WebTd\RemarkList.st" />
+    <Content Include="Theme\WebTd\SearchBox.st" />
+    <Content Include="Theme\WebTd\SearchResult.st" />
+    <Content Include="Theme\WebTd\SoftDown.st" />
+    <Content Include="Theme\WebTd\TvList.st" />
+    <Content Include="Theme\WebTd\UserAddPoint.st" />
+    <Content Include="Theme\WebTd\UserChargeLog.st" />
+    <Content Include="Theme\WebTd\UserLoginBox.st" />
+    <Content Include="Theme\WebTd\UserModifyPwd.st" />
+    <Content Include="Theme\WebTd\UserPlayLog.st" />
+    <Content Include="Theme\WebTd\ViewByClass.st" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1516</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1516/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

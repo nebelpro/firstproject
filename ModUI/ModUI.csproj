@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2B1F1DC4-376F-4F1E-9617-0A0A48CC98C3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MOD.UI</RootNamespace>
+    <AssemblyName>MOD.UI</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NLog, Version=1.0.0.505, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\g_DialogTemp.htm" />
+    <Content Include="Style\public.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProgramPlay.aspx.cs">
+      <DependentUpon>ProgramPlay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramPlay.aspx.designer.cs">
+      <DependentUpon>ProgramPlay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax.aspx.cs">
+      <DependentUpon>Ajax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BulletinInfo.aspx.cs">
+      <DependentUpon>BulletinInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BulletinInfo.aspx.designer.cs">
+      <DependentUpon>BulletinInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BulletinList.aspx.cs">
+      <DependentUpon>BulletinList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BulletinList.aspx.designer.cs">
+      <DependentUpon>BulletinList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelInfo.aspx.cs">
+      <DependentUpon>ChannelInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChannelInfo.aspx.designer.cs">
+      <DependentUpon>ChannelInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelPlay.aspx.cs">
+      <DependentUpon>ChannelPlay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChannelPlay.aspx.designer.cs">
+      <DependentUpon>ChannelPlay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Charge.aspx.cs">
+      <DependentUpon>Charge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Charge.aspx.designer.cs">
+      <DependentUpon>Charge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChargeLog.aspx.cs">
+      <DependentUpon>ChargeLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChargeLog.aspx.designer.cs">
+      <DependentUpon>ChargeLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Download.aspx.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Download.aspx.designer.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GuestBook.aspx.cs">
+      <DependentUpon>GuestBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GuestBook.aspx.designer.cs">
+      <DependentUpon>GuestBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyPwd.aspx.cs">
+      <DependentUpon>ModifyPwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModifyPwd.aspx.designer.cs">
+      <DependentUpon>ModifyPwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlayLog.aspx.cs">
+      <DependentUpon>PlayLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlayLog.aspx.designer.cs">
+      <DependentUpon>PlayLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.aspx.cs">
+      <DependentUpon>Program.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Program.aspx.designer.cs">
+      <DependentUpon>Program.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IpTV.aspx.cs">
+      <DependentUpon>IpTV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IpTV.aspx.designer.cs">
+      <DependentUpon>IpTV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramInfo.aspx.cs">
+      <DependentUpon>ProgramInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramInfo.aspx.designer.cs">
+      <DependentUpon>ProgramInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recorder.aspx.cs">
+      <DependentUpon>Recorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recorder.aspx.designer.cs">
+      <DependentUpon>Recorder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResult.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SearchResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResult.aspx.designer.cs">
+      <DependentUpon>SearchResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowImage.aspx.cs">
+      <DependentUpon>ShowImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SoftDown.aspx.cs">
+      <DependentUpon>SoftDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SoftDown.aspx.designer.cs">
+      <DependentUpon>SoftDown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserCenter.Master.cs">
+      <DependentUpon>UserCenter.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserCenter.Master.designer.cs">
+      <DependentUpon>UserCenter.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_BulletinList.ascx.cs">
+      <DependentUpon>UC_BulletinList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_BulletinList.ascx.designer.cs">
+      <DependentUpon>UC_BulletinList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_BulletinMarquee.ascx.cs">
+      <DependentUpon>UC_BulletinMarquee.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_BulletinMarquee.ascx.designer.cs">
+      <DependentUpon>UC_BulletinMarquee.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_BulletinTop.ascx.cs">
+      <DependentUpon>UC_BulletinTop.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_BulletinTop.ascx.designer.cs">
+      <DependentUpon>UC_BulletinTop.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_CatalogNav.ascx.cs">
+      <DependentUpon>UC_CatalogNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_CatalogNav.ascx.designer.cs">
+      <DependentUpon>UC_CatalogNav.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_CatalogView.ascx.cs">
+      <DependentUpon>UC_CatalogView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_CatalogView.ascx.designer.cs">
+      <DependentUpon>UC_CatalogView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_Footer.ascx.cs">
+      <DependentUpon>UC_Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Footer.ascx.designer.cs">
+      <DependentUpon>UC_Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_GuestBookAdd.ascx.cs">
+      <DependentUpon>UC_GuestBookAdd.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_GuestBookAdd.ascx.designer.cs">
+      <DependentUpon>UC_GuestBookAdd.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_GuestBookList.ascx.cs">
+      <DependentUpon>UC_GuestBookList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_GuestBookList.ascx.designer.cs">
+      <DependentUpon>UC_GuestBookList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_Login.ascx.cs">
+      <DependentUpon>UC_Login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Login.ascx.designer.cs">
+      <DependentUpon>UC_Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramChapter.ascx.cs">
+      <DependentUpon>UC_ProgramChapter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramChapter.ascx.designer.cs">
+      <DependentUpon>UC_ProgramChapter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramInfo.ascx.cs">
+      <DependentUpon>UC_ProgramInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramInfo.ascx.designer.cs">
+      <DependentUpon>UC_ProgramInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramList.ascx.cs">
+      <DependentUpon>UC_ProgramList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramList.ascx.designer.cs">
+      <DependentUpon>UC_ProgramList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramNew.ascx.cs">
+      <DependentUpon>UC_ProgramNew.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramNew.ascx.designer.cs">
+      <DependentUpon>UC_ProgramNew.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramNewView.ascx.cs">
+      <DependentUpon>UC_ProgramNewView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramNewView.ascx.designer.cs">
+      <DependentUpon>UC_ProgramNewView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramRemark.ascx.cs">
+      <DependentUpon>UC_ProgramRemark.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramRemark.ascx.designer.cs">
+      <DependentUpon>UC_ProgramRemark.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramSearch.ascx.cs">
+      <DependentUpon>UC_ProgramSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramSearch.ascx.designer.cs">
+      <DependentUpon>UC_ProgramSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramSearchList.ascx.cs">
+      <DependentUpon>UC_ProgramSearchList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramSearchList.ascx.designer.cs">
+      <DependentUpon>UC_ProgramSearchList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramTop.ascx.cs">
+      <DependentUpon>UC_ProgramTop.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ProgramTop.ascx.designer.cs">
+      <DependentUpon>UC_ProgramTop.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_SoftDown.ascx.cs">
+      <DependentUpon>UC_SoftDown.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_SoftDown.ascx.designer.cs">
+      <DependentUpon>UC_SoftDown.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_Toper.ascx.cs">
+      <DependentUpon>UC_Toper.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Toper.ascx.designer.cs">
+      <DependentUpon>UC_Toper.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserReg.aspx.cs">
+      <DependentUpon>UserReg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserReg.aspx.designer.cs">
+      <DependentUpon>UserReg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VideoPage.Master.cs">
+      <DependentUpon>VideoPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VideoPage.Master.designer.cs">
+      <DependentUpon>VideoPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ViewByClass.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ViewByClass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewByClass.aspx.designer.cs">
+      <DependentUpon>ViewByClass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Weige.aspx.cs">
+      <DependentUpon>Weige.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Weige.aspx.designer.cs">
+      <DependentUpon>Weige.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{63CC6863-C6C7-412D-AC84-0982E5E77312}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DALFactory\DALFactory.csproj">
+      <Project>{D969CD30-188B-4834-A115-00C9E031CD41}</Project>
+      <Name>DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{47AD42F0-08EA-423F-9931-78EF419C658C}</Project>
+      <Name>IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{1B803610-8F69-49E4-A4B0-B59331601017}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLServerDAL\SQLServerDAL.csproj">
+      <Project>{ED00B6EF-9854-4AA8-85A5-CE2351A028E4}</Project>
+      <Name>SQLServerDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebUtility\WebUtility.csproj">
+      <Project>{5CCE4EA2-710C-4E06-834E-C18370F6295A}</Project>
+      <Name>WebUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ProgramPlay.aspx" />
+    <Content Include="BulletinInfo.aspx" />
+    <Content Include="BulletinList.aspx" />
+    <Content Include="Program.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\nodepend\banner.gif" />
+    <Content Include="Images\nodepend\catahdr.gif" />
+    <Content Include="Images\nodepend\cataleft.gif" />
+    <Content Include="Images\nodepend\cataright.gif" />
+    <Content Include="Images\nodepend\countbtm.gif" />
+    <Content Include="Images\nodepend\countlist.gif" />
+    <Content Include="Images\nodepend\lftbg.gif" />
+    <Content Include="Images\nodepend\li.gif" />
+    <Content Include="Images\nodepend\m_icon_broadcast_large.gif" />
+    <Content Include="Images\nodepend\m_icon_broadcast_small.gif" />
+    <Content Include="Images\nodepend\m_icon_cast_1.gif" />
+    <Content Include="Images\nodepend\m_icon_mixchannel_large.gif" />
+    <Content Include="Images\nodepend\m_icon_mixchannel_small.gif" />
+    <Content Include="Images\nodepend\m_icon_onlive_large.gif" />
+    <Content Include="Images\nodepend\m_icon_onlive_small.gif" />
+    <Content Include="Images\nodepend\m_icon_rebroadcast_large.gif" />
+    <Content Include="Images\nodepend\m_icon_rebroadcast_small.gif" />
+    <Content Include="Images\nodepend\navbg.gif" />
+    <Content Include="Images\nodepend\pribtm.gif" />
+    <Content Include="Images\nodepend\rcli.gif" />
+    <Content Include="Images\nodepend\rgtbg.gif" />
+    <Content Include="Images\nodepend\rgttop.gif" />
+    <Content Include="MasterPage.Master" />
+    <Content Include="ProgramInfo.aspx" />
+    <Content Include="Scripts\csshover.htc" />
+    <Content Include="SearchResult.aspx" />
+    <Content Include="ShowImage.aspx" />
+    <Content Include="Style\tab\active.png" />
+    <Content Include="Style\tab\hover.png" />
+    <Content Include="Style\makeup.css" />
+    <Content Include="Style\master.css" />
+    <Content Include="Style\tab\tab.css" />
+    <Content Include="Style\tab\tab.png" />
+    <Content Include="UserControls\UC_ProgramList.ascx" />
+    <Content Include="UserReg.aspx" />
+    <Content Include="ViewByClass.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax.aspx" />
+    <Content Include="ChannelInfo.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\mediatype\m_icon_media_asfwmv.gif" />
+    <Content Include="Images\mediatype\m_icon_media_avi.gif" />
+    <Content Include="Images\mediatype\m_icon_media_course.gif" />
+    <Content Include="Images\mediatype\m_icon_media_mp3.gif" />
+    <Content Include="Images\mediatype\m_icon_media_mpeg1.gif" />
+    <Content Include="Images\mediatype\m_icon_media_mpeg2.gif" />
+    <Content Include="Images\mediatype\m_icon_media_mpv.gif" />
+    <Content Include="Images\mediatype\m_icon_media_real.gif" />
+    <Content Include="Images\mediatype\m_icon_media_unknown.gif" />
+    <Content Include="Images\mediatype\m_icon_media_wave.gif" />
+    <Content Include="Images\nodepend\firstertop.gif" />
+    <Content Include="Images\nodepend\li_softdown.gif" />
+    <Content Include="Images\nodepend\m_icon_sd_1.gif" />
+    <Content Include="Images\nodepend\m_icon_sd_3.gif" />
+    <Content Include="Images\nodepend\m_icon_sd_dx.gif" />
+    <Content Include="Images\nodepend\m_star.gif" />
+    <Content Include="Images\nodepend\program_defult.gif" />
+    <Content Include="Images\nodepend\side_softdown_btm.gif" />
+    <Content Include="Images\nodepend\side_softdown_mid.gif" />
+    <Content Include="Images\nodepend\softdown_2.gif" />
+    <Content Include="Images\nodepend\softdown_3.gif" />
+    <Content Include="Images\nodepend\video_info_bg.gif" />
+    <Content Include="Images\nodepend\video_info_btm.gif" />
+    <Content Include="Images\nodepend\video_list_bg.gif" />
+    <Content Include="Images\nodepend\video_list_btm.gif" />
+    <Content Include="Images\Player\mid.gif" />
+    <Content Include="Images\Player\play_dis.gif" />
+    <Content Include="Images\Player\play_hot.gif" />
+    <Content Include="Images\Player\play_nor.gif" />
+    <Content Include="Images\Player\stop_dis.gif" />
+    <Content Include="Images\Player\stop_hot.gif" />
+    <Content Include="Images\Player\stop_nor.gif" />
+    <Content Include="Images\Player\time.gif" />
+    <Content Include="IpTV.aspx" />
+    <Content Include="Recorder.aspx" />
+    <Content Include="Scripts\mod.js" />
+    <Content Include="Scripts\prototype.js" />
+    <Content Include="Scripts\TabPane.js" />
+    <Content Include="SoftDown.aspx" />
+    <Content Include="Style\video.css" />
+    <Content Include="UserControls\UC_BulletinList.ascx" />
+    <Content Include="UserControls\UC_BulletinMarquee.ascx" />
+    <Content Include="UserControls\UC_BulletinTop.ascx" />
+    <Content Include="UserControls\UC_CatalogNav.ascx" />
+    <Content Include="UserControls\UC_CatalogView.ascx" />
+    <Content Include="UserControls\UC_Footer.ascx" />
+    <Content Include="UserControls\UC_Login.ascx" />
+    <Content Include="UserControls\UC_ProgramChapter.ascx" />
+    <Content Include="UserControls\UC_ProgramInfo.ascx" />
+    <Content Include="UserControls\UC_ProgramNew.ascx" />
+    <Content Include="UserControls\UC_ProgramNewView.ascx" />
+    <Content Include="UserControls\UC_ProgramRemark.ascx" />
+    <Content Include="UserControls\UC_ProgramSearch.ascx" />
+    <Content Include="UserControls\UC_ProgramSearchList.ascx" />
+    <Content Include="UserControls\UC_ProgramTop.ascx" />
+    <Content Include="UserControls\UC_SoftDown.ascx" />
+    <Content Include="UserControls\UC_Toper.ascx" />
+    <Content Include="VideoPage.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ChannelPlay.aspx" />
+    <Content Include="Charge.aspx" />
+    <Content Include="ChargeLog.aspx" />
+    <Content Include="Download.aspx" />
+    <Content Include="GuestBook.aspx" />
+    <Content Include="HTMLPage1.htm" />
+    <Content Include="ModifyPwd.aspx" />
+    <Content Include="PlayLog.aspx" />
+    <Content Include="Scripts\_source\Weige.js" />
+    <Content Include="Style\UserCenter.css" />
+    <Content Include="UserCenter.Master" />
+    <Content Include="UserControls\UC_GuestBookAdd.ascx" />
+    <Content Include="UserControls\UC_GuestBookList.ascx" />
+    <Content Include="Weige.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\depend\" />
+    <Folder Include="Resource\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>1188</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1188/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

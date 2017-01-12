@@ -1,0 +1,49 @@
+﻿/*
+	
+	请熟悉CSS代码的管理人员进行操作，其他css文件请勿改动
+
+	字体颜色可以随便调整成自己想要的颜色
+
+	字体大小请慎重调整，页面可能会因此变得混乱
+	
+*/
+
+
+/* 页面整体字体大小颜色 */
+*	{	font-size:12px;color:#2e3094;}
+
+/* 页面链接的颜色*/
+a				{ color:#2e3094; font-size:12px;}
+a:hover         { color:red;}
+
+/* 用户登录框的字体大小 */
+#box dd					{ font-size:13px; }
+
+/*列表交替的颜色 包括 节目列表，节目片断列表*/
+tr.hdr		{ background:#c1c1c1; font-weight:bold;}/* 列表标题栏*/
+tr.alter	{ background:#c1c1c1; height:24px;}
+tr.item		{ background:#d7d7d7; height:24px;}
+
+/* 下载软件列表 交替颜色*/
+dd.alter	{ background:#c1c1c1; }
+dd.item		{ background:#d7d7d7; }
+
+/* 频道列表交替颜色 */
+dl.item					{ background:#d7d7d7;}
+dl.alter				{ background:#c1c1c1;}
+
+/*公告列表 标题及公告内容颜色*/
+table#bulletin  tr.cTitle   { background:#d7d7d7;} /*公告标题*/
+table#bulletin  tr.cInfo    { background:#c1c1c1;} /*公告内容*/
+	
+/* 页面底部版权信息 颜色及字体大小*/			
+#footer td				{ letter-spacing:2px;font-size:12px;}
+
+
+/*分页导航颜色设置*/
+.page a				{ border: 1px solid #9AAFE5;background: #fff;}
+.page a:hover		{ border-color: #2E6AB1;}
+.page span			{ background: #fff;}
+.page span.pageCur  { border: 1px solid #2E6AB1;font-weight: bold;background: #2E6AB1; color: #fff;}
+
+

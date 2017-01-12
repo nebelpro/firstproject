@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+  <language>zh-cn</language>
+  <company>
+    <name>南京优网科技有限公司</name>
+    <website>http://www.topdomain.com.cn</website>
+  </company>
+  <product>
+    <name>极域视频服务系统</name>
+    <version>4.00</version>   
+  </product>
+  <Server>
+    <key name="DEFAULT">首页</key>
+    <!--Uc Login -->
+    <key name="INFO_LOGIN_WELCOME">欢迎您!</key>
+    <key name="INFO_LOGIN_LEFTPOINT">帐户余额:{0}点.</key>
+    <key name="WARIN_ACCOUNT_EMPTY">帐号不能为空!</key>
+    <key name="WARIN_NO_USER">该帐号不存在!</key>
+    <key name="WARIN_PWD_ERR">用户密码错误!</key>
+    <key name="WARIN_USERGROUP_ERR">用户组别错误!</key>
+    <key name="WARIN_LOGIN_NOPERMIT">该帐号无登陆权限!</key>
+    <key name="WARIN_EXISTACCOUNT">存在相同的帐号!</key>
+    <!--Soft down-->
+    <key name="DOWN_MINIPLAY">MiniPlayer 下载</key>
+    <key name="DOWN_DIRECTX9">DirectX9 下载</key>
+    <!--Program info-->
+    <key name="INFO_PROGRAM_DIRECTOR">导演</key>
+    <key name="INFO_PROGRAM_DIRECTOR_LONG">节目导演</key>
+    <key name="INFO_PROGRAM_ACTOR">主演</key>
+    <key name="INFO_PROGRAM_ACTOR_LONG">节目主演</key>
+    <key name="INFO_PROGRAM_NAME">名称</key>
+    <key name="INFO_PROGRAM_PUBLISH">出版单位</key>
+    <key name="INFO_PROGRAM_ADDER">加入者</key>
+    <key name="INFO_PROGRAM_VIEW">观赏次数</key>
+    <key name="INFO_PROGRAM_ADDTIME">加入时间</key>
+    <key name="INFO_PROGRAM_CLASS">节目级别</key>
+    <key name="INFO_PROGRAM_LENGTH">节目长度</key>
+    <key name="INFO_PROGRAM_KPBS">节目码率</key>
+    <key name="INFO_PROGRAM_POINT">节目价格</key>
+    <key name="INFO_CHAPTRE_NAME">片断名称</key>
+    <key name="INFO_CHAPTER_LENG">片断长度</key>
+    <key name="INFO_CHAPTER_KBPS">片断码流</key>
+    <key name="WARING_NEWCOMMENT">评论长度不能为空或者不能超过1024个字符!</key>
+    <key name="INFO_PROGRAM_COMMENT">发表您的评论</key>
+    <key name="INFO_FREE_PLAY">在{0}之前点播本节目不计费.</key>
+
+    <key name="INFO_CHANNEL">频道列表</key>
+    <key name="INFO_POINT_ADD">帐号充值</key>
+    <key name="INFO_POINT_ADD_SERARCH">充值查询</key>
+    <key name="INFO_PLAY_SEARCH">点播查询</key>
+    <key name="INFO_CARD_NO">卡号</key>
+    <key name="INFO_CARD_PWD">密码</key>
+    
+    <key name="INFO_CHANGE_PWD">修改密码</key>
+    <key name="INFO_PWD_OLD">旧密码</key>
+    <key name="INFO_PWD_NEW">新密码</key>
+    <key name="INFO_PWD_NEWCONFIRM">新密码确认</key>
+    <key name="INFO_PWD_CONFIRM_ERR">两次密码不相同,请重新输入</key>
+    <key name="ERR_PWD_OLD">原密码错误,请重新再试!</key>
+    <key name="SUCC_CHANGE_PWD">密码修改成功!</key>
+    
+    <key name="WARING_NOLOGIN">请先登陆</key>
+    <key name="WARING_NOPERMIT">您的权限不足以点播此节目!</key>
+    <key name="WARING_NOPLAYPMERIT">没有点播权限!</key>
+    <key name="WARING_NOPOINT">您的点数不够点播此节目,请充值!</key>
+    <key name="INFO_POP_PLAY">播放</key>
+    <key name="ERR_PARAMS">参数错误</key>
+
+    <!--add point -->
+    <key name="WARIN_NOCARD">请输入卡号</key>
+    <key name="WARIN_ERRCARD">卡号错误!</key>
+    <key name="WARIN_NOCARD">卡号不存在!</key>
+    <key name="WARIN_ERRPWD">卡号的密码错误</key>
+    <key name="WARIN_CARD_HASUER">卡号己经被使用过!</key>
+    <key name="WARIN_CARD_INVALID">卡号己过期!</key>
+    <key name="WARIN_ADDCARDTYPEERR">消费卡不可以向帐号充值!</key>
+    <key name="INFO_ADDPOINT">充值成功!</key>
+    
+  </Server>
+  <Client>
+	  <!-- public -->
+    <key name="WARIN_NOLOGIN">请先登陆</key>
+    <key name="WARIN_DELETE">确定删除吗?</key>
+	  <key name="WARIN_NOPLAYER">请先安装播放器!</key>
+	  <!-- program -->
+	  <key name="WARIN_NOPOINT">您帐户上的点数不能够点播此节目!</key>
+	  <key name="INFO_CONFIRMPLAY">点播该节目将扣除您{0}点!\t\r\n确定点播吗?</key>
+    <!-- user -->
+	  <key name="ERR_ACCOUNT">用户帐号仅允许数字字母和下划线!</key>
+	  <!--add point -->
+    <key name="WARIN_NOCARD">请输入卡号</key>
+	  <key name="WARIN_ERRCARD">卡号错误!</key>
+	  <key name="WARIN_NOCARD">卡号不存在!</key>
+	  <key name="WARIN_ERRPWD">卡号的密码错误</key>
+	  <key name="WARIN_CARD_HASUER">卡号己经被使用过!</key>
+	  <key name="WARIN_CARD_INVALID">卡号己过期!</key>
+	  <key name="WARIN_ADDCARDTYPEERR">消费卡不可以向帐号充值!</key>
+	  <key name="INFO_ADDPOINT">充值成功!</key>
+	  <!-- Remark -->
+	  <key name="WARIN_REMARK_NO_TITLE">请输入评论标题!</key>
+	  <key name="WARIN_REMARK_TITLE_ERR">评论标题不能超过32个字符!</key>
+	  <key name="WARIN_REMARK_NO_INFO">请输入评论内容!</key>
+	  <key name="WARIN_REMARK_INFO_ERR">评论内容不能超过512个字符!</key>
+	  <key name="WARIN_BULL_NO_TITLE">请输入公告标题!</key>
+	  <key name="WARIN_BULL_TITLE_ERR">公告标题不能超过32个字符!</key>
+	  <key name="WARIN_BULL_NO_INFO">请输入公告内容!</key>
+	  <key name="WARIN_BULL_INFO_ERR">公告内容不能超过512个字符!</key>
+  </Client>
+</Resources>
